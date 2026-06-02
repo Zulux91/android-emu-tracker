@@ -91,9 +91,6 @@
 
     { "name": "Eden Emulator",         "repo": "eden-emu/eden",   "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
     { "name": "Eden Emulator Nightly", "repo": "eden-ci/nightly", "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
-    { "name": "Citron Emulator",       "repo": "Citron/Emulator", "category": "Nintendo Switch Emulator", "apiType": "gitea", "apiHost": "https://git.citron-emu.org" },
-    { "name": "Sumi Emulator",         "repo": "ovsky/sumi-emu",  "category": "Nintendo Switch Emulator" },
-    { "name": "Kenji-NX Emulator",     "repo": "Kenji-NX/Android-Releases", "category": "Nintendo Switch Emulator" },
 
     { "name": "Azahar",           "repo": "azahar-emu/azahar", "category": "Nintendo 3DS" },
     { "name": "Citra (weihuoya)", "repo": "weihuoya/citra",    "category": "Nintendo 3DS" },
