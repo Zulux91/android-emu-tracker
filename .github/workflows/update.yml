@@ -2,7 +2,7 @@ name: Update Rankings
 
 on:
   schedule:
-    - cron: '55 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         run: node scripts/fetch_downloads.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FETCH_INTERVAL_MINUTES: 60
+          FETCH_INTERVAL_MINUTES: 30
 
       - name: Build static site
         run: npm run build
