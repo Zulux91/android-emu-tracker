@@ -1,0 +1,117 @@
+{
+  "_instructions": {
+    "description": "This is the single source of truth for all tracked projects. Edit the 'projects' array below to add or remove entries, then run: npm run fetch && npm run build",
+    "required_fields": {
+      "name": "Display name shown in the ranking dashboard.",
+      "repo": "GitHub: 'owner/repo'. Gitea: 'owner/repo' (also set apiType and apiHost). Special case — 'skipFetch: true' lets you list a project without making any API call.",
+      "category": "Controls which tab the project appears under. 'Drivers' goes to the Drivers Library tab; everything else appears in the main Ranking tab. Any string is valid — inventing a new category automatically adds it as a filter option."
+    },
+    "optional_fields": {
+      "logo": "Image filename inside public/logos/. Drop the file there and reference it here. Example: \"gamehub.png\"",
+      "extensions": "Extra file extensions counted as valid downloadable assets, in addition to the default .apk. Example: [\".zip\"] for GPU drivers, [\".wcp\"] for wine containers, [\".tar.gz\"] for tarballs. Only assets matching these extensions appear in the release modal and recent-releases tab.",
+      "apiType": "Set to \"gitea\" for Gitea-hosted repos or \"forgejo\" for Forgejo-hosted repos (e.g. git.eden-emu.dev, Codeberg). Omit entirely for GitHub. Both use the same /api/v1/ endpoint today but are tracked separately for forward compatibility.",
+      "apiHost": "Required when apiType is \"gitea\" or \"forgejo\". Full base URL of the instance. Example: \"https://git.citron-emu.org\", \"https://git.eden-emu.dev\"",
+      "upstream": "Optional grouping key for related forks. Example: \"winlator\" links all Winlator forks together. Not yet exposed in the UI but available for future use.",
+      "skipFetch": "Set to true to include a project in the listing without calling any API. Downloads will show as 0 and only a repository link is shown. Useful for repos that are link-only or frequently rate-limited."
+    },
+    "known_categories": [
+      "GameHub",
+      "Winlator",
+      "Drivers",
+      "PC Emulator",
+      "GameNative",
+      "Nintendo Switch Emulator",
+      "Nintendo 3DS",
+      "Emulator PS3",
+      "Emulator PS2",
+      "PSVITA",
+      "Wii U Emulator",
+      "Xbox",
+      "Nintendo GameCube / Wii",
+      "Sega Dreamcast",
+      "All In One"
+    ],
+    "example_minimal": { "name": "My Emulator", "repo": "owner/repo", "category": "PC Emulator" },
+    "example_driver":  { "name": "My GPU Driver", "repo": "owner/repo", "category": "Drivers", "extensions": [".zip"] },
+    "example_gitea":   { "name": "My App", "repo": "owner/repo", "category": "Nintendo Switch Emulator", "apiType": "gitea",    "apiHost": "https://git.example.com" },
+    "example_forgejo": { "name": "My App", "repo": "owner/repo", "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://forgejo.example.com" }
+  },
+  "projects": [
+    { "name": "GameHub Lite (Producdevity)", "repo": "Producdevity/gamehub-lite",          "category": "GameHub", "logo": "gamehub.png" },
+    { "name": "GameHub Lite (ItzDFPlayer)",  "repo": "ItzDFPlayer/gamehub-lite",            "category": "GameHub", "logo": "gamehub.png" },
+    { "name": "GameHub Lite (J4MCU-builds)", "repo": "J4MCU-builds/Gamehub-Lite-RedMagic", "category": "GameHub", "logo": "gamehub.png" },
+    { "name": "BannerHub (The412Banner)",    "repo": "The412Banner/bannerhub",              "category": "GameHub", "logo": "bannerhub.png" },
+
+    { "name": "Adreno Tools Drivers",               "repo": "K11MCH1/AdrenoToolsDrivers",         "category": "Drivers", "extensions": [".zip"], "logo": "drivers.png" },
+    { "name": "Adrenotools Drivers (StevenMXZ)",    "repo": "StevenMXZ/Adrenotools-Drivers",       "category": "Drivers", "extensions": [".zip"] },
+    { "name": "Freedreno Turnip CI (Weab-chan)",     "repo": "Weab-chan/freedreno_turnip-CI",       "category": "Drivers", "extensions": [".zip"] },
+    { "name": "Freedreno Turnip CI (StevenMXZ)",    "repo": "StevenMXZ/freedreno_turnip-CI",      "category": "Drivers", "extensions": [".zip"] },
+    { "name": "Freedreno Turnip CI (whitebelyash)", "repo": "whitebelyash/freedreno_turnip-CI",    "category": "Drivers", "extensions": [".zip"] },
+    { "name": "Upload Grave",                       "repo": "jhinzuo/upload_grave",                "category": "Drivers", "extensions": [".zip"] },
+    { "name": "Winlator Ref4ik (Drivers/Wine)",     "repo": "REF4IK/winlator-ref4ik-",            "category": "Drivers", "extensions": [".wcp"] },
+    { "name": "StevenMXZ Contents Cmod",            "repo": "StevenMXZ/Contents-Cmod",            "category": "Drivers", "extensions": [".wcp", ".wcp.xz"] },
+
+    { "name": "GameNative",             "repo": "utkarshdalal/GameNative",         "category": "GameNative" },
+    { "name": "GameNative Performance", "repo": "maxjivi05/GameNative-Performance", "category": "GameNative" },
+
+    { "name": "Winlator BrunoDev",           "repo": "brunodev85/winlator",                  "category": "Winlator" },
+    { "name": "Winlator Ludashi",            "repo": "StevenMXZ/Winlator-Ludashi",           "category": "Winlator" },
+    { "name": "Winlator Afei",              "repo": "afeimod/winlator-mod",                  "category": "Winlator" },
+    { "name": "Winlator Xmod",              "repo": "deivid22srk/Winlator-Xmod",             "category": "Winlator" },
+    { "name": "Winlator Ref4ik",            "repo": "REF4IK/winlator-ref4ik-",              "category": "Winlator" },
+    { "name": "Winlator Ajay",              "repo": "ajay9634/winlator-ajay",                "category": "Winlator" },
+    { "name": "Winlator Coffincolors",      "repo": "coffincolors/winlator",                 "category": "Winlator" },
+    { "name": "Winlator X",                "repo": "JURIS-X/winlator_x",                    "category": "Winlator" },
+    { "name": "Winlator Bionic jhinzuo",   "repo": "jhinzuo/winlator",                       "category": "Winlator" },
+    { "name": "Winlator XR",               "repo": "WinlatorXR/WinlatorXR",                  "category": "Winlator" },
+    { "name": "Winlator Bionic cjxyz",     "repo": "winlator/releases",                      "category": "Winlator", "skipFetch": true },
+    { "name": "Winlator Bionic duckyduckG","repo": "duckyduckG/winlator",                   "category": "Winlator" },
+    { "name": "Winlator Bionic Stredohiri","repo": "Stredohori/Winlator-CMOD",               "category": "Winlator" },
+    { "name": "Winlator Bionic Alexoqool", "repo": "Alexoqool/winlator-bionic-build",        "category": "Winlator" },
+    { "name": "Winlator Honkon",            "repo": "Honkonx/winlator-honkon",               "category": "Winlator" },
+    { "name": "Winlator Glibc",             "repo": "longjunyu2/winlator",                   "category": "Winlator" },
+    { "name": "Wb64dev",                    "repo": "winebox64/winlator",                    "category": "Winlator" },
+    { "name": "Winlator Mali",              "repo": "Fcharan/WinlatorMali",                  "category": "Winlator" },
+    { "name": "Star (fork)",               "repo": "jacojayy/star",                           "category": "Winlator", "logo": "star.png" },
+    { "name": "Winlator Brasil",            "repo": "winlatorbrasil/Winlator-Brasil",         "category": "Winlator", "logo": "winlator-brasil.png" },
+    { "name": "Steamlator",               "repo": "slaker222/Steamlator",                     "category": "Winlator" },
+    { "name": "WinNative (fork)",           "repo": "WinDroidEmulation/WinNative",           "category": "Winlator", "logo": "winnative.jpeg" },
+
+    { "name": "MiceWine",      "repo": "KreitinnSoftware/MiceWine-Application", "category": "PC Emulator" },
+    { "name": "Horizon Emu",   "repo": "HorizonEmuTeam/Horizon-Emu",            "category": "PC Emulator" },
+    { "name": "ExaGear 302",   "repo": "XHYN-PH/exagear-302",                   "category": "PC Emulator" },
+    { "name": "XoDos",         "repo": "xodiosx/XoDos",                          "category": "PC Emulator" },
+    { "name": "Mobox Patched", "repo": "jaycore/mobox-patched",                  "category": "PC Emulator", "extensions": [".tar.gz"] },
+    { "name": "Pluvia",        "repo": "oxters168/Pluvia",                       "category": "PC Emulator" },
+
+    { "name": "Cemu", "repo": "SSimco/Cemu", "category": "Wii U Emulator" },
+
+    { "name": "X1 BOX", "repo": "izzy2lost/xemu",  "category": "Xbox" },
+    { "name": "hakuX",  "repo": "rfandango/hakuX",  "category": "Xbox" },
+
+    { "name": "Eden Emulator",         "repo": "eden-emu/eden",   "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
+    { "name": "Eden Emulator Nightly", "repo": "eden-ci/nightly", "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
+    { "name": "Citron Emulator",       "repo": "Citron/Emulator", "category": "Nintendo Switch Emulator", "apiType": "gitea", "apiHost": "https://git.citron-emu.org" },
+    { "name": "Sumi Emulator",         "repo": "ovsky/sumi-emu",  "category": "Nintendo Switch Emulator" },
+    { "name": "Kenji-NX Emulator",     "repo": "Kenji-NX/Android-Releases", "category": "Nintendo Switch Emulator" },
+
+    { "name": "Azahar",           "repo": "azahar-emu/azahar", "category": "Nintendo 3DS" },
+    { "name": "Citra (weihuoya)", "repo": "weihuoya/citra",    "category": "Nintendo 3DS" },
+
+    { "name": "APS3e",         "repo": "aenu1/aps3e",             "category": "Emulator PS3" },
+    { "name": "RPCSX Android", "repo": "RPCSX/rpcsx-ui-android",  "category": "Emulator PS3" },
+
+    { "name": "ARMSX2",            "repo": "ARMSX2/ARMSX2",              "category": "Emulator PS2" },
+    { "name": "NetherSX2 Patch",   "repo": "Trixarian/NetherSX2-patch",  "category": "Emulator PS2" },
+    { "name": "NetherSX2 Classic", "repo": "Trixarian/NetherSX2-classic","category": "Emulator PS2" },
+    { "name": "NetherSX2-Turnip",  "repo": "nckstwrt/NetherSX2-Turnip",  "category": "Emulator PS2" },
+
+    { "name": "Vita3K Android", "repo": "Vita3K/Vita3K-Android", "category": "PSVITA" },
+
+    { "name": "Dolphin MMJR2 VBI", "repo": "Medard22/Dolphin-MMJR2-VBI", "category": "Nintendo GameCube / Wii" },
+
+    { "name": "Flycast", "repo": "flyinghead/flycast", "category": "Sega Dreamcast" },
+
+    { "name": "Lemuroid", "repo": "Swordfish90/Lemuroid", "category": "All In One" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "arcade-aurora-glass",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Emulator download ranking hub — Arcade Aurora Glass",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.app.json && vite build",
+    "preview": "vite preview --outDir docs",
+    "fetch": "node scripts/fetch_downloads.js",
+    "readme": "node scripts/generate_readme.js",
+    "update": "npm run fetch && npm run build"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "dompurify": "^3.2.5",
+    "jsvectormap": "^1.7.0",
+    "marked": "^15.0.12",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.3",
+    "vite": "^6.3.5"
+  }
+}
