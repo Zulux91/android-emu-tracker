@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-02T05:07:05.879Z",
-  "nextUpdateAt": "2026-06-02T06:07:05.879Z",
+  "updatedAt": "2026-06-02T05:08:11.090Z",
+  "nextUpdateAt": "2026-06-02T05:38:11.090Z",
   "totalProjects": 59,
   "projectsWithReleases": 58,
   "projectsWithoutReleases": 1,
@@ -1214,7 +1214,7 @@
       "repo": "K11MCH1/AdrenoToolsDrivers",
       "category": "Drivers",
       "logo": "drivers.png",
-      "downloads": 2969488,
+      "downloads": 2969489,
       "releases": [
         {
           "name": "Qualcomm Driver v840",
@@ -1498,7 +1498,7 @@
           "name": "v26.0.0 - Revision 1",
           "tag": "v26.0.0-rc.01",
           "date": "2025-10-20T17:01:20Z",
-          "downloads": 114900,
+          "downloads": 114901,
           "body": "",
           "prerelease": false,
           "htmlUrl": "https://github.com/K11MCH1/AdrenoToolsDrivers/releases/tag/v26.0.0-rc.01",
@@ -1518,7 +1518,7 @@
             {
               "name": "Turnip_v26.0.0_R1_Gmem.zip",
               "size": 3444130,
-              "downloads": 18675,
+              "downloads": 18676,
               "url": "https://github.com/K11MCH1/AdrenoToolsDrivers/releases/download/v26.0.0-rc.01/Turnip_v26.0.0_R1_Gmem.zip"
             }
           ]
@@ -2221,7 +2221,7 @@
       "name": "Azahar",
       "repo": "azahar-emu/azahar",
       "category": "Nintendo 3DS",
-      "downloads": 2183279,
+      "downloads": 2183281,
       "releases": [
         {
           "name": "Azahar 2126.0 Alpha 1",
@@ -2537,7 +2537,7 @@
           "name": "Azahar 2125.1.1",
           "tag": "2125.1.1",
           "date": "2026-04-21T11:19:54Z",
-          "downloads": 389052,
+          "downloads": 389054,
           "body": "This is an unscheduled bugfix update which addresses previously undetected regressions in the 2125.0 and 2125.1 releases.\r\n\r\nUsers are advised to update when it is convenient to do so.\r\n\r\n---\r\n\r\n# Azahar 2125.1.1 Changelog\r\n\r\n# Windows\r\n\r\n- Fixed a regression introduced in 2125.1 where Azahar could appear to have rounded window corners while fullscreened. | @PabloMK7 #2049\r\n\r\n# All\r\n\r\n- Fixed a regression introduced in 2125.0 where a small number of games could crash due to a shadow texture handling oversight. | @PabloMK7 #2047\r\n\r\n# Technical\r\n\r\n- Changed a newly introduced use of the `std::powf` function in 2125.1 to use `std::pow` instead, restoring wider build environment compatibility. | @cobalt2727 #2045\r\n- Miscellaneous OpenBSD build fixes. | @OpenSauce04 #2052",
           "prerelease": false,
           "htmlUrl": "https://github.com/azahar-emu/azahar/releases/tag/2125.1.1",
@@ -2563,7 +2563,7 @@
             {
               "name": "azahar-android-vanilla-2125.1.1.apk",
               "size": 49678147,
-              "downloads": 85663,
+              "downloads": 85665,
               "url": "https://github.com/azahar-emu/azahar/releases/download/2125.1.1/azahar-android-vanilla-2125.1.1.apk"
             },
             {
@@ -5286,7 +5286,7 @@
       "repo": "Producdevity/gamehub-lite",
       "category": "GameHub",
       "logo": "gamehub.png",
-      "downloads": 889034,
+      "downloads": 889035,
       "releases": [
         {
           "name": "GameHub Lite v5.1.6",
@@ -5437,7 +5437,7 @@
           "name": "GameHub Lite v5.3.3 [PRE-RELEASE]",
           "tag": "v5.3.3",
           "date": "2025-11-27T21:11:35Z",
-          "downloads": 78388,
+          "downloads": 78389,
           "body": "",
           "prerelease": true,
           "htmlUrl": "https://github.com/Producdevity/gamehub-lite/releases/tag/v5.3.3",
@@ -5445,7 +5445,7 @@
             {
               "name": "GameHub-Lite-5.3.3-EXPERIMENTAL.apk",
               "size": 192910252,
-              "downloads": 78388,
+              "downloads": 78389,
               "url": "https://github.com/Producdevity/gamehub-lite/releases/download/v5.3.3/GameHub-Lite-5.3.3-EXPERIMENTAL.apk"
             }
           ]
@@ -5691,7 +5691,7 @@
       "name": "Winlator Ludashi",
       "repo": "StevenMXZ/Winlator-Ludashi",
       "category": "Winlator",
-      "downloads": 853867,
+      "downloads": 853869,
       "releases": [
         {
           "name": "Ludashi 3.0",
@@ -5813,7 +5813,7 @@
           "name": "ludashi 2.7.4",
           "tag": "2.7.4",
           "date": "2025-12-26T02:39:37Z",
-          "downloads": 61736,
+          "downloads": 61738,
           "body": "what's new:\r\n💾 add a few more entries to device memory, 8192 MB,12288 MB,16384 MB\r\n\r\n⚙️EnvVarsView: add one new TU_DEBUG option (deck_emu), see [Turnip_Deck](https://github.com/StevenMXZ/freedreno_turnip-CI/releases/tag/26.0.0)\r\n\r\n🛠️ added IR3_SHADER_DEBUG and FD_DEV_FEATURES in environment variables, for greater convenience for those who need it.\r\n\r\n🖥️ added support for [Config_Files](https://gist.github.com/bylaws/04130932e2634d1c6a2a9729e3940d60), (qgl_config.txt) for Qualcomm drivers, without Root, the default path for it is [storage/emulated/0/Winlator], you can use rendermode=0, for force sysmem on Qualcomm driver (like V819), improving performance by +10% on some games. \r\n\r\nRendermode values:\r\n0 - sysmem without binning\r\n1 - gmem with binning\r\n2 - gmem without binning\r\n3 - sysmem with binning",
           "prerelease": false,
           "htmlUrl": "https://github.com/StevenMXZ/Winlator-Ludashi/releases/tag/2.7.4",
@@ -5827,13 +5827,13 @@
             {
               "name": "ludashi-bionic.apk",
               "size": 527482100,
-              "downloads": 40180,
+              "downloads": 40181,
               "url": "https://github.com/StevenMXZ/Winlator-Ludashi/releases/download/2.7.4/ludashi-bionic.apk"
             },
             {
               "name": "qgl_config.txt",
               "size": 77,
-              "downloads": 2138,
+              "downloads": 2139,
               "url": "https://github.com/StevenMXZ/Winlator-Ludashi/releases/download/2.7.4/qgl_config.txt"
             },
             {
@@ -8146,7 +8146,7 @@
       "name": "Freedreno Turnip CI (Weab-chan)",
       "repo": "Weab-chan/freedreno_turnip-CI",
       "category": "Drivers",
-      "downloads": 578937,
+      "downloads": 578938,
       "releases": [
         {
           "name": "Turnip - 25.3.0-devel - Oct 11, 2025",
@@ -8703,7 +8703,7 @@
           "name": "Turnip - 24.1.0-devel - Mar 14, 2024",
           "tag": "24.1.0-devel_7604697",
           "date": "2024-03-14T00:12:59Z",
-          "downloads": 3979,
+          "downloads": 3980,
           "body": "",
           "prerelease": false,
           "htmlUrl": "https://github.com/Weab-chan/freedreno_turnip-CI/releases/tag/24.1.0-devel_7604697",
@@ -8711,7 +8711,7 @@
             {
               "name": "turnip_Mar-14-2024_7604697.zip",
               "size": 2097974,
-              "downloads": 1851,
+              "downloads": 1852,
               "url": "https://github.com/Weab-chan/freedreno_turnip-CI/releases/download/24.1.0-devel_7604697/turnip_Mar-14-2024_7604697.zip"
             },
             {
@@ -9479,13 +9479,13 @@
       "name": "Winlator Mali",
       "repo": "Fcharan/WinlatorMali",
       "category": "Winlator",
-      "downloads": 428022,
+      "downloads": 428025,
       "releases": [
         {
           "name": "2.0",
           "tag": "2.0",
           "date": "2024-11-30T10:01:20Z",
-          "downloads": 382964,
+          "downloads": 382967,
           "body": "# Added\r\n\r\n• Latest Box64 Is Added In Proot Version\r\n\r\n• Added Cube D3D & SphereMap 3D Test \r\n\r\n• Added D3D9 Wrapper By ThirteenAG In Start Menu → Install →  WineD3D → Experimental \r\n\r\n• Added Core Fonts\r\n\r\n• Added Additional x86 and X64 Visual C Packages\r\n\r\n• Added Xna Framework \r\n\r\n• Added An Option To Backup And Import Registry And Saves Of Container \r\n\r\n• Many Other Things Are Also Added \r\n\r\n# New Game Presets \r\n\r\n• Fixed And Added Back Skyrim Game Preset \r\n\r\n• Added Virtua Tennis 3 & 4 Game Preset \r\n\r\n• Added Silent Hill Home Coming Game Preset \r\n\r\n# Changes\r\n\r\n• Wine 9.2 Is Added And Made Default In Glibc \r\n\r\n• Game UX Is Disabled By Default ( This Fixes Virtua Tennis 4 And More ) \r\n\r\n• The Fixes Section Has Been Updated \r\n\r\n• Some Games Presets Are Updated \r\n\r\n• Many Other Things Are Changed And Updated \r\n\r\n# Note \r\n\r\n• I Decided To Only Upload Proot_Antutu And Glibc From Now\r\n\r\n• Delete The Old Apk And Install The New One \r\n\r\n• Proot Is The Recommended Version \r\n\r\n• Glibc Apk Is Updated Again On Dec 1 2024 . Pls Update \r\n",
           "prerelease": false,
           "htmlUrl": "https://github.com/GunaCharanTeja/WinlatorMali/releases/tag/2.0",
@@ -9499,7 +9499,7 @@
             {
               "name": "WinMali_Proot_Antutu.apk",
               "size": 595862618,
-              "downloads": 161761,
+              "downloads": 161764,
               "url": "https://github.com/GunaCharanTeja/WinlatorMali/releases/download/2.0/WinMali_Proot_Antutu.apk"
             }
           ]
@@ -10368,13 +10368,13 @@
       "repo": "The412Banner/bannerhub",
       "category": "GameHub",
       "logo": "bannerhub.png",
-      "downloads": 142150,
+      "downloads": 142151,
       "releases": [
         {
           "name": "Bannerhub v3.7.5",
           "tag": "v3.7.5",
           "date": "2026-05-21T01:50:40Z",
-          "downloads": 24368,
+          "downloads": 24369,
           "body": "> [!WARNING]\n> **Only install official stable releases** (like this one). Do NOT install pre-releases or raw CI artifacts — pre-release builds use a different package name (`com.tencent.ig`) and cannot be upgraded to stable without uninstalling first.\n\n> [!IMPORTANT]\n> **Notification permission required.** BannerHub will prompt for the **Post Notifications** permission when you start your first Epic, GOG, or Amazon download. You must allow it to receive download progress and completion notifications. Without it, you will not be notified when downloads finish or fail.\n\n> [!IMPORTANT]\n> **Files access required for SD card storage.** To save games to your SD card, BannerHub must be granted the **Files and Media** permission. Go to **Android Settings → Apps → BannerHub → Permissions → Files and media** and set it to **Allow management of all files** (or equivalent on your device). Without this permission the SD card toggle will have no effect.\n\n## Offline launch for imported PC games\n\n**Imported PC games (and any non-Steam game source) now launch offline.**\n\nPre-3.7.5, putting the device in airplane mode or on a network without internet and tapping an imported PC game would abort the launch with `Game configuration file download failed`. Steam library games had a partial offline bypass already; the other four game source types (imported via the PC Game Manager, local-file import, server-downloaded, and unknown) did not.\n\nv3.7.5 adds a no-network skip on the three setup tasks that previously required a network call: `GameConfigDownloadTask` (fetches per-game env config from the server), `SetGameRecommConfigTask` (applies server-pushed recommendations), and `DependencyInstallTask` (checks the server for new dep versions). When `NetworkUtils.r()` reports no network, those tasks are skipped and the launch proceeds with whatever components, container, and Wine version were set up the last time the game launched online.\n\nIn practice:\n\n- **Any game that has launched online at least once will now launch offline.** Wine boots, the game runs, the previously-applied container settings persist.\n- **Steam library games unaffected.** Their existing offline support is unchanged.\n- **Self-healing on reconnect.** When you come back online, the next launch hits the full pipeline and re-syncs any server-pushed recommendations or dep updates. The offline window doesn't accumulate drift.\n- **No behavior change online.** All three patches are pure additions wrapped in `if no network: skip; else: original code`. The online path runs the original 3.7.4 logic byte-for-byte. Verified by code review and pre1→pre4 device iteration.\n\n### Known limitations\n\n1. **First-ever launches still require network** — if a game has never been set up at all, no components/container are on disk to fall back to. This release only fixes the second-and-later offline launches.\n2. **Stale per-game settings** — if you change a per-game setting (Box64 variant, container, etc.) and then go offline before the next launch, the offline launch uses the previous on-disk setup. Workaround: relaunch once online after changing settings, then go offline.\n3. **Server-pushed component recommendations skipped offline** — practical impact nil for games already working; deferred to the next online launch.\n\n### Tracking BannerHub updates\n\n- **This GitHub repo's [Releases page](https://github.com/The412Banner/BannerHub/releases)** — watch the repo to get notified\n- **[Obtainium](https://github.com/ImranR98/Obtainium)** — add `https://github.com/The412Banner/BannerHub` as an app source with **\"Reconcile version string with version detected from OS\"** enabled\n\n### Upgrading\n\n- v3.7.4 → v3.7.5: install the matching variant directly over your existing install. No certificate change, no data loss.\n- v3.7.0 or earlier → v3.7.5: install normally. If the signing certificate differs, uninstall first.\n",
           "prerelease": false,
           "htmlUrl": "https://github.com/The412Banner/BannerHub/releases/tag/v3.7.5",
@@ -10418,7 +10418,7 @@
             {
               "name": "BannerHub-v3.7.5-Original.apk",
               "size": 144839619,
-              "downloads": 2737,
+              "downloads": 2738,
               "url": "https://github.com/The412Banner/BannerHub/releases/download/v3.7.5/BannerHub-v3.7.5-Original.apk"
             },
             {
@@ -13876,13 +13876,13 @@
       "name": "Winlator Ref4ik (Drivers/Wine)",
       "repo": "REF4IK/winlator-ref4ik-",
       "category": "Drivers",
-      "downloads": 43433,
+      "downloads": 43434,
       "releases": [
         {
           "name": "Winlator bionic ref4ik mod v9 ",
           "tag": "v9",
           "date": "2026-05-31T09:22:37Z",
-          "downloads": 1207,
+          "downloads": 1208,
           "body": "## Winlator Mod bionic — ref4ik v9\r\n\r\n**What's New in This Version:**\r\n\r\n- Added support for animated covers for games\r\n\r\n- Added Relative Mouse option from the container to the control settings\r\n\r\n- Added the ability to set a custom icon for a game\r\n\r\n- Added BCn settings from implementation Winlator Bionic @Pipetto-crypto\r\n\r\n- Improved File Explorer — now you can create a game shortcut directly from it\r\n\r\n- Interface changes: moved menus, \"Installed Components\" section, and Gamepad Test\r\n\r\n- Removed Big Picture menu from the project and cleaned up other unused code\r\n\r\n- Created a new SystemSensorPaths class - that contains all paths to the device's system sensors and centralized all sensor queries \r\n\r\n- Replaced the GL renderer with a Vulkan renderer. Old GL effects were removed, all effects were ported to custom Vulkan fragment shaders; added a Vulkan post-processing pipeline.\r\nThe Vulkan renderer implementation is based on Winlator Ludashi @StevenMXZ\r\n\r\n- Added new sensor paths: hwmon/MTK\r\n\r\n- Added content provider selection in Contents (ref4ik, the412banner, and the ability to add your own custom provider)\r\n\r\n- Added \"Box/FEX Extreme\" preset\r\n\r\n- When enabling Toggle Fullscreen , the sharpness effect is now automatically enabled to improve image qualit\r\n\r\n- Fixed translations\r\n\r\n- Added a slider in container settings to change text DPI\r\n\r\n\r\n<details>\r\n<summary>← Click here to view full previous changelog</summary>\r\n\r\n### Previous Major Updates\r\n\r\n🟣 Fixed FPS counter  \r\n🟣 Fixed error in driver loading menu  \r\n🟣 Removed limitation — now all Turnip drivers are shown in every repository (not just the first 10)  \r\n🟣 **AdrenoTools**: added option to export downloaded driver to device storage  \r\n🟣 Added option to hide FEX/Box config files when one is selected  \r\n🟣 Game shortcut icons now load from **Steam**  \r\n🟣 **Adreno Settings**: added initial parameters (work in progress)  \r\n🟣 Integrated **AdrenoTools Store** for extended driver functionality  \r\n🟣 Introduced **Wrapper v2** — improved driver selection UI  \r\n🟣 Added fast **WFM** implementation from de0ver  \r\n🟣 Added full **Russian** language support  \r\n🟣 Reworked input controls settings:  \r\n  → Now you can add custom icons to controls  \r\n  → Go to control profile editor → select icons → apply  \r\n  → Long-press icon to remove  \r\n🟣 Added modular **FPS counter** in xservermenu (select parameters & save config)  \r\n🟣 Updated Task Manager: added GPU and battery temperature indicators  \r\n🟣 Changed application color scheme  \r\n🟣 FPS counter: fixed bugs + added dimming option  \r\n🟣 Input controls: added slider for custom icon size  \r\n🟣 Fixed crash when adding Wine Proton  \r\n🟣 **Active Windows**: now you can open/close running programs (UI/functionality to be improved later)  \r\n🟣 Added built-in **File Manager**  \r\n🟣 New screen effects  \r\n🟣 Some FEX-related changes  \r\n🟣 Ported components from 0.3.7.1 (Fex2508–2509)  \r\n🟣 Partially updated app theme  \r\n🟣 Fixed multiple bugs  \r\n🟣 Changes in graphics driver handling  \r\n🟣 Added **ALSA reflector**  \r\n🟣 Fixed frame rate issues  \r\n🟣 Updated image installer  \r\n🟣 Added gamepad detection  \r\n🟣 Added URL content support  \r\n🟣 Big **\"Putre\"** button for quick game settings  \r\n🟣 Moved preset frame parameters into container  \r\n🟣 Added more options in graphics driver settings  \r\n🟣 Added hotkey-based manual export  \r\n🟣 Fixed wallpaper adding  \r\n🟣 Fixed fullscreen mode  \r\n🟣 Fixed hotkey settings  \r\n🟣 Increased custom icon limit: 27 → 1000  \r\n🟣 Fixed conflict with simultaneous Termux installation  \r\n🟣 Control settings: added option to disable button outline + transparency slider  \r\n🟣 Various design improvements  \r\n🟣 Significantly improved Active Windows behavior  \r\n🟣 Greatly improved manual shortcut import  \r\n🟣 Added **FEX** preset  \r\n🟣 Added ability to install Windows components  \r\n🟣 Added DXVK & Turnip download into container  \r\n🟣 Added audio driver settings  \r\n🟣 Improved FPS counter: new design, draggable, more size options  \r\n🟣 Added FPS limiter  \r\n🟣 Added app language selector in settings  \r\n🟣 Added Box/FEX/etc. buttons for hotkey preset creation  \r\n🟣 Added import/export for Box (.boxx) and FEX (.fexx) presets\r\n- Added my custom modified **WFM**  \r\n- Added ability to download **Wine** directly into the container  \r\n- Updated **Content Manager**  \r\n- Updated **Credits & Acknowledgements** section  \r\n- Fixed multiple issues in translations  \r\n- Added **Voltage** parameter to the FPS counter  \r\n- Fixed various bugs in the FPS counter  \r\n- Interface improvements and polishing   \r\n- Added Chinese language  \r\n- Added a new HDR effect to screen effects  \r\n- Improved active windows  \r\n- Fixed control settings  \r\n- Fixed some bugs in themes  \r\n- Fixed some minor bugs \r\n- - Added the ability to add your own custom repository with drivers in Adrenotools\r\n\r\n- Added gyroscope control\r\n\r\n- Added update check\r\n\r\n- Fixed some bugs\r\n\r\n- Added download buttons for Box and FEX in the container and in the shortcut settings\r\n\r\n- Added import and export of container settings configuration\r\n\r\n- Updated DXVK settings\r\n\r\n- Added a file manager for the container\r\n\r\n- Added animation selection\r\n\r\n- Added GPU load parameter and frame time graph to the FPS counter\r\n\r\n- Added pause functionality when minimizing the app (the container is no longer destroyed, but paused instead)\r\n\r\n**Removed Features:**  \r\n- Magnifier  \r\n- Touch helper function  \r\n\r\n**Minor Optimizations:** Various small performance and smoothness improvements.\r\n\r\n- Viewing and removing shared installed components\r\n\r\n- Fixed touch control disappearing after 5 seconds #9 \r\n\r\n- Fixed downloading and caching of game covers\r\n\r\n- Fixed UI bugs\r\n\r\n- Improved on-screen controls editor\r\n\r\n- Added frame generation from If the frame generator does not work on the first container launch, try restarting the container.\r\n\r\n- Updated FPS counter\r\n\r\n- Added experimental Steam games launch\r\n\r\n- Fixed a bug when downloading Wine where other versions stopped working #4 \r\n\r\n- Rebuilt some Wine ref4ik versions with additional patches\r\n\r\n- Fixed API output in the FPS counter and added GPU temperature indicator.\r\n\r\n- Fixed black screen on first container boot.\r\n\r\n- Improved shortcuts.\r\n\r\n- Improved frame generation.\r\n\r\n- Improved game import menu\r\n\r\n- Added FSR effect.\r\n\r\n- Added profiling for the selected game.\r\n\r\n- Added control profile preview.\r\n\r\n- Fixed a bug when importing Wine with x86_64 architecture where nothing would \r\nlaunch inside Wine.\r\n\r\n- Improved XServer.\r\n\r\n- Added Quick Panel.\r\n\r\n- Improved Task Manager.\r\n\r\n</details>\r\n\r\n**Version information:**\r\n\r\n- **Lite version** — regular/standard signature: `com.winlator.ref4ik`  \r\n- **Lud version** — APK signature of the benchmark for locking processor frequencies at maximum: `com.ludashi.benchmark`  \r\n\r\n\r\n**Join  community and get the latest news, builds, and discussions:**  \r\n👉 **Telegram Channel:** https://t.me/winlatorruu  \r\n\r\n**If you encounter any problems, please report them here: [GitHub lssues](https://github.com/REF4IK/winlator-ref4ik-/issues)**\r\n\r\nPlease star the project if you like it! ⭐\r\nYour support helps a lot and motivates me to continue development.",
           "prerelease": false,
           "htmlUrl": "https://github.com/REF4IK/winlator-ref4ik-/releases/tag/v9",
@@ -13896,7 +13896,7 @@
             {
               "name": "bionic_ref4ik_v9_lud.apk",
               "size": 708411741,
-              "downloads": 626,
+              "downloads": 627,
               "url": "https://github.com/REF4IK/winlator-ref4ik-/releases/download/v9/bionic_ref4ik_v9_lud.apk"
             }
           ]
@@ -14090,13 +14090,13 @@
       "name": "Winlator Ref4ik",
       "repo": "REF4IK/winlator-ref4ik-",
       "category": "Winlator",
-      "downloads": 43433,
+      "downloads": 43434,
       "releases": [
         {
           "name": "Winlator bionic ref4ik mod v9 ",
           "tag": "v9",
           "date": "2026-05-31T09:22:37Z",
-          "downloads": 1207,
+          "downloads": 1208,
           "body": "## Winlator Mod bionic — ref4ik v9\r\n\r\n**What's New in This Version:**\r\n\r\n- Added support for animated covers for games\r\n\r\n- Added Relative Mouse option from the container to the control settings\r\n\r\n- Added the ability to set a custom icon for a game\r\n\r\n- Added BCn settings from implementation Winlator Bionic @Pipetto-crypto\r\n\r\n- Improved File Explorer — now you can create a game shortcut directly from it\r\n\r\n- Interface changes: moved menus, \"Installed Components\" section, and Gamepad Test\r\n\r\n- Removed Big Picture menu from the project and cleaned up other unused code\r\n\r\n- Created a new SystemSensorPaths class - that contains all paths to the device's system sensors and centralized all sensor queries \r\n\r\n- Replaced the GL renderer with a Vulkan renderer. Old GL effects were removed, all effects were ported to custom Vulkan fragment shaders; added a Vulkan post-processing pipeline.\r\nThe Vulkan renderer implementation is based on Winlator Ludashi @StevenMXZ\r\n\r\n- Added new sensor paths: hwmon/MTK\r\n\r\n- Added content provider selection in Contents (ref4ik, the412banner, and the ability to add your own custom provider)\r\n\r\n- Added \"Box/FEX Extreme\" preset\r\n\r\n- When enabling Toggle Fullscreen , the sharpness effect is now automatically enabled to improve image qualit\r\n\r\n- Fixed translations\r\n\r\n- Added a slider in container settings to change text DPI\r\n\r\n\r\n<details>\r\n<summary>← Click here to view full previous changelog</summary>\r\n\r\n### Previous Major Updates\r\n\r\n🟣 Fixed FPS counter  \r\n🟣 Fixed error in driver loading menu  \r\n🟣 Removed limitation — now all Turnip drivers are shown in every repository (not just the first 10)  \r\n🟣 **AdrenoTools**: added option to export downloaded driver to device storage  \r\n🟣 Added option to hide FEX/Box config files when one is selected  \r\n🟣 Game shortcut icons now load from **Steam**  \r\n🟣 **Adreno Settings**: added initial parameters (work in progress)  \r\n🟣 Integrated **AdrenoTools Store** for extended driver functionality  \r\n🟣 Introduced **Wrapper v2** — improved driver selection UI  \r\n🟣 Added fast **WFM** implementation from de0ver  \r\n🟣 Added full **Russian** language support  \r\n🟣 Reworked input controls settings:  \r\n  → Now you can add custom icons to controls  \r\n  → Go to control profile editor → select icons → apply  \r\n  → Long-press icon to remove  \r\n🟣 Added modular **FPS counter** in xservermenu (select parameters & save config)  \r\n🟣 Updated Task Manager: added GPU and battery temperature indicators  \r\n🟣 Changed application color scheme  \r\n🟣 FPS counter: fixed bugs + added dimming option  \r\n🟣 Input controls: added slider for custom icon size  \r\n🟣 Fixed crash when adding Wine Proton  \r\n🟣 **Active Windows**: now you can open/close running programs (UI/functionality to be improved later)  \r\n🟣 Added built-in **File Manager**  \r\n🟣 New screen effects  \r\n🟣 Some FEX-related changes  \r\n🟣 Ported components from 0.3.7.1 (Fex2508–2509)  \r\n🟣 Partially updated app theme  \r\n🟣 Fixed multiple bugs  \r\n🟣 Changes in graphics driver handling  \r\n🟣 Added **ALSA reflector**  \r\n🟣 Fixed frame rate issues  \r\n🟣 Updated image installer  \r\n🟣 Added gamepad detection  \r\n🟣 Added URL content support  \r\n🟣 Big **\"Putre\"** button for quick game settings  \r\n🟣 Moved preset frame parameters into container  \r\n🟣 Added more options in graphics driver settings  \r\n🟣 Added hotkey-based manual export  \r\n🟣 Fixed wallpaper adding  \r\n🟣 Fixed fullscreen mode  \r\n🟣 Fixed hotkey settings  \r\n🟣 Increased custom icon limit: 27 → 1000  \r\n🟣 Fixed conflict with simultaneous Termux installation  \r\n🟣 Control settings: added option to disable button outline + transparency slider  \r\n🟣 Various design improvements  \r\n🟣 Significantly improved Active Windows behavior  \r\n🟣 Greatly improved manual shortcut import  \r\n🟣 Added **FEX** preset  \r\n🟣 Added ability to install Windows components  \r\n🟣 Added DXVK & Turnip download into container  \r\n🟣 Added audio driver settings  \r\n🟣 Improved FPS counter: new design, draggable, more size options  \r\n🟣 Added FPS limiter  \r\n🟣 Added app language selector in settings  \r\n🟣 Added Box/FEX/etc. buttons for hotkey preset creation  \r\n🟣 Added import/export for Box (.boxx) and FEX (.fexx) presets\r\n- Added my custom modified **WFM**  \r\n- Added ability to download **Wine** directly into the container  \r\n- Updated **Content Manager**  \r\n- Updated **Credits & Acknowledgements** section  \r\n- Fixed multiple issues in translations  \r\n- Added **Voltage** parameter to the FPS counter  \r\n- Fixed various bugs in the FPS counter  \r\n- Interface improvements and polishing   \r\n- Added Chinese language  \r\n- Added a new HDR effect to screen effects  \r\n- Improved active windows  \r\n- Fixed control settings  \r\n- Fixed some bugs in themes  \r\n- Fixed some minor bugs \r\n- - Added the ability to add your own custom repository with drivers in Adrenotools\r\n\r\n- Added gyroscope control\r\n\r\n- Added update check\r\n\r\n- Fixed some bugs\r\n\r\n- Added download buttons for Box and FEX in the container and in the shortcut settings\r\n\r\n- Added import and export of container settings configuration\r\n\r\n- Updated DXVK settings\r\n\r\n- Added a file manager for the container\r\n\r\n- Added animation selection\r\n\r\n- Added GPU load parameter and frame time graph to the FPS counter\r\n\r\n- Added pause functionality when minimizing the app (the container is no longer destroyed, but paused instead)\r\n\r\n**Removed Features:**  \r\n- Magnifier  \r\n- Touch helper function  \r\n\r\n**Minor Optimizations:** Various small performance and smoothness improvements.\r\n\r\n- Viewing and removing shared installed components\r\n\r\n- Fixed touch control disappearing after 5 seconds #9 \r\n\r\n- Fixed downloading and caching of game covers\r\n\r\n- Fixed UI bugs\r\n\r\n- Improved on-screen controls editor\r\n\r\n- Added frame generation from If the frame generator does not work on the first container launch, try restarting the container.\r\n\r\n- Updated FPS counter\r\n\r\n- Added experimental Steam games launch\r\n\r\n- Fixed a bug when downloading Wine where other versions stopped working #4 \r\n\r\n- Rebuilt some Wine ref4ik versions with additional patches\r\n\r\n- Fixed API output in the FPS counter and added GPU temperature indicator.\r\n\r\n- Fixed black screen on first container boot.\r\n\r\n- Improved shortcuts.\r\n\r\n- Improved frame generation.\r\n\r\n- Improved game import menu\r\n\r\n- Added FSR effect.\r\n\r\n- Added profiling for the selected game.\r\n\r\n- Added control profile preview.\r\n\r\n- Fixed a bug when importing Wine with x86_64 architecture where nothing would \r\nlaunch inside Wine.\r\n\r\n- Improved XServer.\r\n\r\n- Added Quick Panel.\r\n\r\n- Improved Task Manager.\r\n\r\n</details>\r\n\r\n**Version information:**\r\n\r\n- **Lite version** — regular/standard signature: `com.winlator.ref4ik`  \r\n- **Lud version** — APK signature of the benchmark for locking processor frequencies at maximum: `com.ludashi.benchmark`  \r\n\r\n\r\n**Join  community and get the latest news, builds, and discussions:**  \r\n👉 **Telegram Channel:** https://t.me/winlatorruu  \r\n\r\n**If you encounter any problems, please report them here: [GitHub lssues](https://github.com/REF4IK/winlator-ref4ik-/issues)**\r\n\r\nPlease star the project if you like it! ⭐\r\nYour support helps a lot and motivates me to continue development.",
           "prerelease": false,
           "htmlUrl": "https://github.com/REF4IK/winlator-ref4ik-/releases/tag/v9",
@@ -14110,7 +14110,7 @@
             {
               "name": "bionic_ref4ik_v9_lud.apk",
               "size": 708411741,
-              "downloads": 626,
+              "downloads": 627,
               "url": "https://github.com/REF4IK/winlator-ref4ik-/releases/download/v9/bionic_ref4ik_v9_lud.apk"
             }
           ]
@@ -24511,13 +24511,13 @@
         "name": "proton-10-arm64ec",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/proton-10-arm64ec.wcp.xz",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.089Z"
       },
       {
         "name": "wine-9.20-x86_64",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/wine-9.20.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ],
     "Box64": [
@@ -24525,43 +24525,43 @@
         "name": "0.3.5",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.5.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "036fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-036fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.3.7",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.7.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.3.8",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.8.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.3.9",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.9.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.1-fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.4.2-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.2-fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ],
     "WOWBox64": [
@@ -24569,25 +24569,25 @@
         "name": "0.3.7-5768989",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WowBox64-0.3.7-5768989.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.3.9-056999e",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.3.9-056999e.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.4.1-fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "0.4.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/wowbox64-0.4.2.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ],
     "DXVK": [
@@ -24595,79 +24595,79 @@
         "name": "1.5.5",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.5.5.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "1.7.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.7.2.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "1.9.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.9.4.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "1.10.3-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.10.3-async.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "11.1-sarek-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-11.1-sarek-async.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.3.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.3.1-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.4.1.1-gplasync-sp",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1.1-gplasync-sp.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.4.1-arm64ec-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-arm64ec-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.5.3-1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.5.3-1-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.6-2-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6-2-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.6.2-arm64ec-gplasync",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6.2-arm64ec-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.7.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-gplasync.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ],
     "FEXCore": [
@@ -24675,79 +24675,79 @@
         "name": "241214",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_241214.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2505",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore-2505.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2507_fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_2507_fix.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2508.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2508.1.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2509.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2509.1.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2510.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2510.1.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2511",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2511.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2512",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2512.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2601",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2601.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2601-aabdded-nightly",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/FEXCore-2601-aabdded.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2603",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2603.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2604",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2604.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2605",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2605.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ],
     "VKD3D": [
@@ -24755,43 +24755,43 @@
         "name": "2.7-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.7.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.9-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.9.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.12-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.12.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "2.14.1-arm64ec",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-2.14.1-arm64ec.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "proton-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0a.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "arm64ec-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-arm64ec-3.0a.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       },
       {
         "name": "proton-3.0b-2763dd2",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0b-2763dd2.wcp",
-        "date": "2026-06-02T05:07:05.879Z"
+        "date": "2026-06-02T05:08:11.090Z"
       }
     ]
   }
