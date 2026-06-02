@@ -156,7 +156,8 @@ async function fetchProject(project) {
     }
 
     const releases  = parseReleases(rawReleases, project.apiType === 'gitea' || project.apiType === 'forgejo')
-    const downloads = releases.reduce((sum, r) => sum + r.downloads, 0)
+    const capped    = releases.slice(0, 20).map((r, i) => ({ ...r, body: i < 5 ? r.body : '' }))
+    const downloads = capped.reduce((sum, r) => sum + r.downloads, 0)
 
     console.log(`  [ok]   ${project.name} — ${downloads.toLocaleString()} downloads, ${releases.length} releases`)
     return {
@@ -165,7 +166,7 @@ async function fetchProject(project) {
       category:   project.category,
       logo:       project.logo,
       downloads,
-      releases,
+      releases:   capped,
       repoUrl,
       extensions: project.extensions,
       upstream:   project.upstream,
