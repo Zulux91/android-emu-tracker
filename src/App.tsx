@@ -86,7 +86,7 @@ export default function App() {
         <Header
           totalDownloads={totalDownloads}
           totalProjects={data?.totalProjects ?? 0}
-          updatedAt={data?.updatedAt ?? null}
+          nextUpdateAt={data?.nextUpdateAt ?? (data?.updatedAt ? new Date(new Date(data.updatedAt).getTime() + 3_600_000).toISOString() : null)}
           newReleaseCount={newReleaseCount}
           newDriverCount={newDriverCount}
           lang={lang}

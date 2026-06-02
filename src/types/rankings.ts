@@ -39,6 +39,7 @@ export interface ManifestDriver {
 
 export interface RankingsData {
   updatedAt: string
+  nextUpdateAt?: string
   totalProjects: number
   projectsWithReleases: number
   projectsWithoutReleases: number

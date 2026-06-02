@@ -7,7 +7,7 @@ export const en = {
     recentReleases: 'Recent Releases',
   },
   header: {
-    lastSync: 'Last sync',
+    nextSync: 'Next sync',
     totalProjects: 'Projects',
     totalDownloads: 'Downloads',
     onlineNow: 'Online now',

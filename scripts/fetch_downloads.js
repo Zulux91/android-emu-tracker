@@ -215,8 +215,10 @@ async function main() {
   const projectsWithReleases = results.filter(r => r.releases.length > 0 && !r.fetchError).length
   const projectsWithoutReleases = results.length - projectsWithReleases
 
+  const updatedAt = new Date().toISOString()
   const output = {
-    updatedAt:               new Date().toISOString(),
+    updatedAt,
+    nextUpdateAt:            new Date(Date.now() + 60 * 60 * 1000).toISOString(),
     totalProjects:           results.length,
     projectsWithReleases,
     projectsWithoutReleases,

@@ -9,7 +9,7 @@ export const es: TranslationKeys = {
     recentReleases: 'Lanzamientos Recientes',
   },
   header: {
-    lastSync: 'Última sync',
+    nextSync: 'Próxima sync',
     totalProjects: 'Proyectos',
     totalDownloads: 'Descargas',
     onlineNow: 'En línea',
