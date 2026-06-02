@@ -26,6 +26,7 @@ jobs:
         run: node scripts/fetch_downloads.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FETCH_INTERVAL_MINUTES: 60
 
       - name: Build static site
         run: npm run build

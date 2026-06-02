@@ -218,7 +218,7 @@ async function main() {
   const updatedAt = new Date().toISOString()
   const output = {
     updatedAt,
-    nextUpdateAt:            new Date(Date.now() + 60 * 60 * 1000).toISOString(),
+    nextUpdateAt:            new Date(Date.now() + (Number(process.env.FETCH_INTERVAL_MINUTES) || 60) * 60_000).toISOString(),
     totalProjects:           results.length,
     projectsWithReleases,
     projectsWithoutReleases,
