@@ -27,6 +27,7 @@
       "PSVITA",
       "Wii U Emulator",
       "Xbox",
+      "Xbox 360",
       "Nintendo GameCube / Wii",
       "Sega Dreamcast",
       "All In One"
@@ -88,6 +89,8 @@
 
     { "name": "X1 BOX", "repo": "izzy2lost/xemu",  "category": "Xbox" },
     { "name": "hakuX",  "repo": "rfandango/hakuX",  "category": "Xbox" },
+
+    { "name": "X360 Mobile", "repo": "Ashnar2602/X360-Mobile---OFFICIAL", "category": "Xbox 360" },
 
     { "name": "Eden Emulator",         "repo": "eden-emu/eden",   "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
     { "name": "Eden Emulator Nightly", "repo": "eden-ci/nightly", "category": "Nintendo Switch Emulator", "apiType": "forgejo", "apiHost": "https://git.eden-emu.dev" },
