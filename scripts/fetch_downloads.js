@@ -62,6 +62,20 @@ async function fetchForgejoReleases(apiHost, repo) {
   return fetchJson(url, giteaHeaders())
 }
 
+// Forgejo/Gitea CI uploads often record size=0 on assets. Resolve via HEAD request.
+async function resolveAssetSizes(assets, headers) {
+  return Promise.all(assets.map(async a => {
+    if (a.size !== 0) return a
+    try {
+      const res = await fetch(a.url, { method: 'HEAD', headers })
+      const len = parseInt(res.headers.get('content-length') ?? '0', 10)
+      return { ...a, size: len || 0 }
+    } catch {
+      return a
+    }
+  }))
+}
+
 async function fetchManifestDrivers() {
   try {
     const url = 'https://raw.githubusercontent.com/StevenMXZ/Winlator-Contents/main/contents.json'
@@ -126,7 +140,7 @@ async function runWithConcurrency(tasks, limit) {
 // ─── Per-project fetcher ──────────────────────────────────────────────────────
 
 async function fetchProject(project) {
-  const repoUrl = project.apiType === 'gitea'
+  const repoUrl = (project.apiType === 'gitea' || project.apiType === 'forgejo')
     ? `${project.apiHost}/${project.repo}`
     : `https://github.com/${project.repo}`
 
@@ -156,6 +170,11 @@ async function fetchProject(project) {
     }
 
     const releases  = parseReleases(rawReleases, project.apiType === 'gitea' || project.apiType === 'forgejo')
+    if (project.apiType === 'forgejo' || project.apiType === 'gitea') {
+      for (const release of releases) {
+        release.assets = await resolveAssetSizes(release.assets, giteaHeaders())
+      }
+    }
     const capped    = releases.slice(0, 20).map((r, i) => ({ ...r, body: i < 5 ? r.body : '' }))
     const downloads = capped.reduce((sum, r) => sum + r.downloads, 0)
 
