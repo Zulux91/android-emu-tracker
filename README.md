@@ -20,41 +20,41 @@
 | 7 | Azahar | 2.4M | `2126.0-alpha1` | Nintendo 3DS |
 | 8 | NetherSX2 Classic | 1.2M | `2.2n` | Emulator PS2 |
 | 9 | Winlator Glibc | 981.3K | `v7.1.5` | Winlator |
-| 10 | GameHub Lite (Producdevity) | 960.3K | `v5.1.7` | GameHub |
-| 11 | Winlator Ludashi | 916.1K | `3.0` | Winlator |
-| 12 | Winlator Coffincolors | 751.7K | `winlator_cmod_update_december_2025` | Winlator |
+| 10 | GameHub Lite (Producdevity) | 960.6K | `v5.1.7` | GameHub |
+| 11 | Winlator Ludashi | 916.5K | `3.0` | Winlator |
+| 12 | Winlator Coffincolors | 751.8K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 732.4K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 701.4K | `v2.6` | Sega Dreamcast |
-| 15 | Dolphin MMJR2 VBI | 696.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 16 | Winlator Afei | 676.3K | `10.1hotfix-Amod3fix2` | Winlator |
-| 17 | XoDos | 654.7K | `1.0.3-link` | PC Emulator |
-| 18 | GameNative | 615.7K | `v1.0.0` | GameNative |
-| 19 | Freedreno Turnip CI (Weab-chan) | 610.1K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 467.1K | `2.39` | Emulator PS3 |
+| 14 | Flycast | 701.5K | `v2.6` | Sega Dreamcast |
+| 15 | Dolphin MMJR2 VBI | 696.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 16 | Winlator Afei | 676.4K | `10.1hotfix-Amod3fix2` | Winlator |
+| 17 | XoDos | 654.8K | `1.0.3-link` | PC Emulator |
+| 18 | GameNative | 615.9K | `v1.0.0` | GameNative |
+| 19 | Freedreno Turnip CI (Weab-chan) | 610.2K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 467.2K | `2.39` | Emulator PS3 |
 | 21 | Horizon Emu | 454.4K | `v4` | PC Emulator |
-| 22 | Winlator Mali | 439.0K | `test` | Winlator |
-| 23 | Freedreno Turnip CI (whitebelyash) | 364.2K | `tu_v29` | Drivers |
+| 22 | Winlator Mali | 439.1K | `test` | Winlator |
+| 23 | Freedreno Turnip CI (whitebelyash) | 364.4K | `tu_v29` | Drivers |
 | 24 | Wb64dev | 267.8K | `v10.2` | Winlator |
-| 25 | Freedreno Turnip CI (StevenMXZ) | 257.8K | `v863.1_a7xx` | Drivers |
-| 26 | BannerHub (The412Banner) | 171.5K | `v3.7.5` | GameHub |
+| 25 | Freedreno Turnip CI (StevenMXZ) | 258.0K | `v863.1_a7xx` | Drivers |
+| 26 | BannerHub (The412Banner) | 171.7K | `v3.7.5` | GameHub |
 | 27 | ExaGear 302 | 141.9K | `v3.0.2.2-egw` | PC Emulator |
-| 28 | X360 Mobile | 121.2K | `v0.5.3_preview` | Xbox 360 |
+| 28 | X360 Mobile | 121.5K | `v0.5.3_preview` | Xbox 360 |
 | 29 | Winlator Bionic Stredohiri | 101.7K | `26f65e9` | Winlator |
 | 30 | Pluvia | 97.6K | `v1.3.2` | PC Emulator |
-| 31 | NetherSX2-Turnip | 91.3K | `v0.7` | Emulator PS2 |
+| 31 | NetherSX2-Turnip | 91.4K | `v0.7` | Emulator PS2 |
 | 32 | Star (fork) | 84.1K | `1.3` | Winlator |
 | 33 | Winlator Ajay | 74.9K | `v11.1-hotfix2` | Winlator |
-| 34 | Lemuroid | 73.5K | `1.17.0` | All In One |
+| 34 | Lemuroid | 73.6K | `1.17.0` | All In One |
 | 35 | MiceWine | 72.7K | `ba4b91b` | PC Emulator |
 | 36 | Winlator X | 70.5K | `v3.0.1-beta` | Winlator |
-| 37 | hakuX | 66.3K | `v0.3.1` | Xbox |
+| 37 | hakuX | 66.4K | `v0.3.1` | Xbox |
 | 38 | Winlator Bionic jhinzuo | 54.1K | `dev8` | Winlator |
-| 39 | Steamlator | 52.9K | `1.7` | Winlator |
+| 39 | Steamlator | 53.0K | `1.7` | Winlator |
 | 40 | Winlator Ref4ik (Drivers/Wine) | 50.5K | `v9` | Drivers |
 | 41 | Winlator Ref4ik | 50.5K | `v9` | Winlator |
-| 42 | Adrenotools Drivers (StevenMXZ) | 43.2K | `v849` | Drivers |
+| 42 | Adrenotools Drivers (StevenMXZ) | 43.3K | `v849` | Drivers |
 | 43 | X1 BOX | 33.8K | `1.2.5` | Xbox |
-| 44 | ARMSX2 | 26.4K | `v5` | Emulator PS2 |
+| 44 | ARMSX2 | 26.7K | `v5` | Emulator PS2 |
 | 45 | Winlator Honkon | 25.8K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 21.5K | `Winlator_Brasil_10.1` | Winlator |
 | 47 | Mobox Patched | 19.2K | `Mobox_Patched_3.0` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-06-17T19:22:41.705Z_
+_Last auto-generated: 2026-06-17T21:28:43.347Z_
