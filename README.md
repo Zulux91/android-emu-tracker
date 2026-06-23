@@ -19,28 +19,28 @@
 | 6 | Cemu | 2.6M | `0.5` | Wii U Emulator |
 | 7 | Azahar | 2.5M | `2126.0-alpha2` | Nintendo 3DS |
 | 8 | NetherSX2 Classic | 1.2M | `2.2n` | Emulator PS2 |
-| 9 | GameHub Lite (Producdevity) | 985.0K | `v5.1.7` | GameHub |
-| 10 | Winlator Glibc | 984.0K | `v7.1.5` | Winlator |
-| 11 | Winlator Ludashi | 950.5K | `v3.1.h` | Winlator |
-| 12 | Winlator Coffincolors | 756.5K | `winlator_cmod_update_december_2025` | Winlator |
-| 13 | RPCSX Android | 739.2K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 706.7K | `v2.6` | Sega Dreamcast |
-| 15 | Dolphin MMJR2 VBI | 700.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 16 | Winlator Afei | 680.0K | `10.1hotfix-Amod3fix2` | Winlator |
-| 17 | XoDos | 660.7K | `1.0.3-link` | PC Emulator |
-| 18 | GameNative | 629.1K | `v1.0.0` | GameNative |
-| 19 | Freedreno Turnip CI (Weab-chan) | 618.1K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 474.7K | `2.39` | Emulator PS3 |
-| 21 | Horizon Emu | 455.9K | `v4` | PC Emulator |
-| 22 | Winlator Mali | 443.1K | `test` | Winlator |
-| 23 | Freedreno Turnip CI (whitebelyash) | 381.4K | `tu_v29` | Drivers |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 280.9K | `v863.1_a7xx` | Drivers |
+| 9 | GameHub Lite (Producdevity) | 985.5K | `v5.1.7` | GameHub |
+| 10 | Winlator Glibc | 984.1K | `v7.1.5` | Winlator |
+| 11 | Winlator Ludashi | 951.4K | `v3.1.h` | Winlator |
+| 12 | Winlator Coffincolors | 756.6K | `winlator_cmod_update_december_2025` | Winlator |
+| 13 | RPCSX Android | 739.4K | `v20250425` | Emulator PS3 |
+| 14 | Flycast | 706.8K | `v2.6` | Sega Dreamcast |
+| 15 | Dolphin MMJR2 VBI | 700.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 16 | Winlator Afei | 680.1K | `10.1hotfix-Amod3fix2` | Winlator |
+| 17 | XoDos | 660.9K | `1.0.3-link` | PC Emulator |
+| 18 | GameNative | 629.4K | `v1.0.0` | GameNative |
+| 19 | Freedreno Turnip CI (Weab-chan) | 618.4K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 474.8K | `2.39` | Emulator PS3 |
+| 21 | Horizon Emu | 456.0K | `v4` | PC Emulator |
+| 22 | Winlator Mali | 443.2K | `test` | Winlator |
+| 23 | Freedreno Turnip CI (whitebelyash) | 381.8K | `tu_v29` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 281.5K | `v863.1_a7xx` | Drivers |
 | 25 | Wb64dev | 269.2K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 181.3K | `v3.8.0` | GameHub |
+| 26 | BannerHub (The412Banner) | 181.5K | `v3.8.0` | GameHub |
 | 27 | ExaGear 302 | 143.0K | `v3.0.2.2-egw` | PC Emulator |
-| 28 | X360 Mobile | 136.5K | `v0.5.3_preview` | Xbox 360 |
+| 28 | X360 Mobile | 136.9K | `v0.5.3_preview` | Xbox 360 |
 | 29 | Winlator Bionic Stredohiri | 103.5K | `26f65e9` | Winlator |
-| 30 | NetherSX2-Turnip | 98.1K | `v0.7` | Emulator PS2 |
+| 30 | NetherSX2-Turnip | 98.2K | `v0.7` | Emulator PS2 |
 | 31 | Pluvia | 97.7K | `v1.3.2` | PC Emulator |
 | 32 | Star (fork) | 87.2K | `1.3` | Winlator |
 | 33 | Winlator Ajay | 76.2K | `v11.1-hotfix2` | Winlator |
@@ -50,12 +50,12 @@
 | 37 | hakuX | 68.4K | `v0.3.1` | Xbox |
 | 38 | Winlator Bionic jhinzuo | 55.5K | `dev8` | Winlator |
 | 39 | Steamlator | 53.8K | `1.7` | Winlator |
-| 40 | Winlator Ref4ik (Drivers/Wine) | 52.3K | `v9` | Drivers |
-| 41 | Winlator Ref4ik | 52.3K | `v9` | Winlator |
-| 42 | Adrenotools Drivers (StevenMXZ) | 44.2K | `v849` | Drivers |
+| 40 | Winlator Ref4ik (Drivers/Wine) | 52.4K | `v9` | Drivers |
+| 41 | Winlator Ref4ik | 52.4K | `v9` | Winlator |
+| 42 | Adrenotools Drivers (StevenMXZ) | 44.3K | `v849` | Drivers |
 | 43 | X1 BOX | 35.2K | `1.2.5` | Xbox |
 | 44 | Winlator Honkon | 26.4K | `V11.1` | Winlator |
-| 45 | ARMSX2 | 24.6K | `2.3.5.1` | Emulator PS2 |
+| 45 | ARMSX2 | 25.4K | `2.3.5.1` | Emulator PS2 |
 | 46 | Winlator Brasil | 21.6K | `Winlator_Brasil_10.1` | Winlator |
 | 47 | Mobox Patched | 19.3K | `Mobox_Patched_3.0` | PC Emulator |
 | 48 | GameNative Performance | 10.8K | `1.95` | GameNative |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-06-23T14:37:40.815Z_
+_Last auto-generated: 2026-06-23T17:14:22.669Z_
