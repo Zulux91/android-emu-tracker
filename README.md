@@ -19,42 +19,42 @@
 | 6 | Cemu | 2.6M | `0.5` | Wii U Emulator |
 | 7 | Azahar | 2.5M | `2126.0-alpha2` | Nintendo 3DS |
 | 8 | NetherSX2 Classic | 1.2M | `2.2n` | Emulator PS2 |
-| 9 | GameHub Lite (Producdevity) | 998.3K | `v5.1.7` | GameHub |
+| 9 | GameHub Lite (Producdevity) | 998.8K | `v5.1.7` | GameHub |
 | 10 | Winlator Glibc | 985.6K | `v7.1.5` | Winlator |
-| 11 | Winlator Ludashi | 957.0K | `v3.1.h` | Winlator |
+| 11 | Winlator Ludashi | 957.4K | `v3.1.h` | Winlator |
 | 12 | Winlator Coffincolors | 759.5K | `winlator_cmod_update_december_2025` | Winlator |
-| 13 | RPCSX Android | 742.9K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 709.5K | `v2.6` | Sega Dreamcast |
-| 15 | Dolphin MMJR2 VBI | 702.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 16 | Winlator Afei | 682.1K | `10.1hotfix-Amod3fix2` | Winlator |
-| 17 | XoDos | 664.0K | `1.0.3-link` | PC Emulator |
-| 18 | Freedreno Turnip CI (Weab-chan) | 622.1K | `25.3.0-devel_bbdd688` | Drivers |
-| 19 | GameNative | 609.7K | `v1.1.0-prerelease` | GameNative |
-| 20 | APS3e | 478.6K | `2.39` | Emulator PS3 |
-| 21 | Horizon Emu | 456.9K | `v4` | PC Emulator |
+| 13 | RPCSX Android | 743.0K | `v20250425` | Emulator PS3 |
+| 14 | Flycast | 709.6K | `v2.6` | Sega Dreamcast |
+| 15 | Dolphin MMJR2 VBI | 702.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 16 | Winlator Afei | 682.2K | `10.1hotfix-Amod3fix2` | Winlator |
+| 17 | XoDos | 664.1K | `1.0.3-link` | PC Emulator |
+| 18 | Freedreno Turnip CI (Weab-chan) | 622.2K | `25.3.0-devel_bbdd688` | Drivers |
+| 19 | GameNative | 610.1K | `v1.1.0-prerelease` | GameNative |
+| 20 | APS3e | 478.8K | `2.39` | Emulator PS3 |
+| 21 | Horizon Emu | 457.0K | `v4` | PC Emulator |
 | 22 | Winlator Mali | 445.9K | `test` | Winlator |
-| 23 | Freedreno Turnip CI (whitebelyash) | 389.5K | `tu_v29` | Drivers |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 294.2K | `v863.1_a7xx` | Drivers |
-| 25 | Wb64dev | 269.8K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 186.3K | `v3.8.0` | GameHub |
-| 27 | X360 Mobile | 144.5K | `v0.5.3_preview` | Xbox 360 |
+| 23 | Freedreno Turnip CI (whitebelyash) | 389.7K | `tu_v29` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 294.5K | `v863.1_a7xx` | Drivers |
+| 25 | Wb64dev | 269.9K | `v10.2` | Winlator |
+| 26 | BannerHub (The412Banner) | 186.4K | `v3.8.0` | GameHub |
+| 27 | X360 Mobile | 144.7K | `v0.5.3_preview` | Xbox 360 |
 | 28 | ExaGear 302 | 143.7K | `v3.0.2.2-egw` | PC Emulator |
-| 29 | Winlator Bionic Stredohiri | 104.6K | `26f65e9` | Winlator |
-| 30 | NetherSX2-Turnip | 101.5K | `v0.7` | Emulator PS2 |
+| 29 | Winlator Bionic Stredohiri | 104.7K | `26f65e9` | Winlator |
+| 30 | NetherSX2-Turnip | 101.6K | `v0.7` | Emulator PS2 |
 | 31 | Pluvia | 97.8K | `v1.3.2` | PC Emulator |
-| 32 | Star (fork) | 88.5K | `1.3` | Winlator |
+| 32 | Star (fork) | 88.6K | `1.3` | Winlator |
 | 33 | Winlator Ajay | 76.7K | `v11.1-hotfix2` | Winlator |
 | 34 | Lemuroid | 74.7K | `1.17.0` | All In One |
 | 35 | MiceWine | 73.9K | `ba4b91b` | PC Emulator |
-| 36 | Winlator X | 71.4K | `v3.0.1-beta` | Winlator |
-| 37 | hakuX | 69.4K | `v0.3.1` | Xbox |
+| 36 | Winlator X | 71.5K | `v3.0.1-beta` | Winlator |
+| 37 | hakuX | 69.5K | `v0.3.1` | Xbox |
 | 38 | Winlator Bionic jhinzuo | 56.1K | `dev8` | Winlator |
 | 39 | Steamlator | 54.3K | `1.7` | Winlator |
 | 40 | Winlator Ref4ik (Drivers/Wine) | 53.2K | `v9` | Drivers |
 | 41 | Winlator Ref4ik | 53.2K | `v9` | Winlator |
 | 42 | Adrenotools Drivers (StevenMXZ) | 44.5K | `v849` | Drivers |
-| 43 | X1 BOX | 35.9K | `1.2.5` | Xbox |
-| 44 | ARMSX2 | 35.6K | `2.3.8` | Emulator PS2 |
+| 43 | X1 BOX | 36.0K | `1.2.5` | Xbox |
+| 44 | ARMSX2 | 35.9K | `2.3.8` | Emulator PS2 |
 | 45 | Winlator Honkon | 26.6K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 21.7K | `Winlator_Brasil_10.1` | Winlator |
 | 47 | Mobox Patched | 19.4K | `Mobox_Patched_3.0` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-06-26T17:15:15.968Z_
+_Last auto-generated: 2026-06-26T19:16:57.541Z_
