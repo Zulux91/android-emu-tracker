@@ -23,32 +23,32 @@
 | 10 | Winlator Ludashi | 1.1M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 997.6K | `v7.1.5` | Winlator |
 | 12 | Winlator Coffincolors | 783.0K | `winlator_cmod_update_december_2025` | Winlator |
-| 13 | RPCSX Android | 772.2K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 734.1K | `v2.6` | Sega Dreamcast |
-| 15 | Dolphin MMJR2 VBI | 718.8K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 13 | RPCSX Android | 772.3K | `v20250425` | Emulator PS3 |
+| 14 | Flycast | 734.2K | `v2.6` | Sega Dreamcast |
+| 15 | Dolphin MMJR2 VBI | 718.9K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 16 | Winlator Afei | 697.7K | `10.1hotfix-Amod3fix2` | Winlator |
-| 17 | GameNative | 696.7K | `v1.1.1-prerelease` | GameNative |
+| 17 | GameNative | 697.0K | `v1.1.1-prerelease` | GameNative |
 | 18 | XoDos | 688.5K | `1.0.3-link` | PC Emulator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 649.5K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 521.0K | `2.40` | Emulator PS3 |
-| 21 | Winlator Mali | 486.4K | `bionic-mali-1.1` | Winlator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 649.6K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 521.1K | `2.40` | Emulator PS3 |
+| 21 | Winlator Mali | 486.6K | `bionic-mali-1.1` | Winlator |
 | 22 | Horizon Emu | 463.8K | `v4` | PC Emulator |
-| 23 | Freedreno Turnip CI (whitebelyash) | 447.3K | `tu_v29` | Drivers |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 354.9K | `v863.1_a7xx` | Drivers |
+| 23 | Freedreno Turnip CI (whitebelyash) | 447.5K | `tu_v29` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 355.3K | `v863.1_a7xx` | Drivers |
 | 25 | Wb64dev | 276.1K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 228.8K | `v3.8.0` | GameHub |
-| 27 | X360 Mobile | 197.9K | `v0.5.3_preview` | Xbox 360 |
+| 26 | BannerHub (The412Banner) | 228.9K | `v3.8.0` | GameHub |
+| 27 | X360 Mobile | 198.0K | `v0.5.3_preview` | Xbox 360 |
 | 28 | ExaGear 302 | 151.3K | `v3.0.2.2-egw` | PC Emulator |
-| 29 | NetherSX2-Turnip | 128.3K | `v0.7` | Emulator PS2 |
+| 29 | NetherSX2-Turnip | 128.4K | `v0.7` | Emulator PS2 |
 | 30 | Winlator Bionic Stredohiri | 112.6K | `26f65e9` | Winlator |
 | 31 | Star (fork) | 98.5K | `star-winhub-progrwss` | Winlator |
 | 32 | Pluvia | 98.4K | `v1.3.2` | PC Emulator |
 | 33 | Winlator Ajay | 82.0K | `v11.1-hotfix2` | Winlator |
-| 34 | Lemuroid | 78.5K | `1.17.0` | All In One |
+| 34 | Lemuroid | 78.6K | `1.17.0` | All In One |
 | 35 | hakuX | 78.4K | `v0.3.1` | Xbox |
 | 36 | MiceWine | 76.7K | `ba4b91b` | PC Emulator |
 | 37 | Winlator X | 74.0K | `v3.0.1-beta` | Winlator |
-| 38 | ARMSX2 | 73.4K | `2.6.3` | Emulator PS2 |
+| 38 | ARMSX2 | 73.9K | `2.6.3` | Emulator PS2 |
 | 39 | Winlator Bionic jhinzuo | 60.2K | `dev8` | Winlator |
 | 40 | Winlator Ref4ik (Drivers/Wine) | 58.8K | `V10Hotfix` | Drivers |
 | 41 | Winlator Ref4ik | 58.8K | `V10Hotfix` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-07-20T18:50:48.242Z_
+_Last auto-generated: 2026-07-20T20:17:16.767Z_
