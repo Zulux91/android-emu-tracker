@@ -24,9 +24,9 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | Winlator Coffincolors | 789.0K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 781.2K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 742.8K | `v2.6` | Sega Dreamcast |
+| 14 | Flycast | 742.9K | `v2.6` | Sega Dreamcast |
 | 15 | Dolphin MMJR2 VBI | 723.8K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 16 | GameNative | 711.8K | `v1.1.1` | GameNative |
+| 16 | GameNative | 712.0K | `v1.1.1` | GameNative |
 | 17 | Winlator Afei | 701.2K | `10.1hotfix-Amod3fix2` | Winlator |
 | 18 | XoDos | 694.8K | `1.0.3-link` | PC Emulator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 658.8K | `25.3.0-devel_bbdd688` | Drivers |
@@ -48,7 +48,7 @@
 | 35 | Lemuroid | 79.8K | `1.17.0` | All In One |
 | 36 | MiceWine | 77.5K | `ba4b91b` | PC Emulator |
 | 37 | Winlator X | 74.9K | `v3.0.1-beta` | Winlator |
-| 38 | ARMSX2 | 71.6K | `2.6.5.9` | Emulator PS2 |
+| 38 | ARMSX2 | 72.4K | `2.6.5.9` | Emulator PS2 |
 | 39 | Winlator Ref4ik (Drivers/Wine) | 62.5K | `V10Hotfix` | Drivers |
 | 40 | Winlator Ref4ik | 62.5K | `V10Hotfix` | Winlator |
 | 41 | Winlator Bionic jhinzuo | 60.6K | `dev8` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-07-28T17:51:28.597Z_
+_Last auto-generated: 2026-07-28T19:15:28.671Z_
