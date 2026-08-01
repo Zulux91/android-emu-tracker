@@ -22,39 +22,39 @@
 | 9 | GameHub Lite (Producdevity) | 1.2M | `v5.1.8` | GameHub |
 | 10 | Winlator Ludashi | 1.1M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | Winlator Coffincolors | 791.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 13 | RPCSX Android | 784.8K | `v20250425` | Emulator PS3 |
-| 14 | Flycast | 747.3K | `v2.6` | Sega Dreamcast |
-| 15 | GameNative | 726.1K | `v1.1.1` | GameNative |
-| 16 | Dolphin MMJR2 VBI | 725.9K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | Winlator Afei | 702.6K | `10.1hotfix-Amod3fix2` | Winlator |
-| 18 | XoDos | 697.6K | `1.0.3-link` | PC Emulator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 662.6K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 539.9K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 506.5K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 469.1K | `tu_v30` | Drivers |
+| 12 | Winlator Coffincolors | 791.4K | `winlator_cmod_update_december_2025` | Winlator |
+| 13 | RPCSX Android | 784.9K | `v20250425` | Emulator PS3 |
+| 14 | Flycast | 747.5K | `v2.6` | Sega Dreamcast |
+| 15 | GameNative | 726.5K | `v1.1.1` | GameNative |
+| 16 | Dolphin MMJR2 VBI | 726.0K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | Winlator Afei | 702.7K | `10.1hotfix-Amod3fix2` | Winlator |
+| 18 | XoDos | 697.7K | `1.0.3-link` | PC Emulator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 662.8K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 540.5K | `2.41` | Emulator PS3 |
+| 21 | Winlator Mali | 506.7K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 469.5K | `tu_v30` | Drivers |
 | 23 | Horizon Emu | 466.3K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 406.7K | `v863.1_a7xx` | Drivers |
-| 25 | Wb64dev | 279.0K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 248.0K | `v3.8.0` | GameHub |
-| 27 | X360 Mobile | 223.3K | `v0.5.3_preview` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 407.3K | `v863.1_a7xx` | Drivers |
+| 25 | Wb64dev | 279.1K | `v10.2` | Winlator |
+| 26 | BannerHub (The412Banner) | 248.2K | `v3.8.0` | GameHub |
+| 27 | X360 Mobile | 223.6K | `v0.5.3_preview` | Xbox 360 |
 | 28 | ExaGear 302 | 154.2K | `v3.0.2.2-egw` | PC Emulator |
-| 29 | NetherSX2-Turnip | 141.0K | `v0.7` | Emulator PS2 |
+| 29 | NetherSX2-Turnip | 141.1K | `v0.7` | Emulator PS2 |
 | 30 | Winlator Bionic Stredohiri | 116.0K | `26f65e9` | Winlator |
-| 31 | Star (fork) | 101.7K | `star-winhub-progrwss` | Winlator |
+| 31 | Star (fork) | 101.8K | `star-winhub-progrwss` | Winlator |
 | 32 | Pluvia | 98.6K | `v1.3.2` | PC Emulator |
-| 33 | hakuX | 85.1K | `v0.3.1` | Xbox |
+| 33 | hakuX | 85.2K | `v0.3.1` | Xbox |
 | 34 | Winlator Ajay | 84.4K | `v11.1-hotfix2` | Winlator |
 | 35 | Lemuroid | 80.4K | `1.17.0` | All In One |
-| 36 | ARMSX2 | 78.4K | `iOSv2.5.1` | Emulator PS2 |
+| 36 | ARMSX2 | 79.4K | `iOSv2.5.1` | Emulator PS2 |
 | 37 | MiceWine | 77.8K | `ba4b91b` | PC Emulator |
-| 38 | Winlator X | 75.3K | `v3.0.1-beta` | Winlator |
+| 38 | Winlator X | 75.4K | `v3.0.1-beta` | Winlator |
 | 39 | Winlator Ref4ik (Drivers/Wine) | 63.6K | `V10Hotfix` | Drivers |
 | 40 | Winlator Ref4ik | 63.6K | `V10Hotfix` | Winlator |
 | 41 | Winlator Bionic jhinzuo | 61.0K | `dev8` | Winlator |
 | 42 | Steamlator | 59.4K | `1.7` | Winlator |
 | 43 | X1 BOX | 49.9K | `1.2.5` | Xbox |
-| 44 | Adrenotools Drivers (StevenMXZ) | 46.9K | `v849` | Drivers |
+| 44 | Adrenotools Drivers (StevenMXZ) | 47.0K | `v849` | Drivers |
 | 45 | Winlator Honkon | 28.9K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 22.4K | `Winlator_Brasil_10.1` | Winlator |
 | 47 | Mobox Patched | 20.1K | `Mobox_Patched_3.0` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-01T02:34:17.955Z_
+_Last auto-generated: 2026-08-01T05:50:26.552Z_
