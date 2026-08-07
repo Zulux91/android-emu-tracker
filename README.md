@@ -25,22 +25,22 @@
 | 12 | Winlator Coffincolors | 795.7K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 791.7K | `v20250425` | Emulator PS3 |
 | 14 | Flycast | 754.4K | `v2.6` | Sega Dreamcast |
-| 15 | GameNative | 746.1K | `v1.1.1` | GameNative |
+| 15 | GameNative | 746.2K | `v1.1.1` | GameNative |
 | 16 | Dolphin MMJR2 VBI | 729.9K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | Winlator Afei | 705.5K | `10.1hotfix-Amod3fix2` | Winlator |
 | 18 | XoDos | 702.7K | `1.0.3-link` | PC Emulator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 669.7K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 561.3K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 517.3K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 486.7K | `tu_v30` | Drivers |
+| 20 | APS3e | 561.4K | `2.41` | Emulator PS3 |
+| 21 | Winlator Mali | 517.4K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 486.8K | `tu_v30` | Drivers |
 | 23 | Horizon Emu | 467.8K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 396.8K | `v863.1_a7xx` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 397.0K | `v863.1_a7xx` | Drivers |
 | 25 | Wb64dev | 280.6K | `v10.2` | Winlator |
 | 26 | BannerHub (The412Banner) | 257.8K | `v3.8.0` | GameHub |
 | 27 | X360 Mobile | 237.5K | `v0.5.3_preview` | Xbox 360 |
 | 28 | ExaGear 302 | 155.7K | `v3.0.2.2-egw` | PC Emulator |
 | 29 | NetherSX2-Turnip | 147.7K | `v0.7` | Emulator PS2 |
-| 30 | ARMSX2 | 126.8K | `iOSv2.5.2` | Emulator PS2 |
+| 30 | ARMSX2 | 127.1K | `iOSv2.5.2` | Emulator PS2 |
 | 31 | Winlator Bionic Stredohiri | 118.1K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 103.3K | `star-winhub-progrwss` | Winlator |
 | 33 | Pluvia | 98.7K | `v1.3.2` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-07T10:47:06.507Z_
+_Last auto-generated: 2026-08-07T11:40:34.817Z_
