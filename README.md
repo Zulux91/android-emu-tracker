@@ -30,21 +30,21 @@
 | 17 | Winlator Afei | 705.8K | `10.1hotfix-Amod3fix2` | Winlator |
 | 18 | XoDos | 703.6K | `1.0.3-link` | PC Emulator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 670.8K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 563.9K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 519.1K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 475.5K | `tu_v31` | Drivers |
+| 20 | APS3e | 564.1K | `2.41` | Emulator PS3 |
+| 21 | Winlator Mali | 519.2K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 475.6K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 468.0K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 402.0K | `v863.1_a7xx` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 402.3K | `v863.1_a7xx` | Drivers |
 | 25 | Wb64dev | 280.8K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 259.1K | `v3.8.0` | GameHub |
-| 27 | X360 Mobile | 246.0K | `v0.6.0` | Xbox 360 |
+| 26 | BannerHub (The412Banner) | 259.2K | `v3.8.0` | GameHub |
+| 27 | X360 Mobile | 246.4K | `v0.6.0` | Xbox 360 |
 | 28 | ExaGear 302 | 156.0K | `v3.0.2.2-egw` | PC Emulator |
 | 29 | NetherSX2-Turnip | 148.7K | `v0.7` | Emulator PS2 |
-| 30 | ARMSX2 | 135.1K | `iOSv2.5.2` | Emulator PS2 |
+| 30 | ARMSX2 | 134.7K | `nightly-20260808` | Emulator PS2 |
 | 31 | Winlator Bionic Stredohiri | 118.4K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 103.6K | `star-winhub-progrwss` | Winlator |
 | 33 | Pluvia | 98.7K | `v1.3.2` | PC Emulator |
-| 34 | hakuX | 90.2K | `v0.3.1` | Xbox |
+| 34 | hakuX | 90.3K | `v0.3.1` | Xbox |
 | 35 | Winlator Ajay | 85.8K | `v11.1-hotfix2` | Winlator |
 | 36 | Lemuroid | 81.6K | `1.17.0` | All In One |
 | 37 | MiceWine | 78.6K | `ba4b91b` | PC Emulator |
@@ -53,7 +53,7 @@
 | 40 | Winlator Ref4ik | 65.6K | `V10Hotfix` | Winlator |
 | 41 | Winlator Bionic jhinzuo | 61.7K | `dev8` | Winlator |
 | 42 | Steamlator | 60.4K | `1.7` | Winlator |
-| 43 | X1 BOX | 53.4K | `1.2.5` | Xbox |
+| 43 | X1 BOX | 53.5K | `1.2.5` | Xbox |
 | 44 | Adrenotools Drivers (StevenMXZ) | 47.4K | `v849` | Drivers |
 | 45 | Winlator Honkon | 29.2K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 22.5K | `Winlator_Brasil_10.1` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-08T08:33:01.512Z_
+_Last auto-generated: 2026-08-08T09:31:46.996Z_
