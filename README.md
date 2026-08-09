@@ -14,7 +14,7 @@
 | 🥇 | Winlator BrunoDev | 14.7M | `v11.1.0` | Winlator |
 | 🥈 | Citra (weihuoya) | 4.8M | `20251112` | Nintendo 3DS |
 | 🥉 | Vita3K Android | 4.3M | `v12` | PSVITA |
-| 4 | Adreno Tools Drivers | 3.6M | `v840` | Drivers |
+| 4 | Adreno Tools Drivers | 3.7M | `v840` | Drivers |
 | 5 | NetherSX2 Patch | 3.2M | `2.2n` | Emulator PS2 |
 | 6 | Cemu | 2.7M | `0.5` | Wii U Emulator |
 | 7 | Azahar | 2.4M | `2126.0-rc5` | Nintendo 3DS |
@@ -29,22 +29,22 @@
 | 16 | Dolphin MMJR2 VBI | 731.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | Winlator Afei | 706.4K | `10.1hotfix-Amod3fix2` | Winlator |
 | 18 | XoDos | 705.0K | `1.0.3-link` | PC Emulator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 672.6K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 568.0K | `2.41` | Emulator PS3 |
+| 19 | Freedreno Turnip CI (Weab-chan) | 672.7K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 568.1K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 522.1K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 481.4K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 468.4K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 410.7K | `v863.1_a7xx` | Drivers |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 410.9K | `v863.1_a7xx` | Drivers |
 | 25 | Wb64dev | 281.2K | `v10.2` | Winlator |
-| 26 | BannerHub (The412Banner) | 261.6K | `v3.8.0` | GameHub |
-| 27 | X360 Mobile | 259.0K | `v0.6.0` | Xbox 360 |
+| 26 | BannerHub (The412Banner) | 261.7K | `v3.8.0` | GameHub |
+| 27 | X360 Mobile | 259.2K | `v0.6.0` | Xbox 360 |
 | 28 | ExaGear 302 | 156.4K | `v3.0.2.2-egw` | PC Emulator |
 | 29 | NetherSX2-Turnip | 150.3K | `v0.7` | Emulator PS2 |
-| 30 | ARMSX2 | 145.6K | `nightly-20260809` | Emulator PS2 |
+| 30 | ARMSX2 | 145.8K | `nightly-20260809` | Emulator PS2 |
 | 31 | Winlator Bionic Stredohiri | 118.8K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 104.0K | `star-winhub-progrwss` | Winlator |
 | 33 | Pluvia | 98.7K | `v1.3.2` | PC Emulator |
-| 34 | hakuX | 92.0K | `v0.3.1` | Xbox |
+| 34 | hakuX | 92.1K | `v0.3.1` | Xbox |
 | 35 | Winlator Ajay | 86.1K | `v11.1-hotfix2` | Winlator |
 | 36 | Lemuroid | 81.9K | `1.17.0` | All In One |
 | 37 | MiceWine | 78.8K | `ba4b91b` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-09T19:28:35.780Z_
+_Last auto-generated: 2026-08-09T19:58:07.399Z_
