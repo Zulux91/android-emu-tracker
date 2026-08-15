@@ -32,16 +32,16 @@
 | 19 | Freedreno Turnip CI (Weab-chan) | 679.5K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 583.0K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 532.6K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 501.9K | `tu_v31` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 502.0K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 469.7K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 445.8K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 301.6K | `v0.6.1-public.1` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 445.9K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 301.8K | `v0.6.1-public.1` | Xbox 360 |
 | 26 | Wb64dev | 282.6K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 270.6K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 205.9K | `nightly-20260815` | Emulator PS2 |
+| 28 | ARMSX2 | 206.1K | `nightly-20260815` | Emulator PS2 |
 | 29 | ExaGear 302 | 157.9K | `v3.0.2.2-egw` | PC Emulator |
 | 30 | NetherSX2-Turnip | 157.7K | `v0.7` | Emulator PS2 |
-| 31 | Winlator Bionic Stredohiri | 120.8K | `26f65e9` | Winlator |
+| 31 | Winlator Bionic Stredohiri | 120.9K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 105.7K | `star-winhub-progrwss` | Winlator |
 | 33 | Pluvia | 98.9K | `v1.3.2` | PC Emulator |
 | 34 | hakuX | 98.2K | `v0.3.1` | Xbox |
@@ -53,7 +53,7 @@
 | 40 | Winlator Ref4ik (Drivers/Wine) | 69.5K | `V11` | Drivers |
 | 41 | Winlator Ref4ik | 69.5K | `V11` | Winlator |
 | 42 | Winlator Bionic jhinzuo | 62.4K | `dev8` | Winlator |
-| 43 | Steamlator | 61.4K | `1.7` | Winlator |
+| 43 | Steamlator | 61.5K | `1.7` | Winlator |
 | 44 | Adrenotools Drivers (StevenMXZ) | 48.0K | `v849` | Drivers |
 | 45 | Winlator Honkon | 29.3K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 22.8K | `Winlator_Brasil_10.1` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-15T22:45:21.231Z_
+_Last auto-generated: 2026-08-15T23:15:30.926Z_
