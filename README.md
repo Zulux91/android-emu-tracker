@@ -24,8 +24,8 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | Winlator Coffincolors | 802.0K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 801.2K | `v20250425` | Emulator PS3 |
-| 14 | GameNative | 770.1K | `v1.1.1` | GameNative |
-| 15 | Flycast | 765.4K | `v2.6` | Sega Dreamcast |
+| 14 | GameNative | 770.2K | `v1.1.1` | GameNative |
+| 15 | Flycast | 765.5K | `v2.6` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 735.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 709.8K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 709.0K | `10.1hotfix-Amod3fix2` | Winlator |
@@ -34,13 +34,13 @@
 | 21 | Winlator Mali | 532.4K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 501.4K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 469.7K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 444.9K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 300.4K | `v0.6.1-public.1` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 445.0K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 300.6K | `v0.6.1-public.1` | Xbox 360 |
 | 26 | Wb64dev | 282.5K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 270.4K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 204.3K | `nightly-20260815` | Emulator PS2 |
+| 28 | ARMSX2 | 204.6K | `nightly-20260815` | Emulator PS2 |
 | 29 | ExaGear 302 | 157.9K | `v3.0.2.2-egw` | PC Emulator |
-| 30 | NetherSX2-Turnip | 157.5K | `v0.7` | Emulator PS2 |
+| 30 | NetherSX2-Turnip | 157.6K | `v0.7` | Emulator PS2 |
 | 31 | Winlator Bionic Stredohiri | 120.8K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 105.6K | `star-winhub-progrwss` | Winlator |
 | 33 | Pluvia | 98.9K | `v1.3.2` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-15T19:16:58.263Z_
+_Last auto-generated: 2026-08-15T19:43:40.653Z_
