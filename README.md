@@ -24,21 +24,21 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | Winlator Coffincolors | 802.9K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 802.4K | `v20250425` | Emulator PS3 |
-| 14 | GameNative | 773.3K | `v1.1.1` | GameNative |
-| 15 | Flycast | 766.9K | `v2.6` | Sega Dreamcast |
+| 14 | GameNative | 773.4K | `v1.1.1` | GameNative |
+| 15 | Flycast | 767.0K | `v2.6` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 736.0K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 710.8K | `1.0.3-link` | PC Emulator |
+| 17 | XoDos | 710.9K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 709.5K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 680.4K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 585.0K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 534.4K | `bionic-mali-1.1` | Winlator |
+| 21 | Winlator Mali | 534.5K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 504.9K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 470.0K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 451.5K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 307.7K | `v0.6.2` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 451.6K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 308.0K | `v0.6.2` | Xbox 360 |
 | 26 | Wb64dev | 282.7K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 272.2K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 214.0K | `nightly-20260815` | Emulator PS2 |
+| 28 | ARMSX2 | 214.2K | `nightly-20260815` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 158.8K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 158.2K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 121.1K | `26f65e9` | Winlator |
@@ -50,8 +50,8 @@
 | 37 | MiceWine | 79.6K | `ba4b91b` | PC Emulator |
 | 38 | Winlator X | 77.4K | `v3.0.1-beta` | Winlator |
 | 39 | X1 BOX | 72.6K | `1.2.6` | Xbox |
-| 40 | Winlator Ref4ik (Drivers/Wine) | 69.9K | `V11` | Drivers |
-| 41 | Winlator Ref4ik | 69.9K | `V11` | Winlator |
+| 40 | Winlator Ref4ik (Drivers/Wine) | 70.0K | `V11` | Drivers |
+| 41 | Winlator Ref4ik | 70.0K | `V11` | Winlator |
 | 42 | Winlator Bionic jhinzuo | 62.5K | `dev8` | Winlator |
 | 43 | Steamlator | 61.6K | `1.7` | Winlator |
 | 44 | Adrenotools Drivers (StevenMXZ) | 48.0K | `v849` | Drivers |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-16T19:16:48.337Z_
+_Last auto-generated: 2026-08-16T19:42:26.066Z_
