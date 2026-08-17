@@ -11,64 +11,64 @@
 
 | Rank | Project | Downloads | Latest | Category |
 |------|---------|-----------|--------|----------|
-| 🥇 | Winlator Ajay | 87.7K | `v11.1-hotfix2` | Winlator |
-| 🥈 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
-| 🥉 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
-| 4 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
-| 5 | BannerHub (The412Banner) | 0 | `—` | GameHub |
-| 6 | Adreno Tools Drivers | 0 | `—` | Drivers |
-| 7 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
-| 8 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
-| 9 | Freedreno Turnip CI (StevenMXZ) | 0 | `—` | Drivers |
-| 10 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
-| 11 | Upload Grave | 0 | `—` | Drivers |
-| 12 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
-| 13 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
-| 14 | GameNative | 0 | `—` | GameNative |
-| 15 | GameNative Performance | 0 | `—` | GameNative |
-| 16 | Winlator BrunoDev | 0 | `—` | Winlator |
-| 17 | Winlator Ludashi | 0 | `—` | Winlator |
-| 18 | Winlator Afei | 0 | `—` | Winlator |
-| 19 | Winlator Xmod | 0 | `—` | Winlator |
-| 20 | Winlator Ref4ik | 0 | `—` | Winlator |
-| 21 | Winlator Coffincolors | 0 | `—` | Winlator |
-| 22 | Winlator X | 0 | `—` | Winlator |
-| 23 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
-| 24 | Winlator XR | 0 | `—` | Winlator |
-| 25 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
-| 26 | Winlator Bionic duckyduckG | 0 | `—` | Winlator |
-| 27 | Winlator Bionic Stredohiri | 0 | `—` | Winlator |
-| 28 | Winlator Bionic Alexoqool | 0 | `—` | Winlator |
-| 29 | Winlator Honkon | 0 | `—` | Winlator |
-| 30 | Winlator Glibc | 0 | `—` | Winlator |
-| 31 | Wb64dev | 0 | `—` | Winlator |
-| 32 | Winlator Mali | 0 | `—` | Winlator |
-| 33 | Star (fork) | 0 | `—` | Winlator |
-| 34 | Winlator Brasil | 0 | `—` | Winlator |
-| 35 | Steamlator | 0 | `—` | Winlator |
-| 36 | WinNative (fork) | 0 | `—` | Winlator |
-| 37 | MiceWine | 0 | `—` | PC Emulator |
-| 38 | Horizon Emu | 0 | `—` | PC Emulator |
-| 39 | ExaGear 302 | 0 | `—` | PC Emulator |
-| 40 | XoDos | 0 | `—` | PC Emulator |
-| 41 | Mobox Patched | 0 | `—` | PC Emulator |
-| 42 | Pluvia | 0 | `—` | PC Emulator |
-| 43 | Cemu | 0 | `—` | Wii U Emulator |
-| 44 | X1 BOX | 0 | `—` | Xbox |
-| 45 | hakuX | 0 | `—` | Xbox |
-| 46 | X360 Mobile | 0 | `—` | Xbox 360 |
-| 47 | Eden Emulator | 0 | `v0.2.1` | Nintendo Switch Emulator |
-| 48 | Eden Emulator Nightly | 0 | `v1786904188.dc95cd09ee` | Nintendo Switch Emulator |
-| 49 | Azahar | 0 | `—` | Nintendo 3DS |
-| 50 | Citra (weihuoya) | 0 | `—` | Nintendo 3DS |
-| 51 | APS3e | 0 | `—` | Emulator PS3 |
-| 52 | RPCSX Android | 0 | `—` | Emulator PS3 |
-| 53 | ARMSX2 | 0 | `—` | Emulator PS2 |
-| 54 | NetherSX2 Patch | 0 | `—` | Emulator PS2 |
-| 55 | NetherSX2 Classic | 0 | `—` | Emulator PS2 |
-| 56 | NetherSX2-Turnip | 0 | `—` | Emulator PS2 |
-| 57 | Vita3K Android | 0 | `—` | PSVITA |
-| 58 | Dolphin MMJR2 VBI | 0 | `—` | Nintendo GameCube / Wii |
+| 🥇 | Dolphin MMJR2 VBI | 736.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 🥈 | Winlator Bionic duckyduckG | 1.3K | `8de79b1` | Winlator |
+| 🥉 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
+| 4 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
+| 5 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
+| 6 | BannerHub (The412Banner) | 0 | `—` | GameHub |
+| 7 | Adreno Tools Drivers | 0 | `—` | Drivers |
+| 8 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
+| 9 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
+| 10 | Freedreno Turnip CI (StevenMXZ) | 0 | `—` | Drivers |
+| 11 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
+| 12 | Upload Grave | 0 | `—` | Drivers |
+| 13 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
+| 14 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
+| 15 | GameNative | 0 | `—` | GameNative |
+| 16 | GameNative Performance | 0 | `—` | GameNative |
+| 17 | Winlator BrunoDev | 0 | `—` | Winlator |
+| 18 | Winlator Ludashi | 0 | `—` | Winlator |
+| 19 | Winlator Afei | 0 | `—` | Winlator |
+| 20 | Winlator Xmod | 0 | `—` | Winlator |
+| 21 | Winlator Ref4ik | 0 | `—` | Winlator |
+| 22 | Winlator Ajay | 0 | `—` | Winlator |
+| 23 | Winlator Coffincolors | 0 | `—` | Winlator |
+| 24 | Winlator X | 0 | `—` | Winlator |
+| 25 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
+| 26 | Winlator XR | 0 | `—` | Winlator |
+| 27 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
+| 28 | Winlator Bionic Stredohiri | 0 | `—` | Winlator |
+| 29 | Winlator Bionic Alexoqool | 0 | `—` | Winlator |
+| 30 | Winlator Honkon | 0 | `—` | Winlator |
+| 31 | Winlator Glibc | 0 | `—` | Winlator |
+| 32 | Wb64dev | 0 | `—` | Winlator |
+| 33 | Winlator Mali | 0 | `—` | Winlator |
+| 34 | Star (fork) | 0 | `—` | Winlator |
+| 35 | Winlator Brasil | 0 | `—` | Winlator |
+| 36 | Steamlator | 0 | `—` | Winlator |
+| 37 | WinNative (fork) | 0 | `—` | Winlator |
+| 38 | MiceWine | 0 | `—` | PC Emulator |
+| 39 | Horizon Emu | 0 | `—` | PC Emulator |
+| 40 | ExaGear 302 | 0 | `—` | PC Emulator |
+| 41 | XoDos | 0 | `—` | PC Emulator |
+| 42 | Mobox Patched | 0 | `—` | PC Emulator |
+| 43 | Pluvia | 0 | `—` | PC Emulator |
+| 44 | Cemu | 0 | `—` | Wii U Emulator |
+| 45 | X1 BOX | 0 | `—` | Xbox |
+| 46 | hakuX | 0 | `—` | Xbox |
+| 47 | X360 Mobile | 0 | `—` | Xbox 360 |
+| 48 | Eden Emulator | 0 | `v0.2.1` | Nintendo Switch Emulator |
+| 49 | Eden Emulator Nightly | 0 | `v1786904188.dc95cd09ee` | Nintendo Switch Emulator |
+| 50 | Azahar | 0 | `—` | Nintendo 3DS |
+| 51 | Citra (weihuoya) | 0 | `—` | Nintendo 3DS |
+| 52 | APS3e | 0 | `—` | Emulator PS3 |
+| 53 | RPCSX Android | 0 | `—` | Emulator PS3 |
+| 54 | ARMSX2 | 0 | `—` | Emulator PS2 |
+| 55 | NetherSX2 Patch | 0 | `—` | Emulator PS2 |
+| 56 | NetherSX2 Classic | 0 | `—` | Emulator PS2 |
+| 57 | NetherSX2-Turnip | 0 | `—` | Emulator PS2 |
+| 58 | Vita3K Android | 0 | `—` | PSVITA |
 | 59 | Flycast | 0 | `—` | Sega Dreamcast |
 | 60 | Lemuroid | 0 | `—` | All In One |
 
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-17T14:53:12.815Z_
+_Last auto-generated: 2026-08-17T15:20:34.899Z_

@@ -1,126 +1,571 @@
 {
-  "updatedAt": "2026-08-17T14:53:12.815Z",
-  "nextUpdateAt": "2026-08-17T15:23:12.815Z",
+  "updatedAt": "2026-08-17T15:20:34.899Z",
+  "nextUpdateAt": "2026-08-17T15:50:34.899Z",
   "totalProjects": 60,
-  "projectsWithReleases": 3,
-  "projectsWithoutReleases": 57,
+  "projectsWithReleases": 4,
+  "projectsWithoutReleases": 56,
   "results": [
     {
-      "name": "Winlator Ajay",
-      "repo": "ajay9634/winlator-ajay",
-      "category": "Winlator",
-      "downloads": 87696,
+      "name": "Dolphin MMJR2 VBI",
+      "repo": "Medard22/Dolphin-MMJR2-VBI",
+      "category": "Nintendo GameCube / Wii",
+      "downloads": 736539,
       "releases": [
         {
-          "name": "Winlator 11.1 hotfix 2 mod Ajay (old version)",
-          "tag": "v11.1-hotfix2",
-          "date": "2026-06-15T05:01:20Z",
-          "downloads": 9212,
-          "body": "## Changelog (Based on Official v11.1 Hotfix 2)\r\n\r\n(Go to Official Winlator GitHub to get latest winlator 11.1 final)\r\n---\r\n### **Ajay_Custom_Components**\r\nYou can install various components—such as d7vk, dxwrapper_ddraw, dxwrapper_d3d8, d3d8to9, and custom—directly from the `D:/winlator/Ajay_Custom_Components` directory. If a newer version of these components becomes available, simply replace the existing DLLs in that folder to update them.\r\n\r\nThese components will be installed upon container launch, not shortcut launch.\r\n\r\n### **Drive Path Update**\r\n* **Path Migration:** Changed `drive E` to `drive K` for `installed_components`.\r\n* **Manual Installation:** Supported manual copying of components directly to `drive K\\installed_components\\`.\r\n\r\n### **System & Environment**\r\n* **Automated Symlink:** Mapped `C:\\users` to `Z:\\home\\Ajay_drive\\users` to prevent save data loss when switching containers.\r\n* **Environment Variables:** Added some env variables.\r\n* **Box64rc Optimization:** Updated config for trainer compatibility and added \"trainer\" keyword logic for auto-application.\r\n\r\n### **Quick Access (Start Menu)**\r\n* **Components Downloader:** Added GUI app for one-click downloads of **Box64**, **Turnip**, **DXVK** etc.\r\n* **Latest box64rc Downloader:** Added option to download the latest **Ajay.box64rc** instantly.\r\n---\r\n#### Note : Don't Change drive K path.\r\n---\r\n\r\n## 📁 Necessary Components and Tools\r\n\r\n### ✅ [D3D Local tzst Files Collection](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/D3D_tzst)  \r\n### ⚙️ [Ajay Prefix Pro](https://github.com/ajay9634/Ajay-prefix) \r\n\r\n---\r\n\r\nRelease Date - 15 June 2026",
+          "name": "U24.07.02-2407",
+          "tag": "U24.07.02-2407",
+          "date": "2025-07-20T08:56:45Z",
+          "downloads": 289933,
+          "body": "Notable changes from U24.03.22-21259\r\n\r\n- Code refactoring and minor fixes\r\n- Fixed a panic alert for Def Jam: Fight for New York and Fifa Street\r\n- Numerous small optimizations to JitARM64\r\n- Small optimizations to DSP HLE audio decoding\r\n- Fixed stuttering from JIT Cache clear - mostly notable in Shadow the Hedgehog\r\n- Set OSD message color to yellow in default AMOLED theme\r\n- Updated Vulkan Memory Allocator and Vulkan Headers\r\n- Updated and optimized app icons\r\n\r\nMissing features - these features from Dolphin Official are not implemented\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is based on the Official Dolphin dev build 2407-1 (Jul 2, 2024). For more information about what has changed check the PR history. \r\n\r\n**General information**\r\n- When I started this project, my only goal was to add the VBI Skip hack to MMJR2. At the time, I had little to no coding experience and knew nothing about Git, GitHub, or Android Studio. Looking back to 2023, I never imagined I’d come this far.\r\n- Fast forward almost a year and a half later—with over 1,100 pull requests—I’ve managed to update this codebase from Dolphin 5.0-18205 (December 2022) all the way to Dolphin 2407 (July 2024). Of course, all the credit goes to the Dolphin Team, since they did the real heavy lifting. My job has simply been figuring out how to make it all work in MMJR2.\r\n- I work on this fork in my free time, mostly for myself, but I’m genuinely happy that so many of you find it useful. The previous release has been downloaded over 150,000 times and that is honestly mind-blowing. \r\n- I’ll keep working to improve MMJR2 for as long as I’m able. Thank you all for your support! \r\n- **Android developers willing to help are welcome!**\r\n\r\n**Caution**\r\n- **Save states from older versions are, unfortunately, NOT compatible with this release. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)\r\n",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/v11.1-hotfix2",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.07.02-2407",
           "assets": [
             {
-              "name": "Winlator_11.1_mod_Ajay.apk",
-              "size": 169771652,
-              "downloads": 9212,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v11.1-hotfix2/Winlator_11.1_mod_Ajay.apk"
+              "name": "Dolphin.MMJR2-VBI-U24.07.02-2407.apk",
+              "size": 13033337,
+              "downloads": 289933,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.07.02-2407/Dolphin.MMJR2-VBI-U24.07.02-2407.apk"
             }
           ]
         },
         {
-          "name": "Winlator 11 Final mod Ajay",
-          "tag": "v11-Final",
-          "date": "2026-04-15T12:46:43Z",
-          "downloads": 13326,
-          "body": "## Changelog (Based on Official v11 Final)\r\n\r\n---\r\n\r\n### **Drive Path Update**\r\n* **Path Migration:** Changed `drive E` to `drive K` for `installed_components`.\r\n* **Manual Installation:** Supported manual copying of components directly to `drive K\\installed_components\\`.\r\n\r\n### **System & Environment**\r\n* **Automated Symlink:** Mapped `C:\\users` to `Z:\\home\\Ajay_drive\\users` to prevent save data loss when switching containers.\r\n* **Environment Variables:** Added some env variables.\r\n* **Box64rc Optimization:** Updated config for trainer compatibility and added \"trainer\" keyword logic for auto-application.\r\n\r\n### **Quick Access (Start Menu)**\r\n* **Components Downloader:** Added GUI app for one-click downloads of **Box64**, **Turnip**, **DXVK** etc. (Improved error handling in hotfix)\r\n* **Latest box64rc Downloader:** Added option to download the latest **Ajay.box64rc** instantly.\r\n---\r\n#### Note : Don't Change drive K path.\r\n---\r\n\r\n## 📁 Necessary Components and Tools\r\n\r\n### ✅ [D3D Local tzst Files Collection](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/D3D_tzst)  \r\n### ⚙️ [Ajay Prefix Pro](https://github.com/ajay9634/Ajay-prefix) \r\n\r\n---",
+          "name": "U24.03.22-21259",
+          "tag": "U24.03.22-21259",
+          "date": "2025-01-11T14:28:43Z",
+          "downloads": 167207,
+          "body": "Changelog from U24.02.01-21065\r\n\r\n- Code refactoring and minor fixes\r\n- Cleaned up build.gradle, updated Android SDK to version 34, and AGP to 8.2.0\r\n- Dropped support for the x86_64 ABI, leading to faster build times and reduced APK size\r\n- Improved scaling at native resolution\r\n- Implemented GC tapserver-based modem adapter and integrated it into the UI\r\n- Optimizations to JitArm64\r\n- Updated GameINI database\r\n\r\nMissing features - these features from Dolphin Official are not implemented\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is roughly equivalent to the Official Dolphin development build 5.0-21259 (Mar 22, 2024). For more information about what has changed check the PR history.\r\n\r\n**General information**\r\n- Android developers willing to help are welcome!\r\n\r\n**Save states from U24.02.01-21065 ARE compatible with this release. Make an in-game save before updating just to be sure!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)\r\n",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/v11-Final",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.03.22-21259",
           "assets": [
             {
-              "name": "Winlator_11.0_Final_mod_Ajay_hotfix.apk",
-              "size": 160309233,
-              "downloads": 13326,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v11-Final/Winlator_11.0_Final_mod_Ajay_hotfix.apk"
+              "name": "Dolphin.MMJR2-VBI-U24.03.22-21259.apk",
+              "size": 13002186,
+              "downloads": 167207,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.03.22-21259/Dolphin.MMJR2-VBI-U24.03.22-21259.apk"
             }
           ]
         },
         {
-          "name": "Winlator 11 beta v3.1 mod Ajay",
-          "tag": "v11-beta",
-          "date": "2026-02-03T05:13:55Z",
-          "downloads": 3308,
-          "body": "### Changelog\r\n\r\n* **Drive path Update:** Changed drive E path to drive K for installed_components , You can copy box64,  turnip etc to drive K.\r\n* **Automated Setup:** Implemented automatic configuration for SymLink folders and required dependencies.\r\n* **Environment Variables:** Added new environment variables for improved configuration.\r\n* **Start Menu:** Added an automatic update check feature to the Start Menu.\r\n* **Box64rc:** Updated `box64rc` specifically for trainer compatibility.\r\n\r\n---\r\n\r\n### Final Update\r\n* **SymLink Fix:** Resolved an issue causing the SymLink process to repeat unnecessarily.\r\n* **Autorun.exe:** The application now runs without a console window.\r\n* **Bug Fixes:** General stability improvements and minor bug resolutions.\r\n\r\n### How to run ajau3 Script for downloading latest dxvk and turnip etc ?\r\nJust install Ajay Prefix Pro then double click on it.\r\nRequirements : Drive K should be mounted of this path -  `/data/data/com.winlator/files`\r\n\r\n### How to run the trainer with game performance presets?\r\nSimply include the word **\"trainer\"** in the filename of your game trainer or Cheat Engine application.\r\n\r\n### Winlator.Ajay.Components.Downloader.ajau3 -\r\nthis program can be run after installing Ajay Prefix Pro. It can download latest installable components (box64 , turnip , wined3d , dxvk , vkd3d etc).\r\n\r\n---\r\n*Note: This release focuses exclusively on streamlining and automating the setup process. Do not close the container if any of the following processes are active in Task Manager: autorun.exe, cmd.exe, wget.exe, xcopy.exe, or 7z.exe.*",
+          "name": "U24.02.01-21065",
+          "tag": "U24.02.01-21065",
+          "date": "2024-12-19T18:01:15Z",
+          "downloads": 26423,
+          "body": "Changelog from U23.12.18-20789\r\n\r\n- A lot of code refactors and small fixes\r\n- Simplified the aspect ratio scaling logic\r\n- Minor improvements to JitARM64\r\n- Fixed reverb volume in Mario Kart: Double Dash!!\r\n- Minor fixes in the pixel shader and ubershader code\r\n- Updated GameINI fixes\r\n\r\nMissing features — these features from Dolphin Official are not yet implemented\r\n\r\n- Android input overhaul and subsequent changes to input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is roughly equivalent to the official Dolphin dev build 5.0-21065 (February 1, 2024). For more information about what has changed check the PR history.\r\n\r\n**General information**\r\n- Android developers willing to help are welcome!\r\n- Merry Christmas, everyone! If, by chance, Christmas isn’t a thing where you live, have a great time. Happy gaming!\r\n\r\n**Caution**\r\n- **Save states from older versions are, unfortunately, NOT compatible with this release due to significant code refactors. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls might get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/v11-beta",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.02.01-21065",
           "assets": [
             {
-              "name": "Winlator.Ajay.Components.Downloader.ajau3",
-              "size": 6467,
-              "downloads": 222,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v11-beta/Winlator.Ajay.Components.Downloader.ajau3"
-            },
-            {
-              "name": "Winlator_11.0_beta_mod_Ajay_v3.1.apk",
-              "size": 152282394,
-              "downloads": 3086,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v11-beta/Winlator_11.0_beta_mod_Ajay_v3.1.apk"
+              "name": "Dolphin.MMJR2-VBI-U24.02.01-21065.apk",
+              "size": 18320564,
+              "downloads": 26423,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.02.01-21065/Dolphin.MMJR2-VBI-U24.02.01-21065.apk"
             }
           ]
         },
         {
-          "name": "Winlator 9 Proot Ajay v3",
-          "tag": "v9-2",
-          "date": "2025-12-07T07:18:31Z",
-          "downloads": 878,
-          "body": "### Changelog -\r\n\r\n- Updated Installable Components path (Box64, Turnip, etc.)\r\n- Bugs fixed\r\n\r\n#### Note  -\r\nThis is a clone app. It can be installed alongside the official latest Winlator.\r\n\r\n### What's special about Winlator PRoot build -\r\nIt uses the latest Wine from Kron4ek, but without the XInput patch.This is the final PRoot-based build.It can be useful for running older PC games.The latest Box64 version is not included in this build.\r\n\r\n### Note about Upcoming Winlator Updates  -\r\nIf a major improvement is released in the official Winlator or if I need to create a backup. Currently, there is no need to modify the latest official Winlator as it is already well-optimized — simply install Ajay Prefix Pro.",
+          "name": "U23.12.18-20789",
+          "tag": "U23.12.18-20789",
+          "date": "2024-12-03T13:44:04Z",
+          "downloads": 16943,
+          "body": "**Changelog from v2.3.000**\r\n\r\n- Fixed volume handling in DSPHLE AX ucode\r\n- Fixed reverb in DSPHLE Zelda ucode\r\n- Many optimizations to JIT\r\n- Changes to memory handling and MMU\r\n- Fixes for some games via GameSettings\r\n- Updated NDK to 26.1.10909125\r\n- Various small fixes\r\n\r\nMissing features - these features from Dolphin Official are not implemented!\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nI´m not sure if anyone even cares anymore, but here is a new release. For more information about what has changed, check the PR history.\r\n\r\n**General information**\r\n- **New versioning system** - From now on, release and beta builds will use the version and date of the upstream codebase the build is based on, following the format \"URR.MM.DD-version\". For example, this release is based on Dolphin 5.0-20789 from December 18, 2023, so its version is: U23.12.18-20789\r\n- Android developers willing to help are welcome!\r\n\r\n**Caution**\r\n- **Save States from older versions are NOT compatible with this release. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/v9-2",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U23.12.18-20789",
           "assets": [
             {
-              "name": "Winlator.9.proot.Ajay.v3.apk",
-              "size": 213776245,
-              "downloads": 878,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v9-2/Winlator.9.proot.Ajay.v3.apk"
+              "name": "Dolphin.MMJR2-VBI-U23.12.18-20789.apk",
+              "size": 18314646,
+              "downloads": 16943,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U23.12.18-20789/Dolphin.MMJR2-VBI-U23.12.18-20789.apk"
             }
           ]
         },
         {
-          "name": "Winlator glibc 7.1.5  Ajay v2",
-          "tag": "7.1.5-glibc",
-          "date": "2025-01-26T04:46:52Z",
-          "downloads": 5094,
-          "body": "(based on longjunyu2 apk)\r\n\r\n## Changelog V2\r\n\r\n- Removed old Ajay prefix (install it manually from GitHub)\r\n- Updated system.reg and user.reg from Winlator 11 beta2\r\n\r\n## Changelog\r\n\r\n- added wined3d options in desktop\r\n- added (sw , weakbarrier and pause env\r\n- added some vc redist dlls as default to boost performance\r\n---\r\n\r\n## 📁 Necessary Components\r\n\r\n### ✅ [Box64 WCP for Winlator GLIBC](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/v7.1.3_longjunyu2_box64_wcp)  \r\n### ✅ [D3D WCP Files Collection](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/D3D_wcp)  \r\n### ✅ [Turnip, Zink, Virgl WCP Collection](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/v7.1.3_longjunyu2_driver_wcp)  \r\n### ✅ [Wine WCP for Winlator GLIBC](https://github.com/ajay9634/PcEmuFiles-Hub/releases/tag/v7.1.3_longjunyu2_wine_wcp)\r\n\r\n---",
+          "name": "v2.3.000",
+          "tag": "v2.3.000",
+          "date": "2024-10-11T15:43:00Z",
+          "downloads": 52456,
+          "body": "### **Changelog for v2.3.000 (from v2.2.110)**\r\n\r\n- Extensive code refactors including a major overhaul of the graphics pipeline\r\n- Graphics pipeline code revision - removed obsolete MMJR2-specific hacks, that are no longer needed\r\n- Revised and improved Asset Loader\r\n- Updated external components like SDL, Cubeb, mGBA, fmt, etc.\r\n- Updated NDK to v25.2.9519653\r\n- Updated Android libraries, now targeting Java 17\r\n- Many JIT optimizations\r\n- Minor updates to the Vulkan backend\r\n- Optimized Vertex Loader\r\n- Updated GameINI database\r\n- Fixed Fast Forward hotkey\r\n- Added support for WiiConnect24 via WiiLink\r\n- Added support for Color Space Correction\r\n- Leveraged LZ4 algorithm for faster savestate decompression\r\n- Updated and fixed multiple instances of partially synced code across the project\r\n\r\n### **Missing features - these features from Dolphin Official are not implemented**\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\n**This codebase is roughly equivalent to the Official Dolphin dev build 5.0-20223 (Oct 15, 2023).**\r\n\r\n### General information\r\nThis release includes over 7 months' worth of code changes ported from Dolphin Official since v2.2.110, and more than 3 months since the last beta. I’ve tested it extensively, but as always, your mileage may vary. 🤷‍♂️ I upgraded my RP3+ to a Retroid Pocket 4 Pro and performed most of the testing on this device.\r\n\r\nAndroid developers willing to help are always welcome! \r\n\r\n### Caution\r\n\r\n- Save States from v2.2.110, v2.3.000-rc1, and v2.3.000-rc2 are NOT compatible with this release. Be sure to have in-game saves before updating!\r\n- Due to the graphics pipeline changes, this build bumps the shader cache UID version. Shaders will need to be cached and built from scratch, so expect some initial shader compilation stutter.\r\n\r\n### Known Issues\r\n\r\nThe UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n\r\nAs always, have fun and happy gaming ✌️",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/7.1.5-glibc",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000",
           "assets": [
             {
-              "name": "Winlator.glibc.Ajay-v2.apk",
-              "size": 300925603,
-              "downloads": 5094,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/7.1.5-glibc/Winlator.glibc.Ajay-v2.apk"
+              "name": "Dolphin.MMJR2-VBI-v2300.apk",
+              "size": 18079286,
+              "downloads": 52456,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000/Dolphin.MMJR2-VBI-v2300.apk"
             }
           ]
         },
         {
-          "name": "Winlator.glibcmod.Steam v7.1.3 v2 (Outdated)",
-          "tag": "v7.1.3-glibc",
-          "date": "2024-11-28T13:56:40Z",
-          "downloads": 55878,
+          "name": "Public beta - v2.3.000-rc2",
+          "tag": "v2.3.000-rc2",
+          "date": "2024-08-27T13:36:53Z",
+          "downloads": 42209,
           "body": "",
           "prerelease": false,
-          "htmlUrl": "https://github.com/ajay9634/winlator-ajay/releases/tag/v7.1.3-glibc",
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000-rc2",
           "assets": [
             {
-              "name": "Winlator.glibcmod.Steam.apk",
-              "size": 1276436450,
-              "downloads": 55878,
-              "url": "https://github.com/ajay9634/winlator-ajay/releases/download/v7.1.3-glibc/Winlator.glibcmod.Steam.apk"
+              "name": "Dolphin.MMJR2-VBI-v2300-r2.apk",
+              "size": 17460549,
+              "downloads": 42209,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000-rc2/Dolphin.MMJR2-VBI-v2300-r2.apk"
+            }
+          ]
+        },
+        {
+          "name": "Public beta - v2.3.000-rc1 ",
+          "tag": "v2.3.000-rc1",
+          "date": "2024-06-07T13:03:07Z",
+          "downloads": 67863,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000-rc1",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI-v2300-rc1.apk",
+              "size": 17459886,
+              "downloads": 67863,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000-rc1/Dolphin.MMJR2-VBI-v2300-rc1.apk"
+            }
+          ]
+        },
+        {
+          "name": "",
+          "tag": "v2.2.110",
+          "date": "2024-01-14T11:50:29Z",
+          "downloads": 57555,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.110",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI-v2211.apk",
+              "size": 17162047,
+              "downloads": 57555,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.110/Dolphin.MMJR2-VBI-v2211.apk"
+            }
+          ]
+        },
+        {
+          "name": "v.2.2.100",
+          "tag": "v2.2.100",
+          "date": "2024-01-09T15:39:30Z",
+          "downloads": 2401,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.100",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI-v221.apk",
+              "size": 17162189,
+              "downloads": 2401,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.100/Dolphin.MMJR2-VBI-v221.apk"
+            }
+          ]
+        },
+        {
+          "name": "v.2.2.000",
+          "tag": "v2.2.000",
+          "date": "2023-12-03T13:19:58Z",
+          "downloads": 5780,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.000",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI-v22.apk",
+              "size": 17164831,
+              "downloads": 5780,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.000/Dolphin.MMJR2-VBI-v22.apk"
+            }
+          ]
+        },
+        {
+          "name": "v2.1.010",
+          "tag": "v2.1.010",
+          "date": "2023-05-04T12:38:58Z",
+          "downloads": 3119,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.1.010",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI.apk",
+              "size": 16908116,
+              "downloads": 3119,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.1.010/Dolphin.MMJR2-VBI.apk"
+            }
+          ]
+        },
+        {
+          "name": "v2.1.000",
+          "tag": "v2.1.000",
+          "date": "2023-04-24T15:21:35Z",
+          "downloads": 4650,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.1.000",
+          "assets": [
+            {
+              "name": "Dolphin.MMJR2-VBI.apk",
+              "size": 16904689,
+              "downloads": 4650,
+              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.1.000/Dolphin.MMJR2-VBI.apk"
             }
           ]
         }
       ],
-      "repoUrl": "https://github.com/ajay9634/winlator-ajay"
+      "repoUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI"
+    },
+    {
+      "name": "Winlator Bionic duckyduckG",
+      "repo": "duckyduckG/winlator",
+      "category": "Winlator",
+      "downloads": 1271,
+      "releases": [
+        {
+          "name": "winlator_bionic -(git-8de79b1)",
+          "tag": "8de79b1",
+          "date": "2026-04-05T07:31:59Z",
+          "downloads": 107,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/8de79b1",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 519704626,
+              "downloads": 107,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/8de79b1/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-30815d7)",
+          "tag": "30815d7",
+          "date": "2026-02-01T18:38:43Z",
+          "downloads": 72,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/30815d7",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 527398037,
+              "downloads": 72,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/30815d7/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-ab315b0)",
+          "tag": "ab315b0",
+          "date": "2026-01-16T06:33:46Z",
+          "downloads": 31,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ab315b0",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523793808,
+              "downloads": 31,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/ab315b0/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-f3b4bea)",
+          "tag": "f3b4bea",
+          "date": "2026-01-10T08:59:16Z",
+          "downloads": 12,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f3b4bea",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523648992,
+              "downloads": 12,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/f3b4bea/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-d9af737)",
+          "tag": "d9af737",
+          "date": "2025-12-23T04:16:00Z",
+          "downloads": 13,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d9af737",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523644244,
+              "downloads": 13,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/d9af737/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-4d1403d)",
+          "tag": "4d1403d",
+          "date": "2025-11-25T20:40:11Z",
+          "downloads": 16,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/4d1403d",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523643500,
+              "downloads": 16,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/4d1403d/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-d1f3df9)",
+          "tag": "d1f3df9",
+          "date": "2025-11-16T17:48:57Z",
+          "downloads": 12,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d1f3df9",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523641852,
+              "downloads": 12,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/d1f3df9/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-fc359df)",
+          "tag": "fc359df",
+          "date": "2025-11-11T20:56:03Z",
+          "downloads": 29,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/fc359df",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 523529900,
+              "downloads": 29,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/fc359df/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-cfb674b)",
+          "tag": "cfb674b",
+          "date": "2025-10-22T10:11:06Z",
+          "downloads": 18,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/cfb674b",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 526384705,
+              "downloads": 18,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/cfb674b/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-ba32507)",
+          "tag": "ba32507",
+          "date": "2025-10-14T17:41:22Z",
+          "downloads": 11,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ba32507",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 526394093,
+              "downloads": 11,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/ba32507/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-83a4772)",
+          "tag": "83a4772",
+          "date": "2025-09-11T02:56:22Z",
+          "downloads": 36,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/83a4772",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 519167369,
+              "downloads": 36,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/83a4772/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-e436142)",
+          "tag": "e436142",
+          "date": "2025-09-02T01:42:19Z",
+          "downloads": 57,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/e436142",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 519167073,
+              "downloads": 57,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/e436142/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-f5f619e)",
+          "tag": "f5f619e",
+          "date": "2025-08-28T10:18:08Z",
+          "downloads": 21,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f5f619e",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 519178185,
+              "downloads": 21,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/f5f619e/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-f3a091a)",
+          "tag": "f3a091a",
+          "date": "2025-08-22T01:19:53Z",
+          "downloads": 51,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f3a091a",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 519179888,
+              "downloads": 51,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/f3a091a/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-a5df9ad)",
+          "tag": "a5df9ad",
+          "date": "2025-08-20T19:08:29Z",
+          "downloads": 12,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/a5df9ad",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 517237006,
+              "downloads": 12,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/a5df9ad/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-15b2e0d)",
+          "tag": "15b2e0d",
+          "date": "2025-06-23T12:59:09Z",
+          "downloads": 234,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/15b2e0d",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 806540152,
+              "downloads": 234,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/15b2e0d/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "wowbox64",
+          "tag": "wowbox64",
+          "date": "2025-06-23T13:49:44Z",
+          "downloads": 38,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/wowbox64",
+          "assets": [
+            {
+              "name": "WOWBox64-0.3.7-4eabf07.zst.zip",
+              "size": 1248019,
+              "downloads": 38,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/wowbox64/WOWBox64-0.3.7-4eabf07.zst.zip"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-ff49f94)",
+          "tag": "ff49f94",
+          "date": "2025-07-16T19:47:29Z",
+          "downloads": 443,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ff49f94",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 620554053,
+              "downloads": 443,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/ff49f94/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-e81272b)",
+          "tag": "e81272b",
+          "date": "2025-07-19T02:38:41Z",
+          "downloads": 32,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/e81272b",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 616116937,
+              "downloads": 32,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/e81272b/app-debug.apk"
+            }
+          ]
+        },
+        {
+          "name": "winlator_bionic -(git-d372bc2)",
+          "tag": "d372bc2",
+          "date": "2025-08-15T20:18:29Z",
+          "downloads": 26,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d372bc2",
+          "assets": [
+            {
+              "name": "app-debug.apk",
+              "size": 621595377,
+              "downloads": 26,
+              "url": "https://github.com/duckyduckG/winlator/releases/download/d372bc2/app-debug.apk"
+            }
+          ]
+        }
+      ],
+      "repoUrl": "https://github.com/duckyduckG/winlator"
     },
     {
       "name": "GameHub Lite (Producdevity)",
@@ -306,6 +751,14 @@
       "repoUrl": "https://github.com/REF4IK/winlator-ref4ik-"
     },
     {
+      "name": "Winlator Ajay",
+      "repo": "ajay9634/winlator-ajay",
+      "category": "Winlator",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/ajay9634/winlator-ajay"
+    },
+    {
       "name": "Winlator Coffincolors",
       "repo": "coffincolors/winlator",
       "category": "Winlator",
@@ -344,14 +797,6 @@
       "downloads": 0,
       "releases": [],
       "repoUrl": "https://github.com/winlator/releases"
-    },
-    {
-      "name": "Winlator Bionic duckyduckG",
-      "repo": "duckyduckG/winlator",
-      "category": "Winlator",
-      "downloads": 0,
-      "releases": [],
-      "repoUrl": "https://github.com/duckyduckG/winlator"
     },
     {
       "name": "Winlator Bionic Stredohiri",
@@ -6970,7 +7415,7 @@
             },
             {
               "name": "Eden-Linux-8b8034a2a0-aarch64-clang-pgo.AppImage",
-              "size": 67456622,
+              "size": 965,
               "downloads": 0,
               "url": "https://nightly.eden-emu.dev/v1784055937.8b8034a2a0/Eden-Linux-8b8034a2a0-aarch64-clang-pgo.AppImage"
             },
@@ -7632,14 +8077,6 @@
       "repoUrl": "https://github.com/Vita3K/Vita3K-Android"
     },
     {
-      "name": "Dolphin MMJR2 VBI",
-      "repo": "Medard22/Dolphin-MMJR2-VBI",
-      "category": "Nintendo GameCube / Wii",
-      "downloads": 0,
-      "releases": [],
-      "repoUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI"
-    },
-    {
       "name": "Flycast",
       "repo": "flyinghead/flycast",
       "category": "Sega Dreamcast",
@@ -7662,7 +8099,7 @@
         "name": "Proton-9-x86_64",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/Proton.9.0-x86_64.wcp",
-        "date": "2026-08-17T14:53:12.814Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "Wine": [
@@ -7670,13 +8107,13 @@
         "name": "proton-10-arm64ec",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/proton-10-arm64ec.wcp.xz",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "wine-9.20-x86_64",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/wine-9.20.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "Box64": [
@@ -7684,49 +8121,49 @@
         "name": "0.3.5",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.5.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "036fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-036fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.3.7",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.7.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.3.8",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.8.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.3.9",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.9.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.1-fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.2-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.2-fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.4.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "WOWBox64": [
@@ -7734,31 +8171,31 @@
         "name": "0.3.7-5768989",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WowBox64-0.3.7-5768989.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.3.9-056999e",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.3.9-056999e.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.4.1-fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/wowbox64-0.4.2.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "0.4.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/Wowbox64-0.4.4.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "DXVK": [
@@ -7766,91 +8203,91 @@
         "name": "1.5.5",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.5.5.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "1.7.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.7.2.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "1.9.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.9.4.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "1.10.3-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.10.3-async.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "11.1-sarek-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-11.1-sarek-async.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "1.12.0-sarek",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-sarek-1.12.0.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.3.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.3.1-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.4.1.1-gplasync-sp",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1.1-gplasync-sp.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.4.1-arm64ec-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-arm64ec-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.5.3-1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.5.3-1-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.6-2-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6-2-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.6.2-arm64ec-gplasync",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6.2-arm64ec-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.7.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-gplasync.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.7.1-arm64ec-gplasync-fix-leegao",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-arm64ec-gplasync-fix-leegao.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "FEXCore": [
@@ -7858,91 +8295,91 @@
         "name": "241214",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_241214.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2505",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore-2505.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2507_fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_2507_fix.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2508.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2508.1.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2509.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2509.1.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2510.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2510.1.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2511",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2511.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2512",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2512.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2601",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2601.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2601-aabdded-nightly",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/FEXCore-2601-aabdded.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2603",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2603.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2604",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2604.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2605",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2605.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2607",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2607.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2608",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2608.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ],
     "VKD3D": [
@@ -7950,49 +8387,49 @@
         "name": "2.7-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.7.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.9-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.9.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.12-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.12.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "2.14.1-arm64ec",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-2.14.1-arm64ec.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "proton-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0a.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "arm64ec-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-arm64ec-3.0a.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "proton-3.0b-2763dd2",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0b-2763dd2.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       },
       {
         "name": "3.0.1-gamesir",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-3.0.1-Gamesir.wcp",
-        "date": "2026-08-17T14:53:12.815Z"
+        "date": "2026-08-17T15:20:34.898Z"
       }
     ]
   }
