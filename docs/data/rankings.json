@@ -1,1023 +1,10 @@
 {
-  "updatedAt": "2026-08-17T13:35:39.902Z",
-  "nextUpdateAt": "2026-08-17T14:05:39.902Z",
+  "updatedAt": "2026-08-17T14:22:19.742Z",
+  "nextUpdateAt": "2026-08-17T14:52:19.742Z",
   "totalProjects": 60,
-  "projectsWithReleases": 6,
-  "projectsWithoutReleases": 54,
+  "projectsWithReleases": 2,
+  "projectsWithoutReleases": 58,
   "results": [
-    {
-      "name": "GameNative",
-      "repo": "utkarshdalal/GameNative",
-      "category": "GameNative",
-      "downloads": 775343,
-      "releases": [
-        {
-          "name": "v1.1.1",
-          "tag": "v1.1.1",
-          "date": "2026-07-26T00:16:49Z",
-          "downloads": 79026,
-          "body": "## Downloads\r\n- **`gamenative-v1.1.1.apk`** — Standard build. Recommended for most users.\r\n- **`gamenative-v1.1.1-legacy-xr.apk`** — XR build for Quest headsets.\r\n\r\n\r\n## What's Changed\r\n\r\n### Added after prerelease\r\n* Updated wrapper-gamenative with leegao's latest changes (support more non-Adreno GPUs) by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1771\r\n* fix controller focus on common screens (library screen and library app screen) by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1747\r\n* fix carousel view in https://github.com/utkarshdalal/GameNative/pull/1748\r\n* Fix wrong branch size in install dialog in https://github.com/utkarshdalal/GameNative/pull/1738\r\n* Fix controllers when keyboard and mouse attached by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1770\r\n* fix: skip directinput and directinput8 components extraction by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1744\r\n* Fix Workshop Mods for YOMI:HUSTLE when using bionic steam by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1746\r\n* Let users launch past multiple pending cloud operations by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1749\r\n* Gamefix for Forza Horizon 4 by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1755\r\n* Remove Personal Nexus API Keys and Temporarily Disable Nexus Support by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1763\r\n* Add Local Mod Import Support by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1767\r\n* Fixed external storage on modern build by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1768\r\n\r\n### From prerelease\r\n- Added wrapper-gamenative to support dx12 on Mali and Exynos devices in https://github.com/utkarshdalal/GameNative/pull/1668\r\n- Add Nexus Mods support by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1545\r\n- Add Multi controller support by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1578\r\n- Fixed carousel view, allow installing branches without downloading full game first in https://github.com/utkarshdalal/GameNative/pull/1711\r\n- fix & improve bionic steam by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1687\r\n- Fix ANRs when opening sidebar in-game by consolidating PulseAudio operations by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1663\r\n- fix: large steam library crash & ANR on loading first-time Steam library by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1653\r\n- Fix achievement notifications not showing by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1670\r\n- feat: Add Steam collections by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1633\r\n- fix: Optimize GOG and EPIC download by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1649\r\n- Fix Rain World Workshop mod activation by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1662\r\n- Fix Oxygen Not Included Workshop mods by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1682\r\n- Allow uninstall of corrupted steam games in https://github.com/utkarshdalal/GameNative/pull/1681\r\n- Add an animated focus ring across the library and in-game UI by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1655\r\n- Fix clipping of the blur effect on the boot splash screen by @jonathan-dd in https://github.com/utkarshdalal/GameNative/pull/1642\r\n- feat(): achievement sound on unlock by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1671\r\n- Disable adrenotoolsTurnip for XR build in https://github.com/utkarshdalal/GameNative/pull/1679\r\n- fix: Refactor AppScreenContent optionsMenu parameter to List by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1689\r\n- Improve Shooter Mode runtime controls and settings by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1641\r\n- Fall back to English depots for unavailable languages by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1659\r\n- fix: Small adjustment to fix epic offline mode caching. by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1566\r\n- Add per-control appearance customization by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1672\r\n- Recommendations/discover page by in https://github.com/utkarshdalal/GameNative/pull/1676\r\n- Fix orphaned cloud saves (ones that were never downloaded because of offline boot) by in https://github.com/utkarshdalal/GameNative/pull/1713\r\n- Improve controller editor visibility and Xbox shoulder labels by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1697\r\n\r\n## New Contributors\r\n* @jonathan-dd made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1642\r\n\r\n**Full Changelog**: https://github.com/utkarshdalal/GameNative/compare/v1.1.0...v1.1.1",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.1.1",
-          "assets": [
-            {
-              "name": "gamenative-v1.1.1-legacy-xr.apk",
-              "size": 566180077,
-              "downloads": 18865,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.1/gamenative-v1.1.1-legacy-xr.apk"
-            },
-            {
-              "name": "gamenative-v1.1.1.apk",
-              "size": 566180077,
-              "downloads": 60161,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.1/gamenative-v1.1.1.apk"
-            }
-          ]
-        },
-        {
-          "name": "v1.1.1-prerelease",
-          "tag": "v1.1.1-prerelease",
-          "date": "2026-07-15T00:30:02Z",
-          "downloads": 13971,
-          "body": "## Downloads\r\n- **`gamenative-v1.1.1-prerelease.apk`** — Standard build (Android 8–14). Recommended for most users.\r\n- **`gamenative-v1.1.1-prerelease-legacy-xr.apk`** — Quest/VR sideload build. Legacy storage with all-files access and D drive support, forced landscape. Sideload only (not for the store).\r\n\r\n\r\n## What's Changed\r\n* Added wrapper-gamenative to support dx12 on Mali and Exynos devices in https://github.com/utkarshdalal/GameNative/pull/1668\r\n* Add Nexus Mods support by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1545\r\n* Add Multi controller support by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1578\r\n* Fixed carousel view, allow installing branches without downloading full game first in https://github.com/utkarshdalal/GameNative/pull/1711\r\n* fix & improve bionic steam by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1687\r\n* Fix ANRs when opening sidebar in-game by consolidating PulseAudio operations by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1663\r\n* fix: large steam library crash & ANR on loading first-time Steam library by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1653\r\n* Fix achievement notifications not showing by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1670\r\n* feat: Add Steam collections by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1633\r\n* fix: Optimize GOG and EPIC download by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1649\r\n* Fix Rain World Workshop mod activation by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1662\r\n* Fix Oxygen Not Included Workshop mods by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1682\r\n* Allow uninstall of corrupted steam games in https://github.com/utkarshdalal/GameNative/pull/1681\r\n* Add an animated focus ring across the library and in-game UI by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1655\r\n* Fix clipping of the blur effect on the boot splash screen by @jonathan-dd in https://github.com/utkarshdalal/GameNative/pull/1642\r\n* feat(): achievement sound on unlock by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1671\r\n* Disable adrenotoolsTurnip for XR build in https://github.com/utkarshdalal/GameNative/pull/1679\r\n* fix: Refactor AppScreenContent optionsMenu parameter to List by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1689\r\n* Improve Shooter Mode runtime controls and settings by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1641\r\n* Fall back to English depots for unavailable languages by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1659\r\n* fix: Small adjustment to fix epic offline mode caching. by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1566\r\n* Add per-control appearance customization by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1672\r\n* Recommendations/discover page by in https://github.com/utkarshdalal/GameNative/pull/1676\r\n* Fix orphaned cloud saves (ones that were never downloaded because of offline boot) by in https://github.com/utkarshdalal/GameNative/pull/1713\r\n* Improve controller editor visibility and Xbox shoulder labels by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1697\r\n\r\n## New Contributors\r\n* @jonathan-dd made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1642\r\n\r\n**Full Changelog**: https://github.com/utkarshdalal/GameNative/compare/v1.1.0...v1.1.1-prerelease",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.1.1-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v1.1.1-prerelease-legacy-xr.apk",
-              "size": 566077677,
-              "downloads": 2575,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.1-prerelease/gamenative-v1.1.1-prerelease-legacy-xr.apk"
-            },
-            {
-              "name": "gamenative-v1.1.1-prerelease.apk",
-              "size": 566077677,
-              "downloads": 11396,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.1-prerelease/gamenative-v1.1.1-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v1.1.0",
-          "tag": "v1.1.0",
-          "date": "2026-07-01T21:58:18Z",
-          "downloads": 92971,
-          "body": "## Downloads\r\n- **`gamenative-v1.1.0.apk`** — Standard build (Android 8–14). Recommended for most users.\r\n- **`gamenative-v1.1.0-xr.apk`** — Quest/VR sideload build. Legacy storage with all-files access and D drive support, forced landscape. Sideload only (not for the store).\r\n\r\n\r\n## What's Changed\r\nAdded since prerelease:\r\n* ASR: rename lib, add fence and color format conversion to prevent surfaceflinger crash by @AndreVto in https://github.com/utkarshdalal/GameNative/pull/1620\r\n* fix Steam in China: javasteam query params handling by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1652\r\n* Fix: Clear needs unpack flag for non-steam games (fixes constant mono install) by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1638\r\n* fix: GOG cloud save upload to prevent redundant transfers by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1637\r\n* Added changes to make app more navigable by controller in https://github.com/utkarshdalal/GameNative/pull/1646\r\n* apply gmem automatically for adreno 710, 720, 732 to reduce glitches in https://github.com/utkarshdalal/GameNative/pull/1656\r\n* Updated Steam/Epic/GOG notifications to correctly show background download notification in https://github.com/utkarshdalal/GameNative/pull/1621\r\n* Added default turnip driver for A12 devices (Retroid Pocket Classic) in https://github.com/utkarshdalal/GameNative/pull/1647\r\n* Added back delete container for installed games in https://github.com/utkarshdalal/GameNative/pull/1648\r\n* Prevent audio resume when exiting from QuickMenu that caused ANR by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1635\r\n* Fix recently played library sort by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1509\r\n* Fixed brightness manager in quick action menu by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1623\r\n* Add missing strings across all languages by @VinceBT in https://github.com/utkarshdalal/GameNative/pull/1625\r\n\r\nFrom prerelease:\r\n- Added more granular device compatibility data so you know which games will work well on your device in https://github.com/utkarshdalal/GameNative/pull/1568\r\n- Massive improvements to Pulse audio - now reliable and low-latency by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1574\r\n- Added SurfaceFlinger renderer option - reduces latency, increases FPS by @AndreVto (based off @StevenMXZ's work) in https://github.com/utkarshdalal/GameNative/pull/1582\r\n- Massive improvements to Bionic Steam Client - now works reliably for DRM, online connection, DLC - but only on Proton 10, and online play may not always work\r\n- Stopped infinite \"Handling DRM\" bug in https://github.com/utkarshdalal/GameNative/pull/1575\r\n- Fixed usb storage not being detected in https://github.com/utkarshdalal/GameNative/pull/1585\r\n- Added hero image to booting splash screen by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1587\r\n- Fix slowdowns faced when using onscreen controller by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1592\r\n- Created build for Quest in https://github.com/utkarshdalal/GameNative/pull/1580\r\n- Fix Slay the Spire workshop mod launching by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1589\r\n- Add custom games user-supplied cover image support by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1494\r\n- Make driver and DXVK lists searchable by @Smithsonian1974 in https://github.com/utkarshdalal/GameNative/pull/1558\r\n- Fixed case-sensitive cloud saves (eg Disco Elysium for Epic Games) by @phobos665 & me in https://github.com/utkarshdalal/GameNative/pull/1598\r\n- Fixed GOG cloud saves for games that don't have client id like Dead Cells in https://github.com/utkarshdalal/GameNative/pull/1596\r\n- fix: handle steam 0B depot download (fix recent update of Vampire Survivors DLC) by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1590\r\n- Fixed games that stopped working in v0.9.2: removed 2022 vcredists from preinstall steps in https://github.com/utkarshdalal/GameNative/pull/1571\r\n- Allow reusing active games from frontend instead of launching new ones in https://github.com/utkarshdalal/GameNative/pull/1605\r\n- Added gamefix for subnautica 2 in https://github.com/utkarshdalal/GameNative/pull/1572\r\n- Fixed several app not responding issues by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1603\r\n- add How Long To Beat stats strip to game pages by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1282\r\n- Fix keyboard Esc quick menu shortcut by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1532\r\n- Fix: add Exynos HUD fallbacks by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1573\r\n- feat: Add QAM display brightness control by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1525\r\n- Add Hold Mouse Button While Touching gesture option by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1513\r\n- Add relative touchscreen drag movement option by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1544\r\n- Fix shooter mode touch-side joystick routing by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1534\r\n- fix: steamservice crash on pic requests by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1548\r\n- feat: custom game import as Steam based on PrefManager toggle in Settings by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1531\r\n- Allow installation of full steam client after bionic client is enabled in https://github.com/utkarshdalal/GameNative/pull/1552\r\n- Updated winhandler and evshim to fix freezes in https://github.com/utkarshdalal/GameNative/pull/1553\r\n- feat: Improve Epic game download performance and reliability by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1554\r\n- fix: pulseaudio always extract, update apache-compress version by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1556\r\n- Allow ad-hoc signed builds of PRs by number in https://github.com/utkarshdalal/GameNative/pull/1561\r\n- fix: allow scrcpy motion event to move mouse by @AndreVto in https://github.com/utkarshdalal/GameNative/pull/1567\r\n- Fix installs on fresh SD cards in https://github.com/utkarshdalal/GameNative/pull/1594\r\n- Add DXVK sarek 1.12.0 by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1588\r\n- fix(l10n): complete Korean localization by @sampple-korea in https://github.com/utkarshdalal/GameNative/pull/1559\r\n- Return empty defaults when ImageFs metadata files exist but are empty by @Smuger in https://github.com/utkarshdalal/GameNative/pull/1565\r\n- Fixed capsule art for GOG games in https://github.com/utkarshdalal/GameNative/pull/1597\r\n- Add touchscreen keyboard and inverted pan actions by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1522\r\n- Repeat physical controller scroll bindings while held by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1602\r\n- Fix: Adding custom games from USB OTG drives silently fails by @sam1am in https://github.com/utkarshdalal/GameNative/pull/1520\r\n- Add dinput override by @raynoxu1337 in https://github.com/utkarshdalal/GameNative/pull/1495\r\n- Fix Exit Game ANR from rumble futex teardown race by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1607\r\n\r\n## New Contributors\r\n* @sampple-korea made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1559\r\n* @Smuger made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1565\r\n* @Smithsonian1974 made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1558\r\n* @sam1am made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1520\r\n* @raynoxu1337 made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1495\r\n* @VinceBT made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1625\r\n\r\n**Full Changelog**: https://github.com/utkarshdalal/GameNative/compare/v1.0.0...v1.1.0",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.1.0",
-          "assets": [
-            {
-              "name": "gamenative-v1.1.0-xr.apk",
-              "size": 562345761,
-              "downloads": 36541,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.0/gamenative-v1.1.0-xr.apk"
-            },
-            {
-              "name": "gamenative-v1.1.0.apk",
-              "size": 562345761,
-              "downloads": 56430,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.0/gamenative-v1.1.0.apk"
-            }
-          ]
-        },
-        {
-          "name": "v1.1.0-prerelease",
-          "tag": "v1.1.0-prerelease",
-          "date": "2026-06-23T19:11:14Z",
-          "downloads": 13540,
-          "body": "## Downloads\r\n- **`gamenative-v1.1.0-prerelease.apk`** — Standard build (Android 8–14). Recommended for most users.\r\n- **`gamenative-v1.1.0-prerelease-legacy-xr.apk`** — Quest/VR sideload build.\r\n\r\n\r\n## What's Changed\r\n* Added more granular device compatibility data so you know which games will work well on your device in https://github.com/utkarshdalal/GameNative/pull/1568\r\n* Massive improvements to Pulse audio - now reliable and low-latency by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1574\r\n* Added SurfaceFlinger renderer option - reduces latency, increases FPS by @AndreVto (based off @stevenMXZ's work) in https://github.com/utkarshdalal/GameNative/pull/1582\r\n* Massive improvements to Bionic Steam Client - now works reliably for DRM, online connection, DLC - but only on Proton 10, and online play may not always work\r\n* Stopped infinite \"Handling DRM\" bug in https://github.com/utkarshdalal/GameNative/pull/1575\r\n* Fixed usb storage not being detected in https://github.com/utkarshdalal/GameNative/pull/1585\r\n* Added hero image to booting splash screen by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1587\r\n* Fix slowdowns faced when using onscreen controller by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1592\r\n* Created build for Quest in https://github.com/utkarshdalal/GameNative/pull/1580\r\n* Fix Slay the Spire workshop mod launching by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1589\r\n* Add custom games user-supplied cover image support by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1494\r\n* Make driver and DXVK lists searchable by @Smithsonian1974 in https://github.com/utkarshdalal/GameNative/pull/1558\r\n* Fixed case-sensitive cloud saves (eg Disco Elysium for Epic Games) by @phobos665 & me in https://github.com/utkarshdalal/GameNative/pull/1598\r\n* Fixed GOG cloud saves for games that don't have client id like Dead Cells in https://github.com/utkarshdalal/GameNative/pull/1596\r\n* fix: handle steam 0B depot download (fix recent update of Vampire Survivors DLC) by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1590\r\n* Fixed games that stopped working in v0.9.2: removed 2022 vcredists from preinstall steps in https://github.com/utkarshdalal/GameNative/pull/1571\r\n* Allow reusing active games from frontend instead of launching new ones in https://github.com/utkarshdalal/GameNative/pull/1605\r\n* Added gamefix for subnautica 2 in https://github.com/utkarshdalal/GameNative/pull/1572\r\n* Fixed several app not responding issues by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1603\r\n* add How Long To Beat stats strip to game pages by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1282\r\n* Fix keyboard Esc quick menu shortcut by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1532\r\n* Fix: add Exynos HUD fallbacks by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1573\r\n* feat: Add QAM display brightness control by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1525\r\n* Add Hold Mouse Button While Touching gesture option by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1513\r\n* Add relative touchscreen drag movement option by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1544\r\n* Fix shooter mode touch-side joystick routing by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1534\r\n* fix: steamservice crash on pic requests by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1548\r\n* feat: custom game import as Steam based on PrefManager toggle in Settings by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1531\r\n* Allow installation of full steam client after bionic client is enabled in https://github.com/utkarshdalal/GameNative/pull/1552\r\n* Updated winhandler and evshim to fix freezes in https://github.com/utkarshdalal/GameNative/pull/1553\r\n* feat: Improve Epic game download performance and reliability by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1554\r\n* fix: pulseaudio always extract, update apache-compress version by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1556\r\n* Allow ad-hoc signed builds of PRs by number in https://github.com/utkarshdalal/GameNative/pull/1561\r\n* fix: allow scrcpy motion event to move mouse by @AndreVto in https://github.com/utkarshdalal/GameNative/pull/1567\r\n* Fix installs on fresh SD cards in https://github.com/utkarshdalal/GameNative/pull/1594\r\n* Add DXVK  sarek 1.12.0 by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1588\r\n* fix(l10n): complete Korean localization by @sampple-korea in https://github.com/utkarshdalal/GameNative/pull/1559\r\n* Return empty defaults when ImageFs metadata files exist but are empty by @Smuger in https://github.com/utkarshdalal/GameNative/pull/1565\r\n* Fixed capsule art for GOG games in https://github.com/utkarshdalal/GameNative/pull/1597\r\n* Add touchscreen keyboard and inverted pan actions by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1522\r\n* Repeat physical controller scroll bindings while held by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1602\r\n* Fix: Adding custom games from USB OTG drives silently fails by @sam1am in https://github.com/utkarshdalal/GameNative/pull/1520\r\n* Add dinput override by @raynoxu1337 in https://github.com/utkarshdalal/GameNative/pull/1495\r\n* Fix Exit Game ANR from rumble futex teardown race by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1607\r\n\r\n## New Contributors\r\n* @sampple-korea made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1559\r\n* @Smuger made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1565\r\n* @Smithsonian1974 made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1558\r\n* @sam1am made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1520\r\n* @raynoxu1337 made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1495\r\n\r\n**Full Changelog**: https://github.com/utkarshdalal/GameNative/compare/v1.0.0...v1.1.0-prerelease",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.1.0-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v1.1.0-prerelease-legacy-xr.apk",
-              "size": 562292513,
-              "downloads": 2184,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.0-prerelease/gamenative-v1.1.0-prerelease-legacy-xr.apk"
-            },
-            {
-              "name": "gamenative-v1.1.0-prerelease.apk",
-              "size": 562292513,
-              "downloads": 11356,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.1.0-prerelease/gamenative-v1.1.0-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v1.0.0",
-          "tag": "v1.0.0",
-          "date": "2026-06-06T16:08:43Z",
-          "downloads": 76138,
-          "body": "## Downloads\r\n- **`gamenative-v1.0.0.apk`** — Standard build (Android 8–14). Recommended for most users.\r\n\r\n## What's Changed\r\n\r\n### Added after prerelease\r\n* fixed controller not working on glibc + other controller issues by @AndreVto in https://github.com/utkarshdalal/GameNative/pull/1502\r\n* Update default configs for devices so more games work out of the box by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1521\r\n* fixes for bionic steam client (remove crashes) by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1505\r\n* Fix Darkest Dungeon Workshop mod handling by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1500\r\n* Improve game pause/resume timing and synchronization by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1506\r\n* Add ALT + ENTER control action by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1498\r\n* Add more variable preset suggestions by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1497\r\n* fix Vulkan renderer scaling/screen effects by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1503 and me\r\n* Fix: Long exe game names not SIGSTOPed due to getting truncate by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1496\r\n* preserve zip payload extensions for Steam workshop by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1523\r\n* fix: update pulseaudio suspend/resume handling by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1527\r\n\r\n### From prerelease\r\n* Brought in Vulkan Renderer from Winlator Ludashi (thank you @stevenmxz) - improves performance and input latency\r\n* Updated controller implementation by @AndreVto - improves performance and input latency in https://github.com/utkarshdalal/GameNative/pull/1471\r\n* Improvements to LSFG-vk framegen - should work more reliably. @xXJSONDeruloXx brought in lsfg-vk Android layer v1.0.2\r\n* Added modern build of GameNative app for latest version of Android - for Play Store release\r\n* Added beta bionic Steam implementation for online play with no Steam client overhead (back up your saves before using it) - by @joshuatam and me\r\n* Updated controller implementation - fixes Kingdom Hearts 1.5 + 2.5 ReMIX by @AndreVto \r\n* Several pulse audio fixes, reduced latency, reliably pause and resume by @joshuatam \r\n* Improve perf HUD temperature sensor accuracy and GPU usage coverage by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1406\r\n* Automatic frontend sync for installed/uninstalled games by @vitormf in https://github.com/utkarshdalal/GameNative/pull/1454\r\n* Fix: Stuck loading screen during Mono/XAudio install by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1395\r\n* Improve shortcut icons - use clientIcon instead of icon for steam shortcuts by @Raxcoms in https://github.com/utkarshdalal/GameNative/pull/1402\r\n* Faster boots - cache Steam save file hashes between syncs by @kiequoo in https://github.com/utkarshdalal/GameNative/pull/1227\r\n* Fix steam playtime not being tracked after sleeping the device or going offline - resend steam presence after reconnect by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1278\r\n* Cap Steam DL size to installSize to avoid gigantic dl size reporting. by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1482\r\n* Allow sign in with Steam Guard TOTP code by @peanut250 in https://github.com/utkarshdalal/GameNative/pull/1241\r\n* Fixed stylus handling in TouchpadView by @ppsz in https://github.com/utkarshdalal/GameNative/pull/1334\r\n* Steam cloud save fix - Two Point Museum works by @kiequoo in https://github.com/utkarshdalal/GameNative/pull/1465\r\n* Epic Offline Mode for offline launches by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1467\r\n* Fixed Steam games showing account name instead of user name by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1492\r\n* Fix games sometimes continuing to run threads in background when paused and eating battery by @Catpotatos in https://github.com/utkarshdalal/GameNative/pull/1491\r\n* Fix simultaneous dpad and left stick input by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1445\r\n* Fix range button scrolling in touchmode by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1446\r\n* Fix touchscreen click-drag cursor tracking by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1449\r\n* Fix hold gesture mouse click timing by @Nightwalker743 in https://github.com/utkarshdalal/GameNative/pull/1450\r\n* fix: clear persona state and hide status picker on sign out by @ben-pearson in https://github.com/utkarshdalal/GameNative/pull/1312\r\n* Show remaining storage space in Storage Manager by @ben-pearson in https://github.com/utkarshdalal/GameNative/pull/1321\r\n* fix: Exclude custom games from compatibility filter by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1412\r\n* chore: fexcore-2605 by @phobos665 and @linkq in https://github.com/utkarshdalal/GameNative/pull/1422\r\n* don't block local launch when remote runs a non-Steam shortcut by @ben-pearson in https://github.com/utkarshdalal/GameNative/pull/1396\r\n* fix: update child windows when parent geometry is changed by @AndreVto in https://github.com/utkarshdalal/GameNative/pull/1436\r\n* Fix graphics glitches - Remove TU_DEBUG=deck_emu default. by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1481\r\n* fix: add Korean and Romanian to language switcher, sort by ISO code by @linkq in https://github.com/utkarshdalal/GameNative/pull/1349\r\n* i18n: extract booting splash tips into translatable string resources by @linkq in https://github.com/utkarshdalal/GameNative/pull/1350\r\n* Fix RenPy workshop mod duplication by @Ivantyaj in https://github.com/utkarshdalal/GameNative/pull/1394\r\n* fix: add game fix for Danganronpa 2 (STEAM 413420) by @tlt21 in https://github.com/utkarshdalal/GameNative/pull/1301\r\n* fix(envvars): escape spaces on round-trip; fix crash on save by @jeremybernstein in https://github.com/utkarshdalal/GameNative/pull/1429\r\n* sync offline achievements on reconnect by @xXJSONDeruloXx in https://github.com/utkarshdalal/GameNative/pull/1268\r\n* fix: Cleanup/remove unused functions etc. by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1362\r\n* Japanese translation by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1475\r\n* fix: Improve process handling for reliable suspend/resume by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1457\r\n* fix: Pause and resume PerformanceHudView with lifecycle by @joshuatam in https://github.com/utkarshdalal/GameNative/pull/1463\r\n* Attempted added support for USB external storage by @utkarshdalal in https://github.com/utkarshdalal/GameNative/pull/1476\r\n* fix Steam ForegroundServiceDidNotStartInTimeException crash by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1485\r\n* fix Steam achievement timestamps by @phobos665 in https://github.com/utkarshdalal/GameNative/pull/1473\r\n* fix(steam/download): close race that hangs Update/Verify at 0% by @jeremybernstein in https://github.com/utkarshdalal/GameNative/pull/1434\r\n\r\n## New Contributors\r\n* @Raxcoms made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1402\r\n* @Ivantyaj made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1394\r\n* @ppsz made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1334\r\n* @peanut250 made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1241\r\n* @vitormf made their first contribution in https://github.com/utkarshdalal/GameNative/pull/1454\r\n\r\n**Full Changelog**: https://github.com/utkarshdalal/GameNative/compare/v0.9.2...v1.0.0",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.0.0",
-          "assets": [
-            {
-              "name": "gamenative-v1.0.0.apk",
-              "size": 561124605,
-              "downloads": 76138,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.0.0/gamenative-v1.0.0.apk"
-            }
-          ]
-        },
-        {
-          "name": "v1.0.0-prerelease",
-          "tag": "v1.0.0-prerelease",
-          "date": "2026-05-30T18:33:03Z",
-          "downloads": 26153,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v1.0.0-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v1.0.0-prerelease-modern.apk",
-              "size": 561001802,
-              "downloads": 8318,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.0.0-prerelease/gamenative-v1.0.0-prerelease-modern.apk"
-            },
-            {
-              "name": "gamenative-v1.0.0-prerelease.apk",
-              "size": 561018109,
-              "downloads": 17835,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v1.0.0-prerelease/gamenative-v1.0.0-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.2",
-          "tag": "v0.9.2",
-          "date": "2026-05-09T10:59:04Z",
-          "downloads": 84867,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.2",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.2.apk",
-              "size": 561853445,
-              "downloads": 84867,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.2/gamenative-v0.9.2.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.2-prerelease",
-          "tag": "v0.9.2-prerelease",
-          "date": "2026-05-08T15:19:16Z",
-          "downloads": 3360,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.2-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.2-prerelease.apk",
-              "size": 561849349,
-              "downloads": 3360,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.2-prerelease/gamenative-v0.9.2-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.1",
-          "tag": "v0.9.1",
-          "date": "2026-05-04T15:46:12Z",
-          "downloads": 33364,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.1",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.1.apk",
-              "size": 561849349,
-              "downloads": 33364,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.1/gamenative-v0.9.1.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.1-prerelease",
-          "tag": "v0.9.1-prerelease",
-          "date": "2026-04-29T10:51:49Z",
-          "downloads": 11563,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.1-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.1-prerelease.apk",
-              "size": 560898868,
-              "downloads": 11563,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.1-prerelease/gamenative-v0.9.1-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.0",
-          "tag": "v0.9.0",
-          "date": "2026-04-08T01:14:05Z",
-          "downloads": 89345,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.0",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.0.apk",
-              "size": 551969878,
-              "downloads": 89345,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.0/gamenative-v0.9.0.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.9.0-prerelease",
-          "tag": "v0.9.0-prerelease",
-          "date": "2026-04-01T22:36:07Z",
-          "downloads": 16256,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.9.0-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.9.0-prerelease.apk",
-              "size": 545686453,
-              "downloads": 16256,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.9.0-prerelease/gamenative-v0.9.0-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.8.1",
-          "tag": "v0.8.1",
-          "date": "2026-03-15T17:23:57Z",
-          "downloads": 55895,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.8.1",
-          "assets": [
-            {
-              "name": "gamenative-v0.8.1.apk",
-              "size": 545251981,
-              "downloads": 55895,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.8.1/gamenative-v0.8.1.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.8.1-prerelease",
-          "tag": "v0.8.1-prerelease",
-          "date": "2026-03-13T04:44:43Z",
-          "downloads": 3493,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.8.1-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.8.1-prerelease.apk",
-              "size": 545247885,
-              "downloads": 3493,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.8.1-prerelease/gamenative-v0.8.1-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.8.0",
-          "tag": "v0.8.0",
-          "date": "2026-03-06T00:19:52Z",
-          "downloads": 21631,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.8.0",
-          "assets": [
-            {
-              "name": "gamenative-v0.8.0-hotfix.apk",
-              "size": 543511103,
-              "downloads": 21631,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.8.0/gamenative-v0.8.0-hotfix.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.8.0-prerelease",
-          "tag": "v0.8.0-prerelease",
-          "date": "2026-03-02T04:54:42Z",
-          "downloads": 10104,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.8.0-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.8.0-prerelease.apk",
-              "size": 544416965,
-              "downloads": 10104,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.8.0-prerelease/gamenative-v0.8.0-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.7.2",
-          "tag": "v0.7.2",
-          "date": "2026-02-13T00:34:39Z",
-          "downloads": 102367,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.7.2",
-          "assets": [
-            {
-              "name": "gamenative-v0.7.2.apk",
-              "size": 543918762,
-              "downloads": 102367,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.7.2/gamenative-v0.7.2.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.7.2-prerelease",
-          "tag": "v0.7.2-prerelease",
-          "date": "2026-02-10T20:17:02Z",
-          "downloads": 1440,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.7.2-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.7.2-prerelease.apk",
-              "size": 543918762,
-              "downloads": 1440,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.7.2-prerelease/gamenative-v0.7.2-prerelease.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.7.1",
-          "tag": "v0.7.1",
-          "date": "2026-02-01T16:44:19Z",
-          "downloads": 38697,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.7.1",
-          "assets": [
-            {
-              "name": "gamenative-v0.7.1.apk",
-              "size": 543857322,
-              "downloads": 38697,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.7.1/gamenative-v0.7.1.apk"
-            }
-          ]
-        },
-        {
-          "name": "v0.7.1-prerelease",
-          "tag": "v0.7.1-prerelease",
-          "date": "2026-01-31T11:32:29Z",
-          "downloads": 1162,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/utkarshdalal/GameNative/releases/tag/v0.7.1-prerelease",
-          "assets": [
-            {
-              "name": "gamenative-v0.7.1-prerelease.apk",
-              "size": 544475818,
-              "downloads": 1162,
-              "url": "https://github.com/utkarshdalal/GameNative/releases/download/v0.7.1-prerelease/gamenative-v0.7.1-prerelease.apk"
-            }
-          ]
-        }
-      ],
-      "repoUrl": "https://github.com/utkarshdalal/GameNative"
-    },
-    {
-      "name": "Freedreno Turnip CI (StevenMXZ)",
-      "repo": "StevenMXZ/freedreno_turnip-CI",
-      "category": "Drivers",
-      "downloads": 455988,
-      "releases": [
-        {
-          "name": "Qualcomm Driver v863.1",
-          "tag": "v863.1_a7xx",
-          "date": "2026-05-23T10:43:36Z",
-          "downloads": 77248,
-          "body": "Qualcomm Driver v863.1 for Adreno A7xx, And A6xx\r\nextracted from Quest Ray-Ban Display",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v863.1_a7xx",
-          "assets": [
-            {
-              "name": "v863.1.zip",
-              "size": 19871206,
-              "downloads": 77248,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v863.1_a7xx/v863.1.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V34",
-          "tag": "v34",
-          "date": "2026-08-04T08:55:45Z",
-          "downloads": 23419,
-          "body": "build from: https://github.com/whitebelyash/mesa-unified/tree/turnip/gen8 + Mesa Upstream\r\n\r\n for A8xx GPUs ( a840, a830, a829, a825, 810)\r\n\r\nVulkan Version 1.4.354",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v34",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V34.zip",
-              "size": 2800551,
-              "downloads": 23419,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v34/Turnip_Gen8_V34.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V33",
-          "tag": "v33",
-          "date": "2026-07-14T12:24:42Z",
-          "downloads": 31187,
-          "body": " \r\nbuild from: https://github.com/whitebelyash/mesa-unified/tree/turnip/gen8 + Mesa Upstream \r\n\r\nExperimental support for A8xx GPUs ( a840, a830, a829, a825, 810)\r\n\r\nVulkan Version 1.4.354",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v33",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V33.zip",
-              "size": 2781967,
-              "downloads": 31187,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v33/Turnip_Gen8_V33.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V32",
-          "tag": "v32",
-          "date": "2026-06-09T12:33:57Z",
-          "downloads": 41873,
-          "body": "build from: https://github.com/whitebelyash/mesa-unified/tree/turnip/gen8\r\n\r\nExperimental support for A8xx GPUs ( a840, a830, a829, a825, 810)\r\n\r\nVulkan Version 1.4.352",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v32",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V32.zip",
-              "size": 2759975,
-              "downloads": 41873,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v32/Turnip_Gen8_V32.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.3.0-R3",
-          "tag": "v26.3.0-R3",
-          "date": "2026-08-04T18:37:14Z",
-          "downloads": 18937,
-          "body": "for Adreno A7xx And A6xx\r\n\r\nBased on latest commits from mesa with latest fixes and improvements\r\n\r\nhttps://gitlab.freedesktop.org/mesa/mesa\r\n\r\nVulkan version: 1.4.358",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.3.0-R3",
-          "assets": [
-            {
-              "name": "Turnip_v26.3.0-R3-Oneui.zip",
-              "size": 2804255,
-              "downloads": 10359,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R3/Turnip_v26.3.0-R3-Oneui.zip"
-            },
-            {
-              "name": "Turnip_v26.3.0-R3.zip",
-              "size": 2804002,
-              "downloads": 8578,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R3/Turnip_v26.3.0-R3.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.3.0-R2",
-          "tag": "v26.3.0-R2",
-          "date": "2026-08-02T10:14:25Z",
-          "downloads": 4405,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.3.0-R2",
-          "assets": [
-            {
-              "name": "Turnip_v26.3.0-R2-Oneui.zip",
-              "size": 2800043,
-              "downloads": 2024,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R2/Turnip_v26.3.0-R2-Oneui.zip"
-            },
-            {
-              "name": "Turnip_v26.3.0-R2.zip",
-              "size": 2799859,
-              "downloads": 2381,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R2/Turnip_v26.3.0-R2.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.3.0-R1",
-          "tag": "v26.3.0-R1",
-          "date": "2026-07-15T18:17:46Z",
-          "downloads": 26302,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.3.0-R1",
-          "assets": [
-            {
-              "name": "Turnip_v26.3.0-R1-Oneui.zip",
-              "size": 2784301,
-              "downloads": 12811,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R1/Turnip_v26.3.0-R1-Oneui.zip"
-            },
-            {
-              "name": "Turnip_v26.3.0-R1.zip",
-              "size": 2783775,
-              "downloads": 13491,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.3.0-R1/Turnip_v26.3.0-R1.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0-R8",
-          "tag": "v26.2.0-R8",
-          "date": "2026-07-09T23:10:16Z",
-          "downloads": 15188,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R8",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0-R8.zip",
-              "size": 2764323,
-              "downloads": 13377,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R8/Turnip_v26.2.0-R8.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0-R8_OneUI.zip",
-              "size": 2764114,
-              "downloads": 1811,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R8/Turnip_v26.2.0-R8_OneUI.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0-R7",
-          "tag": "v26.2.0-R7",
-          "date": "2026-06-25T20:05:24Z",
-          "downloads": 16901,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R7",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0-R7-Oneui.zip",
-              "size": 2780931,
-              "downloads": 9247,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R7/Turnip_v26.2.0-R7-Oneui.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0-R7.zip",
-              "size": 2780600,
-              "downloads": 7654,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R7/Turnip_v26.2.0-R7.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0-R6",
-          "tag": "v26.2.0-R6",
-          "date": "2026-06-09T12:54:40Z",
-          "downloads": 25031,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R6",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0-R6.zip",
-              "size": 2782875,
-              "downloads": 21281,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R6/Turnip_v26.2.0-R6.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0-R6_Oneui.zip",
-              "size": 2782863,
-              "downloads": 3750,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R6/Turnip_v26.2.0-R6_Oneui.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0-R5",
-          "tag": "v26.2.0-R5",
-          "date": "2026-05-30T18:07:10Z",
-          "downloads": 25879,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R5",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0-R5_OneUI.zip",
-              "size": 2712724,
-              "downloads": 9271,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R5/Turnip_v26.2.0-R5_OneUI.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0_R5.zip",
-              "size": 2712437,
-              "downloads": 10685,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R5/Turnip_v26.2.0_R5.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0_R5_patched.zip",
-              "size": 2716215,
-              "downloads": 5923,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R5/Turnip_v26.2.0_R5_patched.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0 R4",
-          "tag": "v26.2.0-R4",
-          "date": "2026-05-15T07:57:48Z",
-          "downloads": 21488,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R4",
-          "assets": [
-            {
-              "name": "Turnio_v26.2.0_R4.zip",
-              "size": 2700091,
-              "downloads": 16750,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R4/Turnio_v26.2.0_R4.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0_R4_OneUI.zip",
-              "size": 2700301,
-              "downloads": 4738,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R4/Turnip_v26.2.0_R4_OneUI.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip 26.2.0 R3",
-          "tag": "turnip_v26.3.0_r3",
-          "date": "2026-05-01T10:31:22Z",
-          "downloads": 19795,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/turnip_v26.3.0_r3",
-          "assets": [
-            {
-              "name": "Turnip_26.2.0_R3_OneUI.zip",
-              "size": 2675675,
-              "downloads": 7935,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/turnip_v26.3.0_r3/Turnip_26.2.0_R3_OneUI.zip"
-            },
-            {
-              "name": "Turnip_v26.2.0_R3.zip",
-              "size": 2675326,
-              "downloads": 11860,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/turnip_v26.3.0_r3/Turnip_v26.2.0_R3.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V31",
-          "tag": "gen_8_v31",
-          "date": "2026-05-15T08:00:02Z",
-          "downloads": 20791,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/gen_8_v31",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V31.zip",
-              "size": 2700162,
-              "downloads": 20791,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/gen_8_v31/Turnip_Gen8_V31.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V30",
-          "tag": "gen_8_v30",
-          "date": "2026-05-01T10:29:32Z",
-          "downloads": 20659,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/gen_8_v30",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V30.zip",
-              "size": 2674301,
-              "downloads": 20659,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/gen_8_v30/Turnip_Gen8_V30.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V29",
-          "tag": "v29",
-          "date": "2026-04-26T11:43:45Z",
-          "downloads": 11254,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v29",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V29.zip",
-              "size": 2674396,
-              "downloads": 11254,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v29/Turnip_Gen8_V29.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.2.0 R2",
-          "tag": "v26.2.0-R2",
-          "date": "2026-04-26T11:44:44Z",
-          "downloads": 9780,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R2",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0_R2.zip",
-              "size": 3526334,
-              "downloads": 9780,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R2/Turnip_v26.2.0_R2.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip Gen8 V28",
-          "tag": "v28",
-          "date": "2026-04-15T20:34:42Z",
-          "downloads": 14769,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v28",
-          "assets": [
-            {
-              "name": "Turnip_Gen8_V28.zip",
-              "size": 3525761,
-              "downloads": 14769,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v28/Turnip_Gen8_V28.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip 26.2.0 R1",
-          "tag": "v26.2.0-R1",
-          "date": "2026-04-15T20:35:39Z",
-          "downloads": 12621,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.2.0-R1",
-          "assets": [
-            {
-              "name": "Turnip_v26.2.0_R1.zip",
-              "size": 3525006,
-              "downloads": 12621,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.2.0-R1/Turnip_v26.2.0_R1.zip"
-            }
-          ]
-        },
-        {
-          "name": "Turnip v26.1.0 New Autotuner ",
-          "tag": "v26.1.0_auto",
-          "date": "2026-04-03T18:33:30Z",
-          "downloads": 18461,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/tag/v26.1.0_auto",
-          "assets": [
-            {
-              "name": "Turnip_New_Autotuner_v26.1.0.zip",
-              "size": 3509385,
-              "downloads": 18461,
-              "url": "https://github.com/StevenMXZ/Adreno-Tools-Drivers/releases/download/v26.1.0_auto/Turnip_New_Autotuner_v26.1.0.zip"
-            }
-          ]
-        }
-      ],
-      "repoUrl": "https://github.com/StevenMXZ/freedreno_turnip-CI",
-      "extensions": [
-        ".zip"
-      ]
-    },
-    {
-      "name": "X1 BOX",
-      "repo": "izzy2lost/xemu",
-      "category": "Xbox",
-      "downloads": 74199,
-      "releases": [
-        {
-          "name": "X1 BOX 1.2.6",
-          "tag": "1.2.6",
-          "date": "2026-08-11T08:17:01Z",
-          "downloads": 19034,
-          "body": "Lots of Mali fixes. \r\nSpeed improvements. \r\nCrash fixes and more.",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.6",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 17017332,
-              "downloads": 19034,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.6/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.5",
-          "tag": "1.2.5",
-          "date": "2026-04-22T15:50:37Z",
-          "downloads": 39539,
-          "body": "**Fixed insignia online, custom dashboard, and custom bios. \r\n\r\nAdded jit engine audio option. \r\n\r\nFixed a bunch of crashes.**",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.5",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 20137188,
-              "downloads": 39539,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.5/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.4",
-          "tag": "1.2.4",
-          "date": "2026-04-08T07:02:39Z",
-          "downloads": 5728,
-          "body": "Big Update! \r\n\r\nBetter Performance! \r\n\r\nFable freeze fix. \r\n\r\nNew options to fine tune game performance.\r\n\r\nFPS counter option.\r\n\r\nAdd more....",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.4",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 16973096,
-              "downloads": 5728,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.4/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.3",
-          "tag": "1.2.3",
-          "date": "2026-03-25T00:55:02Z",
-          "downloads": 4494,
-          "body": "**Vulkan setting works again. Instead of always being OpenGL ES. \r\n\r\nImport and export of emulator files option. \r\n\r\nAdded per game settings. \r\n\r\nOrientation options now. \r\n\r\nOther minor tweaks.**",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.3",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 19628094,
-              "downloads": 4494,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.3/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.2",
-          "tag": "1.2.2",
-          "date": "2026-03-22T19:25:04Z",
-          "downloads": 508,
-          "body": "**Optimized with NEON for better performance and rendering. \r\n\r\nFixed some games with rendering problems. Spy vs Spy, Metal Slug, and more.** \r\n",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.2",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 20043819,
-              "downloads": 508,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.2/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.1",
-          "tag": "1.2.1",
-          "date": "2026-03-19T17:59:25Z",
-          "downloads": 449,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.1",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 23547659,
-              "downloads": 449,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.1/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX 1.2.0",
-          "tag": "1.2.0",
-          "date": "2026-03-16T19:12:26Z",
-          "downloads": 557,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.2.0",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 22987719,
-              "downloads": 557,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.2.0/app-release.apk"
-            }
-          ]
-        },
-        {
-          "name": "X1 BOX ",
-          "tag": "1.1.9",
-          "date": "2026-03-09T21:31:55Z",
-          "downloads": 3890,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/izzy2lost/xemu/releases/tag/1.1.9",
-          "assets": [
-            {
-              "name": "app-release.apk",
-              "size": 22640766,
-              "downloads": 3890,
-              "url": "https://github.com/izzy2lost/xemu/releases/download/1.1.9/app-release.apk"
-            }
-          ]
-        }
-      ],
-      "repoUrl": "https://github.com/izzy2lost/xemu"
-    },
-    {
-      "name": "Steamlator",
-      "repo": "slaker222/Steamlator",
-      "category": "Winlator",
-      "downloads": 61671,
-      "releases": [
-        {
-          "name": "Steamlator 1.7",
-          "tag": "1.7",
-          "date": "2026-04-29T11:14:37Z",
-          "downloads": 14284,
-          "body": "Split controls into two tabs:\r\n\r\n- Sensor\r\n- Gamepad\r\n\r\n<img width=\"200\" height=\"200\" alt=\"Untitled\" src=\"https://github.com/user-attachments/assets/339584fd-eef1-46e8-a076-84b0e61bdb76\" />\r\n\r\nIn the Gamepad tab, visual gamepad button display was added.\r\n\r\nAdded the **Controller Manager** button  \r\n(similar to the Winlator Cmod implementation)\r\n\r\nAdded support for custom icons  \r\n(2 formats available: full white mode / original color mode)\r\n\r\n<img width=\"100\" height=\"100\" alt=\"Untitled\" src=\"https://github.com/user-attachments/assets/28a39f33-bcee-4cf1-98d5-f30c5834952d\" />\r\n\r\nAdded 2 new control types:\r\n\r\n- radial-menu (like in Winlator 11)\r\n- swipe-pad (allows button input using swipe gestures ← → ↑ ↓)\r\n\r\nAdded visual feedback when pressing almost all button types.\r\n\r\nAdded the **Quick HUD** function to container settings.\r\n\r\nIt allows quick access to:\r\n\r\n- controls\r\n- keyboard\r\n\r\n\r\n<img width=\"200\" height=\"200\" alt=\"Untitled\" src=\"https://github.com/user-attachments/assets/3978ad51-91e9-41eb-8520-eb58e93cf73d\" />\r\n\r\nAdded a new **Device** tab where you can view:\r\n\r\n- CPU name\r\n- RAM usage\r\n\r\nAdded **Open WineCFG** and **Open Regedit** buttons to container settings  \r\n(these become available after container creation)\r\n\r\nThis allows opening these programs directly inside the container in vertical mode.\r\n\r\n<img width=\"200\" height=\"200\" alt=\"Untitled\" src=\"https://github.com/user-attachments/assets/26fffaf1-f986-45fb-a08e-d3755530c670\" />\r\n\r\nNow after container creation, it is possible to change the Wine / Proton version.\r\n\r\nFixed loading of Box64 versions from Content.\r\n\r\nAdded versions 0.42 and others to the **WoWBox64** tab.\r\n\r\nAdded Wine versions:\r\n\r\n- 9.7\r\n- 8.2\r\n\r\nAdded the ability to download Turnip drivers online in the **Adreno-tools** tab  \r\n(from the K11MCH1 repository)\r\n\r\nNow Wine / Proton downloaded from Content will be located in:\r\n\r\n`Z:\\opt`\r\n\r\nUpdated the **Toggle Fullscreen** button\r\n\r\nBefore:\r\n\r\n- simply stretched the canvas to 100%\r\n\r\nNow:\r\n\r\n- allows manual stretch adjustment while keeping screen borders\r\n\r\nAdded a gear icon on the right side of **WineD3D**, where settings from Wine Configuration were moved.\r\n\r\nAdded language switching in **Settings**\r\n\r\nNew language added:\r\n\r\n- Spanish\r\n\r\nFixed the visual freeze at 76% during ImageFS installation.\r\n\r\nAdded log output during:\r\n\r\n- ImageFS installation\r\n- container startup\r\n\r\nAdded clipboard copy support in the **Logs (Wine Debug)** tab.\r\n\r\nAdded a new **Limit FPS** tab.\r\n\r\nAdded the **export** folder inside assets  \r\nwhich allows loading data into:\r\n\r\n`Z:\\export`\r\n\r\n# Box64 / Turnip Updates\r\n\r\nBox64 0.42\r\n\r\nTurnip 26.0 R8 / 26.0 R8 GMEM",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/slaker222/Steamlator/releases/tag/1.7",
-          "assets": [
-            {
-              "name": "Steamlator.1.7.apk",
-              "size": 878890302,
-              "downloads": 14284,
-              "url": "https://github.com/slaker222/Steamlator/releases/download/1.7/Steamlator.1.7.apk"
-            }
-          ]
-        },
-        {
-          "name": "Steamlator 1.6",
-          "tag": "1.6",
-          "date": "2025-10-02T21:51:28Z",
-          "downloads": 24435,
-          "body": "## Graphical Drivers – Added / Updated\r\n\r\n- **Vortek 2.1** ([From Winlator 11](https://github.com/brunodev85/winlator/releases/tag/v11.0.0))\r\n- **Qualcomm Driver v842.6** for 8 Elite, 8 Gen4, 8eGen5 processors (from GameHub)  \r\n- **Turnip** updated to v25.3.0 R10  \r\n- **Turnip v25.3.0 Gmem** for xx6, xx7 series processors (Adreno 710, 720 …)  \r\n\r\n## Other Changes\r\n\r\n- Fixed **Proton 9.0 arm64ec** operation  \r\n- Added **dxvk 2.7.1** to contents  \r\n- **dxvk-2.4 gplasync** added by default  \r\n- Buttons now **react visually when pressed** ([from Winlator coffincolors](https://github.com/coffincolors/winlator))\r\n\r\n### ✅ Is it safe to use Steamlator?  \r\n[Click here to check security details](https://github.com/slaker222/Steamlator/blob/winlator_bionic/security.md)\r\n\r\n# ❓ Why use Steamlator\r\n\r\n| # | Feature | Supported |\r\n|---|---------|-----------|\r\n| 1️⃣ | Access to online games | ✅ Yes |\r\n| 2️⃣ | Download mods directly from Steam Workshop | ✅ Yes |\r\n| 3️⃣ | Full-featured Steam client | ✅ Yes |\r\n| 4️⃣ | Installing games from Epic Games | ✅ Yes |\r\n| 5️⃣ | Games download to the Download folder and can be launched on any emulator | ✅ Yes |\r\n| 6️⃣ | Save synchronization with PC | ✅ Yes |\r\n| 7️⃣ | Conflicts with Winlator | ❌ No |\r\n",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/slaker222/Steamlator/releases/tag/1.6",
-          "assets": [
-            {
-              "name": "Steamlator.1.6.apk",
-              "size": 863965355,
-              "downloads": 24435,
-              "url": "https://github.com/slaker222/Steamlator/releases/download/1.6/Steamlator.1.6.apk"
-            }
-          ]
-        },
-        {
-          "name": "Steamlator 1.5.2 V2",
-          "tag": "1.5.2.2",
-          "date": "2025-08-23T14:57:43Z",
-          "downloads": 10982,
-          "body": "🎮 Epic Games integrated into the APK (Steam still works)\r\n⚡ Steam and Epic Games launch automatically when container is launched\r\n🔧(works on snapdragon 665, helio g88 and above)\r\n\r\n\r\n<img width=\"1147\" height=\"644\" alt=\"firefox_s67zoj0b2e\" src=\"https://github.com/user-attachments/assets/b9a713e5-9656-49ac-9ded-5ef6d2ba4555\" />\r\n\r\n\r\n🛠 Proton 10 added\r\n📂 To install: contents → wine → proton 10\r\n✨ New versions of FEXCore added to contents\r\n\r\n⚙️ Default Winlator settings updated\r\n\r\n🔧 Small fixes:\r\n\r\n💡 Added tooltips\r\n🎵 Updated music\r\n📉 Reduced APK size\r\n🖼 Changed icons\r\n🎮 Added FPS control\r\n\r\n❓ Why use Steamlator\r\n-- | --\r\n🔗 Access to online games | ✅ Yes\r\n📦 Download mods directly from Steam Workshop | ✅ Yes\r\n🧩 Full-featured Steam client | ✅ Yes\r\n🎮 Installing games from epic games | ✅ Yes\r\n📁 Games download to the Download folder and can be launched on any emulator | ✅ Yes\r\n🔄 Save synchronization with PC | ✅ Yes\r\n🚫 Conflicts with Winlator | ❌ No",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/slaker222/Steamlator/releases/tag/1.5.2.2",
-          "assets": [
-            {
-              "name": "Steamlator.1.5.2.V2.apk",
-              "size": 790490737,
-              "downloads": 10982,
-              "url": "https://github.com/slaker222/Steamlator/releases/download/1.5.2.2/Steamlator.1.5.2.V2.apk"
-            }
-          ]
-        },
-        {
-          "name": "Steamlator 1.5.2",
-          "tag": "1.5.2",
-          "date": "2025-07-31T20:16:36Z",
-          "downloads": 11970,
-          "body": "🏗 Based on Winlator Just Bionic 1.5.2\r\n\r\n\r\n🚀 Key Changes\r\n\r\nSteam is built into the APK – when you launch the container, the Steam launcher opens automatically.\r\n    \r\n![photo_5792158196801063468_y](https://github.com/user-attachments/assets/37e5ab07-da9e-4051-b1ba-339b44e0e50e)\r\n\r\nUses special launch arguments for maximum compatibility.\r\n\r\nVerified: Steam runs on devices with Helio G99 and Snapdragon 665\r\n(devices with more powerful processors will work as well).\r\n    \r\nSteamlator includes all the features of Winlator Just Bionic 1.5.2, including:\r\n\r\n Support for importing .wcp files\r\n\r\nAll functionality of the original Winlator Just Bionic\r\n\r\n🖥 Windows Application Support\r\n\r\nSteamlator uses Proton + Box64 to run Windows applications.\r\n\r\nYou can also install Wine via:\r\n Contents → select version 9.2 or 9.16.\r\n\r\n🎮 DXVK Updates\r\n\r\nAdded DXVK 2.6.1 and Glansync\r\n\r\nAdded DXVK 2.7\r\n\r\nOlder DXVK versions are still available\r\n\r\nNew FPS limit options added: 25 FPS and 35 FPS\r\n\r\n🌍 Localization\r\n\r\nThe Steamlator interface now includes:\r\n\r\nEnglish language \r\n\r\nRussian language \r\n\r\nUkrainian language \r\n        \r\n❓ Why use Steamlator\r\n-- | --\r\n🔗 Access to online games | ✅ Yes\r\n📦 Download mods directly from Steam Workshop | ✅ Yes\r\n🧩 Full-featured Steam client | ✅ Yes\r\n📁 Games download to the Download folder and can be launched on any emulator | ✅ Yes\r\n🔄 Save synchronization with PC | ✅ Yes\r\n🚫 Conflicts with Winlator | ❌ No\r\n",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/slaker222/Steamlator/releases/tag/1.5.2",
-          "assets": [
-            {
-              "name": "Steamlator.1.5.2.apk",
-              "size": 884534969,
-              "downloads": 11970,
-              "url": "https://github.com/slaker222/Steamlator/releases/download/1.5.2/Steamlator.1.5.2.apk"
-            }
-          ]
-        }
-      ],
-      "repoUrl": "https://github.com/slaker222/Steamlator"
-    },
     {
       "name": "GameHub Lite (Producdevity)",
       "repo": "Producdevity/gamehub-lite",
@@ -1089,6 +76,18 @@
       ]
     },
     {
+      "name": "Freedreno Turnip CI (StevenMXZ)",
+      "repo": "StevenMXZ/freedreno_turnip-CI",
+      "category": "Drivers",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/StevenMXZ/freedreno_turnip-CI",
+      "extensions": [
+        ".zip"
+      ],
+      "fetchError": "HTTP 504 Gateway Timeout — https://api.github.com/repos/StevenMXZ/freedreno_turnip-CI/releases?per_page=100"
+    },
+    {
       "name": "Freedreno Turnip CI (whitebelyash)",
       "repo": "whitebelyash/freedreno_turnip-CI",
       "category": "Drivers",
@@ -1132,6 +131,14 @@
         ".wcp",
         ".wcp.xz"
       ]
+    },
+    {
+      "name": "GameNative",
+      "repo": "utkarshdalal/GameNative",
+      "category": "GameNative",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/utkarshdalal/GameNative"
     },
     {
       "name": "GameNative Performance",
@@ -1305,6 +312,14 @@
       "repoUrl": "https://github.com/winlatorbrasil/Winlator-Brasil"
     },
     {
+      "name": "Steamlator",
+      "repo": "slaker222/Steamlator",
+      "category": "Winlator",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/slaker222/Steamlator"
+    },
+    {
       "name": "WinNative (fork)",
       "repo": "WinDroidEmulation/WinNative",
       "category": "Winlator",
@@ -1371,6 +386,14 @@
       "downloads": 0,
       "releases": [],
       "repoUrl": "https://github.com/SSimco/Cemu"
+    },
+    {
+      "name": "X1 BOX",
+      "repo": "izzy2lost/xemu",
+      "category": "Xbox",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/izzy2lost/xemu"
     },
     {
       "name": "hakuX",
@@ -8525,5 +7548,344 @@
       "repoUrl": "https://github.com/Swordfish90/Lemuroid"
     }
   ],
-  "manifestDrivers": {}
+  "manifestDrivers": {
+    "Proton": [
+      {
+        "name": "Proton-9-x86_64",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/Proton.9.0-x86_64.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      }
+    ],
+    "Wine": [
+      {
+        "name": "proton-10-arm64ec",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/proton-10-arm64ec.wcp.xz",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "wine-9.20-x86_64",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/wine-9.20.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      }
+    ],
+    "Box64": [
+      {
+        "name": "0.3.5",
+        "version": "1",
+        "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.5.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "036fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-036fix.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.3.7",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.7.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.3.8",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.8.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.3.9",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.9.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.1-fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.1-fix.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.2-fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.2-fix.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.4",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.4.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      }
+    ],
+    "WOWBox64": [
+      {
+        "name": "0.3.7-5768989",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WowBox64-0.3.7-5768989.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.3.9-056999e",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.3.9-056999e.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.1-fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.4.1-fix.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.2",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/wowbox64-0.4.2.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "0.4.4",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/Wowbox64-0.4.4.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      }
+    ],
+    "DXVK": [
+      {
+        "name": "1.5.5",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.5.5.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "1.7.2",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.7.2.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "1.9.4",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.9.4.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "1.10.3-async",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.10.3-async.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "11.1-sarek-async",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-11.1-sarek-async.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "1.12.0-sarek",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-sarek-1.12.0.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "2.3.1-gplasync",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.3.1-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "2.4.1.1-gplasync-sp",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1.1-gplasync-sp.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "2.4.1-fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-fix.wcp",
+        "date": "2026-08-17T14:22:19.741Z"
+      },
+      {
+        "name": "2.4.1-arm64ec-gplasync",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-arm64ec-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.5.3-1-gplasync",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.5.3-1-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.6-2-gplasync",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6-2-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.6.2-arm64ec-gplasync",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6.2-arm64ec-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.7.1-gplasync",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-gplasync.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.7.1-arm64ec-gplasync-fix-leegao",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-arm64ec-gplasync-fix-leegao.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      }
+    ],
+    "FEXCore": [
+      {
+        "name": "241214",
+        "version": "1",
+        "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_241214.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2505",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore-2505.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2507_fix",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_2507_fix.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2508.1",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2508.1.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2509.1",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2509.1.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2510.1",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2510.1.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2511",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2511.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2512",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2512.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2601",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2601.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2601-aabdded-nightly",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/FEXCore-2601-aabdded.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2603",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2603.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2604",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2604.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2605",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2605.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2607",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2607.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2608",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2608.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      }
+    ],
+    "VKD3D": [
+      {
+        "name": "2.7-proton",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.7.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.9-proton",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.9.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.12-proton",
+        "version": "1",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.12.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "2.14.1-arm64ec",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-2.14.1-arm64ec.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "proton-3.0a.wcp",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0a.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "arm64ec-3.0a.wcp",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-arm64ec-3.0a.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "proton-3.0b-2763dd2",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0b-2763dd2.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      },
+      {
+        "name": "3.0.1-gamesir",
+        "version": "0",
+        "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-3.0.1-Gamesir.wcp",
+        "date": "2026-08-17T14:22:19.742Z"
+      }
+    ]
+  }
 }

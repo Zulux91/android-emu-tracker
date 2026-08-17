@@ -11,50 +11,50 @@
 
 | Rank | Project | Downloads | Latest | Category |
 |------|---------|-----------|--------|----------|
-| 🥇 | GameNative | 775.3K | `v1.1.1` | GameNative |
-| 🥈 | Freedreno Turnip CI (StevenMXZ) | 456.0K | `v863.1_a7xx` | Drivers |
-| 🥉 | X1 BOX | 74.2K | `1.2.6` | Xbox |
-| 4 | Steamlator | 61.7K | `1.7` | Winlator |
-| 5 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
-| 6 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
-| 7 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
-| 8 | BannerHub (The412Banner) | 0 | `—` | GameHub |
-| 9 | Adreno Tools Drivers | 0 | `—` | Drivers |
-| 10 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
-| 11 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
-| 12 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
-| 13 | Upload Grave | 0 | `—` | Drivers |
-| 14 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
-| 15 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
-| 16 | GameNative Performance | 0 | `—` | GameNative |
-| 17 | Winlator BrunoDev | 0 | `—` | Winlator |
-| 18 | Winlator Ludashi | 0 | `—` | Winlator |
-| 19 | Winlator Afei | 0 | `—` | Winlator |
-| 20 | Winlator Xmod | 0 | `—` | Winlator |
-| 21 | Winlator Ref4ik | 0 | `—` | Winlator |
-| 22 | Winlator Ajay | 0 | `—` | Winlator |
-| 23 | Winlator Coffincolors | 0 | `—` | Winlator |
-| 24 | Winlator X | 0 | `—` | Winlator |
-| 25 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
-| 26 | Winlator XR | 0 | `—` | Winlator |
-| 27 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
-| 28 | Winlator Bionic duckyduckG | 0 | `—` | Winlator |
-| 29 | Winlator Bionic Stredohiri | 0 | `—` | Winlator |
-| 30 | Winlator Bionic Alexoqool | 0 | `—` | Winlator |
-| 31 | Winlator Honkon | 0 | `—` | Winlator |
-| 32 | Winlator Glibc | 0 | `—` | Winlator |
-| 33 | Wb64dev | 0 | `—` | Winlator |
-| 34 | Winlator Mali | 0 | `—` | Winlator |
-| 35 | Star (fork) | 0 | `—` | Winlator |
-| 36 | Winlator Brasil | 0 | `—` | Winlator |
-| 37 | WinNative (fork) | 0 | `—` | Winlator |
-| 38 | MiceWine | 0 | `—` | PC Emulator |
-| 39 | Horizon Emu | 0 | `—` | PC Emulator |
-| 40 | ExaGear 302 | 0 | `—` | PC Emulator |
-| 41 | XoDos | 0 | `—` | PC Emulator |
-| 42 | Mobox Patched | 0 | `—` | PC Emulator |
-| 43 | Pluvia | 0 | `—` | PC Emulator |
-| 44 | Cemu | 0 | `—` | Wii U Emulator |
+| 🥇 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
+| 🥈 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
+| 🥉 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
+| 4 | BannerHub (The412Banner) | 0 | `—` | GameHub |
+| 5 | Adreno Tools Drivers | 0 | `—` | Drivers |
+| 6 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
+| 7 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
+| 8 | Freedreno Turnip CI (StevenMXZ) | 0 | `—` | Drivers |
+| 9 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
+| 10 | Upload Grave | 0 | `—` | Drivers |
+| 11 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
+| 12 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
+| 13 | GameNative | 0 | `—` | GameNative |
+| 14 | GameNative Performance | 0 | `—` | GameNative |
+| 15 | Winlator BrunoDev | 0 | `—` | Winlator |
+| 16 | Winlator Ludashi | 0 | `—` | Winlator |
+| 17 | Winlator Afei | 0 | `—` | Winlator |
+| 18 | Winlator Xmod | 0 | `—` | Winlator |
+| 19 | Winlator Ref4ik | 0 | `—` | Winlator |
+| 20 | Winlator Ajay | 0 | `—` | Winlator |
+| 21 | Winlator Coffincolors | 0 | `—` | Winlator |
+| 22 | Winlator X | 0 | `—` | Winlator |
+| 23 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
+| 24 | Winlator XR | 0 | `—` | Winlator |
+| 25 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
+| 26 | Winlator Bionic duckyduckG | 0 | `—` | Winlator |
+| 27 | Winlator Bionic Stredohiri | 0 | `—` | Winlator |
+| 28 | Winlator Bionic Alexoqool | 0 | `—` | Winlator |
+| 29 | Winlator Honkon | 0 | `—` | Winlator |
+| 30 | Winlator Glibc | 0 | `—` | Winlator |
+| 31 | Wb64dev | 0 | `—` | Winlator |
+| 32 | Winlator Mali | 0 | `—` | Winlator |
+| 33 | Star (fork) | 0 | `—` | Winlator |
+| 34 | Winlator Brasil | 0 | `—` | Winlator |
+| 35 | Steamlator | 0 | `—` | Winlator |
+| 36 | WinNative (fork) | 0 | `—` | Winlator |
+| 37 | MiceWine | 0 | `—` | PC Emulator |
+| 38 | Horizon Emu | 0 | `—` | PC Emulator |
+| 39 | ExaGear 302 | 0 | `—` | PC Emulator |
+| 40 | XoDos | 0 | `—` | PC Emulator |
+| 41 | Mobox Patched | 0 | `—` | PC Emulator |
+| 42 | Pluvia | 0 | `—` | PC Emulator |
+| 43 | Cemu | 0 | `—` | Wii U Emulator |
+| 44 | X1 BOX | 0 | `—` | Xbox |
 | 45 | hakuX | 0 | `—` | Xbox |
 | 46 | X360 Mobile | 0 | `—` | Xbox 360 |
 | 47 | Eden Emulator | 0 | `v0.2.1` | Nintendo Switch Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-17T13:35:39.902Z_
+_Last auto-generated: 2026-08-17T14:22:19.742Z_
