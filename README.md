@@ -24,21 +24,21 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | Winlator Coffincolors | 803.7K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 803.2K | `v20250425` | Emulator PS3 |
-| 14 | GameNative | 775.6K | `v1.1.1` | GameNative |
-| 15 | Flycast | 768.1K | `v2.6` | Sega Dreamcast |
-| 16 | Dolphin MMJR2 VBI | 736.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 14 | GameNative | 775.7K | `v1.1.1` | GameNative |
+| 15 | Flycast | 768.2K | `v2.6` | Sega Dreamcast |
+| 16 | Dolphin MMJR2 VBI | 736.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 711.7K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 709.9K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 681.3K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 586.6K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 536.0K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 507.4K | `tu_v31` | Drivers |
+| 20 | APS3e | 586.7K | `2.41` | Emulator PS3 |
+| 21 | Winlator Mali | 536.1K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 507.6K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 470.3K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 456.3K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 315.9K | `v0.6.2-public.hotfix.1` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 456.5K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 316.2K | `v0.6.2-public.hotfix.1` | Xbox 360 |
 | 26 | Wb64dev | 282.9K | `v10.2` | Winlator |
-| 27 | BannerHub (The412Banner) | 273.5K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 212.8K | `2.6.6.7` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 273.6K | `v3.8.0` | GameHub |
+| 28 | ARMSX2 | 213.1K | `2.6.6.7` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 159.8K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 158.5K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 121.3K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-17T16:20:46.549Z_
+_Last auto-generated: 2026-08-17T16:55:07.298Z_
