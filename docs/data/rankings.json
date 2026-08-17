@@ -1,571 +1,782 @@
 {
-  "updatedAt": "2026-08-17T15:20:34.899Z",
-  "nextUpdateAt": "2026-08-17T15:50:34.899Z",
+  "updatedAt": "2026-08-17T15:49:02.869Z",
+  "nextUpdateAt": "2026-08-17T16:19:02.869Z",
   "totalProjects": 60,
   "projectsWithReleases": 4,
   "projectsWithoutReleases": 56,
   "results": [
     {
-      "name": "Dolphin MMJR2 VBI",
-      "repo": "Medard22/Dolphin-MMJR2-VBI",
-      "category": "Nintendo GameCube / Wii",
-      "downloads": 736539,
+      "name": "ARMSX2",
+      "repo": "ARMSX2/ARMSX2",
+      "category": "Emulator PS2",
+      "downloads": 212555,
       "releases": [
         {
-          "name": "U24.07.02-2407",
-          "tag": "U24.07.02-2407",
-          "date": "2025-07-20T08:56:45Z",
-          "downloads": 289933,
-          "body": "Notable changes from U24.03.22-21259\r\n\r\n- Code refactoring and minor fixes\r\n- Fixed a panic alert for Def Jam: Fight for New York and Fifa Street\r\n- Numerous small optimizations to JitARM64\r\n- Small optimizations to DSP HLE audio decoding\r\n- Fixed stuttering from JIT Cache clear - mostly notable in Shadow the Hedgehog\r\n- Set OSD message color to yellow in default AMOLED theme\r\n- Updated Vulkan Memory Allocator and Vulkan Headers\r\n- Updated and optimized app icons\r\n\r\nMissing features - these features from Dolphin Official are not implemented\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is based on the Official Dolphin dev build 2407-1 (Jul 2, 2024). For more information about what has changed check the PR history. \r\n\r\n**General information**\r\n- When I started this project, my only goal was to add the VBI Skip hack to MMJR2. At the time, I had little to no coding experience and knew nothing about Git, GitHub, or Android Studio. Looking back to 2023, I never imagined I’d come this far.\r\n- Fast forward almost a year and a half later—with over 1,100 pull requests—I’ve managed to update this codebase from Dolphin 5.0-18205 (December 2022) all the way to Dolphin 2407 (July 2024). Of course, all the credit goes to the Dolphin Team, since they did the real heavy lifting. My job has simply been figuring out how to make it all work in MMJR2.\r\n- I work on this fork in my free time, mostly for myself, but I’m genuinely happy that so many of you find it useful. The previous release has been downloaded over 150,000 times and that is honestly mind-blowing. \r\n- I’ll keep working to improve MMJR2 for as long as I’m able. Thank you all for your support! \r\n- **Android developers willing to help are welcome!**\r\n\r\n**Caution**\r\n- **Save states from older versions are, unfortunately, NOT compatible with this release. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)\r\n",
+          "name": "ARMSX2 2.6.6.7 ",
+          "tag": "2.6.6.7",
+          "date": "2026-08-16T19:55:09Z",
+          "downloads": 7709,
+          "body": "ARMSX2 2.6.6.7\r\n\r\nWhat's new: \r\n\r\nFrame generation (Lossless Scaling)\r\n\r\nFrame generation is here. ARMSX2 drives Lossless Scaling's interpolation from its own\r\nVulkan present path, inserting generated frames between rendered ones, a game running at\r\n30 or 60 can display at double that on a high-refresh screen. Thanks to @CamilleLaVey for sharing his implementation with me! \r\n\r\n**You need your own copy of Lossless Scaling.** Nothing about it ships with ARMSX2: the\r\ninterpolation shaders are read at runtime out of your own Lossless.dll, which you supply\r\nthrough the file picker exactly as you supply a PS2 BIOS. Without that file the feature\r\nstays off, and the app tells you so. Requires the **Vulkan** renderer and an **Adreno 7xx or newer** GPU. Frame generation\r\nforces FIFO presentation while it is on, without that the interpolated frames are discarded by the display before you ever see them.\r\n\r\n- Choose **x2**, **x3** or **x4** generated frames\r\n- **Performance mode** switches to the lighter 3.1p shader family, on by default \r\n- **Motion detail** trades optical-flow resolution for speed\r\n- The performance overlay reports frame generation's own state and the real display rate,\r\n  which the FPS counter cannot show, the emulator's frame rate deliberately does not change\r\n- Translated shaders are cached, so only the first launch pays for extracting them\r\n\r\nSideload builds only. It cannot ship on Google Play.\r\n\r\nFSR 1 upscaling:\r\n\r\nAMD FidelityFX Super Resolution 1 is now an output-scaling option, so a game rendered below\r\nyour screen's resolution is upscaled with edge-adaptive sharpening instead of a plain\r\nstretch. There is a sharpness slider, and it replaces CAS while enabled (FSR's second pass is a contrast-adaptive sharpener itself, so running both would sharpen twice). Vulkan only. Found under Renderer --> Display Effects, and in the in-game Graphics tab.\r\n\r\nFour builds instead of one:\r\n\r\nReleases now ship four APKs, and the in-app updater picks the right one for your device\r\nautomatically. If you install by hand, match the name to your Android version:\r\n\r\n| `…-legacy-armv8.0-sdk26.apk` | Android 8+, every 64-bit device | (how armsx2 was built until today) \r\n| `…-a11-armv8.2-sdk30.apk` | Android 11+, CPUs with FP16 + DotProd |\r\n| `…-a13-armv8.2-sdk33.apk` | Android 13+ |\r\n| `…-a15-armv8.2-sdk35.apk` | Android 15+ |\r\n\r\nThe three ARMv8.2 builds are the same code, they exist to widen the platform floor, so\r\ninstall the highest one your device accepts.\r\n\r\n**The legacy build now genuinely runs on older CPUs.** It previously targeted ARMv8.1,\r\nwhich let the compiler emit atomic instructions that Cortex-A53/A72/A73 do not have, so\r\nthe one build meant for old devices could crash on them. It is built for ARMv8.0 with\r\nruntime-dispatched atomics, which costs nothing on a modern phone.\r\n\r\nEE floating-point accuracy: from @pstef\r\n\r\nA large body of work on how the EE's FPU is emulated, and the reason several long-standing\r\ngraphical and physics oddities behave differently now.\r\n\r\n- A fourth clamp mode, shown as Exact, which reproduces the PS2 multiplier's own\r\n  deficit rather than approximating it\r\n- Divide, square root, reciprocal square root, add, subtract, min and max all reworked to\r\n  follow the console's actual rounding and saturation order\r\n- The FPU register file now keeps full precision internally\r\n- The **FPU Multiply Hack** game fix is gone, the clamp modes cover what it was for\r\n- Extensive new tests pinning all of this against real console captures\r\n\r\nFixes and improvements:\r\n\r\n- Analog triggers can be bound to any control, and the left trigger reads correctly\r\n  everywhere (#584) done by @bmdhacks  \r\n- EE cache: fixed a tag-lookup fold that could return the wrong cache line, done by @bmdhacks \r\n- IOP/EE: a jump to address zero now reaches the handler instead of being treated as\r\n  impossible, done by @bmdhacks  \r\n- PINE now applies when you toggle it, rather than at the next game change, done by @bmdhacks\r\n- Per-game settings: saving with a game open no longer drops process-wide fields, done by @bmdhacks \r\n- IPU: faster deinterleaving dither, done by @bmdhacks \r\n- Synced with upstream PCSX2",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.07.02-2407",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.7",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-U24.07.02-2407.apk",
-              "size": 13033337,
-              "downloads": 289933,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.07.02-2407/Dolphin.MMJR2-VBI-U24.07.02-2407.apk"
+              "name": "ARMSX2-2.6.6.7-a11-armv8.2-sdk30.apk",
+              "size": 89852564,
+              "downloads": 4408,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.7/ARMSX2-2.6.6.7-a11-armv8.2-sdk30.apk"
+            },
+            {
+              "name": "ARMSX2-2.6.6.7-a13-armv8.2-sdk33.apk",
+              "size": 89721492,
+              "downloads": 1363,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.7/ARMSX2-2.6.6.7-a13-armv8.2-sdk33.apk"
+            },
+            {
+              "name": "ARMSX2-2.6.6.7-a15-armv8.2-sdk35.apk",
+              "size": 89688724,
+              "downloads": 1530,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.7/ARMSX2-2.6.6.7-a15-armv8.2-sdk35.apk"
+            },
+            {
+              "name": "ARMSX2-2.6.6.7-legacy-armv8.0-sdk26.apk",
+              "size": 88787604,
+              "downloads": 408,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.7/ARMSX2-2.6.6.7-legacy-armv8.0-sdk26.apk"
             }
           ]
         },
         {
-          "name": "U24.03.22-21259",
-          "tag": "U24.03.22-21259",
-          "date": "2025-01-11T14:28:43Z",
-          "downloads": 167207,
-          "body": "Changelog from U24.02.01-21065\r\n\r\n- Code refactoring and minor fixes\r\n- Cleaned up build.gradle, updated Android SDK to version 34, and AGP to 8.2.0\r\n- Dropped support for the x86_64 ABI, leading to faster build times and reduced APK size\r\n- Improved scaling at native resolution\r\n- Implemented GC tapserver-based modem adapter and integrated it into the UI\r\n- Optimizations to JitArm64\r\n- Updated GameINI database\r\n\r\nMissing features - these features from Dolphin Official are not implemented\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is roughly equivalent to the Official Dolphin development build 5.0-21259 (Mar 22, 2024). For more information about what has changed check the PR history.\r\n\r\n**General information**\r\n- Android developers willing to help are welcome!\r\n\r\n**Save states from U24.02.01-21065 ARE compatible with this release. Make an in-game save before updating just to be sure!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)\r\n",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.03.22-21259",
+          "name": "ARMSX2 nightly 20260817 (2a98726692)",
+          "tag": "nightly-20260817",
+          "date": "2026-08-17T09:27:04Z",
+          "downloads": 192,
+          "body": "Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk, sideload it\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\n## What's new\n- LSFG/FSR: remove the debug instrumentation\n- Android: call eeClampMode 4 Exact, the name the other frontends use\n- Android: offer eeClampMode 4 as Ludicrous in the clamping pickers\n- LSFG: let the generated frame wait for a display slot; unhide FSR on renderer=auto\n- LSFG: force FIFO presentation, and surface FSR in the in-game menu\n- GameDB: Add Prioritize Lower depth fix to Steambot Chronicles\n- GS/HW: Avoid detecting shuffles as source of truth for target format\n- GS/TC: Improve single pixel overlap detection in RT in RT\n- EE/IOP: Fix loading elf's through relative path\n- GS: FidelityFX Super Resolution 1 as an output-scaling mode\n- GameIndex: record game serials that can benefit from mode 3\n- LSFG: persist settings and shaders, report status, add flow scale and 3.1p\n- Tests: pin the COP2 macro MADD/MSUB clamp sets against the interpreter\n- Fix: COP2 macro MADDw and MSUB clamp the operands microVU names\n- LSFG: fix binary semaphore misuse and the unbounded acquire\n- Android: make the legacy tier actually run on ARMv8.0 cores\n- EE/UI: put eeClampMode 4 on the clamping mode picker\n- EE/FPU: name the clamp modes the slot format actually follows\n- EE/FPU: divide by the unit's own recurrence at eeClampMode 4\n- EE/FPU: lift the call island's frame out of the multiply\n- EE/FPU: pin where O comes from against the console\n- EE/FPU: flag the adder's own sum, not a second one\n- EE/FPU: decide saturation after the narrowing, not before it\n- EE/FPU: guard-mask ADD/SUB's operands in the wide domain\n- EE/FPU: narrow SQRT's root with a plain Fcvt\n- EE/FPU: take RSQRT's operands from the slots\n- EE/FPU: divide from the slots, and assemble the zero-divisor result as one\n- EE/FPU: widen SQRT's operand straight from its slot\n- EE/FPU: select MAX/MIN in the slot domain\n- EE/FPU: pin the multiplier deficit away from exponent 127\n- EE/FPU: pin both clamp modes' multiplies against the console\n- EE/UI: Remove the FPU multiply gamefix\n- EE/FPU: split iFPUd's multiplier deficit into a fourth clamp mode\n- GameDB: drop FpuNegDivHack from the documented example\n- EE/FPU: call the multiply array for the rest of the deficit\n- Tests: give an EE snapshot the FPR format it was captured in\n- EE/FPU: give mode 3 the multiplier predicate's boundary term\n- EE/FPU: compute mode 3 in the relocated domain\n- EE/arm64: measure the callee-saved NEON budget\n- EE/FPU: read and write an FPR through an accessor\n- EE/FPU: add the FPR word <-> host double relocation\n- EE/FPU: widen the FPR file's slots to 64 bits\n- Android: LSFG frame generation (github flavour only)\n- Android: four release targets, keyed by minSdk suffix\n- Android: ship three CPU targets, and teach the updater to pick between them\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260815...2a987266923b25933b74e56d8e887b9e36d3626c",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260817",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-U24.03.22-21259.apk",
-              "size": 13002186,
-              "downloads": 167207,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.03.22-21259/Dolphin.MMJR2-VBI-U24.03.22-21259.apk"
+              "name": "ARMSX2-nightly-20260817-2a98726692-Android-arm64.apk",
+              "size": 83802607,
+              "downloads": 150,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-iOS-arm64.ipa",
+              "size": 26479374,
+              "downloads": 19,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-Linux-arm64-16K-pages.AppImage",
+              "size": 59251208,
+              "downloads": 6,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-Linux-arm64-4K-pages.AppImage",
+              "size": 59230728,
+              "downloads": 3,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-Linux-arm64-libretro-core.tar.zst",
+              "size": 4308960,
+              "downloads": 3,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67598285,
+              "downloads": 2,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-macOS-arm64.tar.xz",
+              "size": 34728512,
+              "downloads": 6,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260817-2a98726692-Windows-arm64.zip",
+              "size": 35388733,
+              "downloads": 3,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260817/ARMSX2-nightly-20260817-2a98726692-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "U24.02.01-21065",
-          "tag": "U24.02.01-21065",
-          "date": "2024-12-19T18:01:15Z",
-          "downloads": 26423,
-          "body": "Changelog from U23.12.18-20789\r\n\r\n- A lot of code refactors and small fixes\r\n- Simplified the aspect ratio scaling logic\r\n- Minor improvements to JitARM64\r\n- Fixed reverb volume in Mario Kart: Double Dash!!\r\n- Minor fixes in the pixel shader and ubershader code\r\n- Updated GameINI fixes\r\n\r\nMissing features — these features from Dolphin Official are not yet implemented\r\n\r\n- Android input overhaul and subsequent changes to input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nThis codebase is roughly equivalent to the official Dolphin dev build 5.0-21065 (February 1, 2024). For more information about what has changed check the PR history.\r\n\r\n**General information**\r\n- Android developers willing to help are welcome!\r\n- Merry Christmas, everyone! If, by chance, Christmas isn’t a thing where you live, have a great time. Happy gaming!\r\n\r\n**Caution**\r\n- **Save states from older versions are, unfortunately, NOT compatible with this release due to significant code refactors. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls might get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U24.02.01-21065",
+          "name": "ARMSX2 nightly 20260815 (aeabe3e0e5)",
+          "tag": "nightly-20260815",
+          "date": "2026-08-15T09:08:30Z",
+          "downloads": 2467,
+          "body": "Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk, sideload it\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\n## What's new\n- EE cache: fix the DXSTG tag lookup's 29-bit fold, and the tests around it (#568)\n- Android: let analog triggers be bound, and read the left one everywhere (#584)\n- IPU: dither a whole row per deinterleaving load\n- GS: AArch64 has no slow unaligned load to compile around\n- Android: a Game-scope save must still write the process-wide fields\n- Core: apply a PINE toggle when it is toggled, not at the next game change\n- GS/SW: the C++ rasteriser packs a colour gradient like the generators do\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260814...aeabe3e0e5d1f7b5098e0f290a8f442423304b3a",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260815",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-U24.02.01-21065.apk",
-              "size": 18320564,
-              "downloads": 26423,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U24.02.01-21065/Dolphin.MMJR2-VBI-U24.02.01-21065.apk"
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Android-arm64.apk",
+              "size": 82622617,
+              "downloads": 1775,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-iOS-arm64.ipa",
+              "size": 26434212,
+              "downloads": 235,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-16K-pages.AppImage",
+              "size": 59206152,
+              "downloads": 60,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-4K-pages.AppImage",
+              "size": 59218440,
+              "downloads": 73,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-libretro-core.tar.zst",
+              "size": 4302257,
+              "downloads": 33,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67440966,
+              "downloads": 34,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-macOS-arm64.tar.xz",
+              "size": 34708596,
+              "downloads": 121,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260815-aeabe3e0e5-Windows-arm64.zip",
+              "size": 35337968,
+              "downloads": 136,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260815/ARMSX2-nightly-20260815-aeabe3e0e5-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "U23.12.18-20789",
-          "tag": "U23.12.18-20789",
-          "date": "2024-12-03T13:44:04Z",
-          "downloads": 16943,
-          "body": "**Changelog from v2.3.000**\r\n\r\n- Fixed volume handling in DSPHLE AX ucode\r\n- Fixed reverb in DSPHLE Zelda ucode\r\n- Many optimizations to JIT\r\n- Changes to memory handling and MMU\r\n- Fixes for some games via GameSettings\r\n- Updated NDK to 26.1.10909125\r\n- Various small fixes\r\n\r\nMissing features - these features from Dolphin Official are not implemented!\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\nI´m not sure if anyone even cares anymore, but here is a new release. For more information about what has changed, check the PR history.\r\n\r\n**General information**\r\n- **New versioning system** - From now on, release and beta builds will use the version and date of the upstream codebase the build is based on, following the format \"URR.MM.DD-version\". For example, this release is based on Dolphin 5.0-20789 from December 18, 2023, so its version is: U23.12.18-20789\r\n- Android developers willing to help are welcome!\r\n\r\n**Caution**\r\n- **Save States from older versions are NOT compatible with this release. Be sure to make an in-game save before updating!**\r\n\r\n**Known Issues**\r\n- The UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n- For people using touch controls. It is possible that the core controls and touchscreen controls get out of sync. For more information check here - [https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708](https://github.com/Medard22/Dolphin-MMJR2-VBI/discussions/708)",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/U23.12.18-20789",
+          "name": "ARMSX2 nightly 20260814 (02e93048d4)",
+          "tag": "nightly-20260814",
+          "date": "2026-08-14T09:48:25Z",
+          "downloads": 1400,
+          "body": "Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk, sideload it\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\n## What's new\n- IOP: let an immediate jump to zero reach the handler we already wrote\n- EE: a jump to address zero is a target, not an impossibility\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260813...02e93048d43e442e37b4c64cec03beabdebee47e",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260814",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-U23.12.18-20789.apk",
-              "size": 18314646,
-              "downloads": 16943,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/U23.12.18-20789/Dolphin.MMJR2-VBI-U23.12.18-20789.apk"
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Android-arm64.apk",
+              "size": 82774169,
+              "downloads": 1051,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-iOS-arm64.ipa",
+              "size": 26437667,
+              "downloads": 108,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-16K-pages.AppImage",
+              "size": 59214344,
+              "downloads": 28,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-4K-pages.AppImage",
+              "size": 59210248,
+              "downloads": 40,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-libretro-core.tar.zst",
+              "size": 4305838,
+              "downloads": 20,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67523114,
+              "downloads": 25,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-macOS-arm64.tar.xz",
+              "size": 34709828,
+              "downloads": 55,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260814-02e93048d4-Windows-arm64.zip",
+              "size": 35343397,
+              "downloads": 73,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260814/ARMSX2-nightly-20260814-02e93048d4-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "v2.3.000",
-          "tag": "v2.3.000",
-          "date": "2024-10-11T15:43:00Z",
-          "downloads": 52456,
-          "body": "### **Changelog for v2.3.000 (from v2.2.110)**\r\n\r\n- Extensive code refactors including a major overhaul of the graphics pipeline\r\n- Graphics pipeline code revision - removed obsolete MMJR2-specific hacks, that are no longer needed\r\n- Revised and improved Asset Loader\r\n- Updated external components like SDL, Cubeb, mGBA, fmt, etc.\r\n- Updated NDK to v25.2.9519653\r\n- Updated Android libraries, now targeting Java 17\r\n- Many JIT optimizations\r\n- Minor updates to the Vulkan backend\r\n- Optimized Vertex Loader\r\n- Updated GameINI database\r\n- Fixed Fast Forward hotkey\r\n- Added support for WiiConnect24 via WiiLink\r\n- Added support for Color Space Correction\r\n- Leveraged LZ4 algorithm for faster savestate decompression\r\n- Updated and fixed multiple instances of partially synced code across the project\r\n\r\n### **Missing features - these features from Dolphin Official are not implemented**\r\n\r\n- Android Input Overhaul and subsequent changes to Input and TAS handling\r\n- Custom GPU driver support\r\n- Skylanders portal and Infinity base support\r\n- Gamma correction\r\n\r\n**This codebase is roughly equivalent to the Official Dolphin dev build 5.0-20223 (Oct 15, 2023).**\r\n\r\n### General information\r\nThis release includes over 7 months' worth of code changes ported from Dolphin Official since v2.2.110, and more than 3 months since the last beta. I’ve tested it extensively, but as always, your mileage may vary. 🤷‍♂️ I upgraded my RP3+ to a Retroid Pocket 4 Pro and performed most of the testing on this device.\r\n\r\nAndroid developers willing to help are always welcome! \r\n\r\n### Caution\r\n\r\n- Save States from v2.2.110, v2.3.000-rc1, and v2.3.000-rc2 are NOT compatible with this release. Be sure to have in-game saves before updating!\r\n- Due to the graphics pipeline changes, this build bumps the shader cache UID version. Shaders will need to be cached and built from scratch, so expect some initial shader compilation stutter.\r\n\r\n### Known Issues\r\n\r\nThe UI in the Cheats section is broken when you try to delete multiple items in a row. This bug is present to this day in Dolphin Official. Just delete a few items, exit the cheats window, and return back.\r\n\r\nAs always, have fun and happy gaming ✌️",
+          "name": "ARMSX2 2.6.6.6 ",
+          "tag": "2.6.6.6",
+          "date": "2026-08-12T18:35:04Z",
+          "downloads": 37617,
+          "body": "ARMSX2 2.6.6.6\r\n\r\nWhat's new: \r\n\r\nMali:\r\nIf you downgraded to 2.6.6.4 because of performance issues, you can come back. 2.6.6.5 put every Mali device on a slow path for any draw that reads the screen back, on an Anbernic RG 477V, Shadow of the Colossus fell from 30 fps to 7. Two separate mistakes stacked. The renderer had concluded that OpenGL's framebuffer fetch never keeps overlapping shapes in order, true of one extension, false of the one every Android Mali device actually uses, so healthy Mali hardware was being split into one draw call per shape for nothing. Separately, a workaround for one specific bad driver, which had never actually engaged before, started engaging, and turned every screen-reading draw into a full copy plus a memory flush. Both are gone. fixed by @bmdhacks \r\n\r\nAuto now picks Vulkan instead of OpenGL. On the affected Mali driver that is 7 fps on OpenGL against about 30 on Vulkan, on the same device. The renderer choice and the driver workaround were being decided in two different places, so nothing noticed when they disagreed. Picking a renderer explicitly still wins, the only devices this moves are the ones where OpenGL is genuinely crippled. done by @bmdhacks Note the tradeoff: restoring the fast path also restores a known rendering fault on that driver in some games (Metal Gear Solid 3 is the observed one). Vulkan remains the correct-rendering choice there. The measurements said the speed was worth it.\r\n\r\nFloating point:\r\nAll done by @pstef \r\n\r\n60 commits, and the largest accuracy work the emulator has ever had.\r\n\r\nThe PS2's FPU is not IEEE, and ARMSX2 had been pretending it was. The console has no infinity and no NaN, and its numbers reach one whole range higher than a normal float, 0x7FFFFFFF is simply the biggest number the machine has. Every operation was folding that top range away on the way in, and folding a host infinity back into it on the way out. Add, subtract, multiply, the multiply-accumulates, the comparisons, and finally divide and reciprocal-square-root have all been taken off that clamp. Games that push into that range now get what the console gives.\r\n\r\nDivide and square root now run the console's own algorithm. DIV.S, SQRT.S and RSQRT.S were computed with the host's divide and then nudged toward the PS2's answer, which left every operand the nudge did not reach one step off. The unit is not a rounding rule at all, it is a digit-by-digit recurrence, so it now runs the digits. Measured against silicon first to establish that the hardware is not correctly rounded.\r\n\r\nThe multiplier model from 2.6.6.4 was incomplete. That release modelled the PS2 multiplier's one-step deficit from a formula over the second operand. The formula only holds when the exact product fits, once there is a remainder below the last bit, the first operand matters too, and those cases were coming back IEEE. It is now modelled from the actual multiplier array rather than a formula over one input.\r\n\r\nError flags were wrong in a dozen small ways, reciprocal-square-root and square root missed the invalid flag on negative zero, divide left a previous instruction's flags standing, reciprocal-square-root raised divide-by-zero on every zero divisor, and the overflow and underflow flags were being read off host infinities and denormals rather than the PS2's own result. Underflowing adds and subtracts were also being flushed to zero; silicon does not do that.\r\n\r\nA cache instruction could make the emulator write to an address the game chose. The data-cache tag holds a host pointer where hardware holds a guest address, and one instruction copied a guest value into it unmasked. Narrow exposure, it needed the EE cache enabled, which ships off, but it is fixed.\r\n\r\nPerformance: \r\n\r\nAll @pstef, on the ARM64 recompiler.\r\n\r\nQuad shifts stop bouncing through memory, done in registers via a table lookup now, instead of the store-and-reload that only x86 needs.\r\n\r\nWaiting threads stop flushing the CPU pipeline. Three spin loops each watch a single word of memory, but the shared helper did not know that and flushed the pipeline in batches while it waited. ARM64 can watch an address directly, so now it does.\r\n\r\nJump delay slots are hoisted when the instruction is independent, something the x86 recompiler has always done and the ARM64 port had never carried over.\r\n\r\nA dead clamp removed from every MADD/MSUB pair in the VU recompiler, and the multiply predicate is down from three instructions to one.\r\n\r\nTests\r\n25 of the 60 commits are tests, pinning all of the above against captures from real PS2 hardware: the divide unit's rounding in all four modes, the VU pipeline and its memory and XGKICK wrapping, VU0 branch terminators, FCR31's flag behaviour, and cross-engine agreement between the interpreter and both recompilers. Several deliberately record known ARM64 divergences rather than hiding them, so the next person to touch this starts with a baseline instead of folklore.\r\n\r\nAll in all, we have a far more accurate emulator than we ever did before! ",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.6",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v2300.apk",
-              "size": 18079286,
-              "downloads": 52456,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000/Dolphin.MMJR2-VBI-v2300.apk"
+              "name": "ARMSX2-2.6.6.6.apk",
+              "size": 84580670,
+              "downloads": 37617,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.6/ARMSX2-2.6.6.6.apk"
             }
           ]
         },
         {
-          "name": "Public beta - v2.3.000-rc2",
-          "tag": "v2.3.000-rc2",
-          "date": "2024-08-27T13:36:53Z",
-          "downloads": 42209,
+          "name": "ARMSX2 nightly 20260813 (3929e78dc2)",
+          "tag": "nightly-20260813",
+          "date": "2026-08-13T09:54:15Z",
+          "downloads": 1035,
+          "body": "",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260813",
+          "assets": [
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Android-arm64.apk",
+              "size": 82774169,
+              "downloads": 761,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-iOS-arm64.ipa",
+              "size": 26437659,
+              "downloads": 109,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-16K-pages.AppImage",
+              "size": 59214344,
+              "downloads": 26,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-4K-pages.AppImage",
+              "size": 59214344,
+              "downloads": 23,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-libretro-core.tar.zst",
+              "size": 4306008,
+              "downloads": 9,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67522962,
+              "downloads": 12,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-macOS-arm64.tar.xz",
+              "size": 34712988,
+              "downloads": 44,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260813-3929e78dc2-Windows-arm64.zip",
+              "size": 35343652,
+              "downloads": 51,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260813/ARMSX2-nightly-20260813-3929e78dc2-Windows-arm64.zip"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.6.5 ",
+          "tag": "2.6.6.5",
+          "date": "2026-08-10T01:58:08Z",
+          "downloads": 26685,
           "body": "",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000-rc2",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.5",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v2300-r2.apk",
-              "size": 17460549,
-              "downloads": 42209,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000-rc2/Dolphin.MMJR2-VBI-v2300-r2.apk"
+              "name": "ARMSX2-2.6.6.5.apk",
+              "size": 84519230,
+              "downloads": 26685,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.5/ARMSX2-2.6.6.5.apk"
             }
           ]
         },
         {
-          "name": "Public beta - v2.3.000-rc1 ",
-          "tag": "v2.3.000-rc1",
-          "date": "2024-06-07T13:03:07Z",
-          "downloads": 67863,
+          "name": "ARMSX2 nightly 20260810 (e509b17e7a)",
+          "tag": "nightly-20260810",
+          "date": "2026-08-10T10:11:43Z",
+          "downloads": 2632,
           "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.3.000-rc1",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260810",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v2300-rc1.apk",
-              "size": 17459886,
-              "downloads": 67863,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.3.000-rc1/Dolphin.MMJR2-VBI-v2300-rc1.apk"
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Android-arm64.apk",
+              "size": 82589849,
+              "downloads": 1985,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-iOS-arm64.ipa",
+              "size": 26429248,
+              "downloads": 241,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-16K-pages.AppImage",
+              "size": 59185672,
+              "downloads": 39,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-4K-pages.AppImage",
+              "size": 59197960,
+              "downloads": 58,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-libretro-core.tar.zst",
+              "size": 4299290,
+              "downloads": 28,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67458292,
+              "downloads": 22,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-macOS-arm64.tar.xz",
+              "size": 34698440,
+              "downloads": 128,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260810-e509b17e7a-Windows-arm64.zip",
+              "size": 35332300,
+              "downloads": 131,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260810/ARMSX2-nightly-20260810-e509b17e7a-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "",
-          "tag": "v2.2.110",
-          "date": "2024-01-14T11:50:29Z",
-          "downloads": 57555,
+          "name": "ARMSX2 nightly 20260809 (3cda8a2e60)",
+          "tag": "nightly-20260809",
+          "date": "2026-08-09T09:26:42Z",
+          "downloads": 1669,
           "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.110",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260809",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v2211.apk",
-              "size": 17162047,
-              "downloads": 57555,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.110/Dolphin.MMJR2-VBI-v2211.apk"
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Android-arm64.apk",
+              "size": 83028121,
+              "downloads": 1248,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-iOS-arm64.ipa",
+              "size": 26425570,
+              "downloads": 130,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-16K-pages.AppImage",
+              "size": 59185672,
+              "downloads": 42,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-4K-pages.AppImage",
+              "size": 59189768,
+              "downloads": 45,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-libretro-core.tar.zst",
+              "size": 4290556,
+              "downloads": 21,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67443483,
+              "downloads": 21,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-macOS-arm64.tar.xz",
+              "size": 34689864,
+              "downloads": 74,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260809-3cda8a2e60-Windows-arm64.zip",
+              "size": 35322624,
+              "downloads": 88,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260809/ARMSX2-nightly-20260809-3cda8a2e60-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "v.2.2.100",
-          "tag": "v2.2.100",
-          "date": "2024-01-09T15:39:30Z",
-          "downloads": 2401,
+          "name": "ARMSX2 nightly 20260808 (75d78d8d5f)",
+          "tag": "nightly-20260808",
+          "date": "2026-08-08T09:24:17Z",
+          "downloads": 1669,
           "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.100",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/nightly-20260808",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v221.apk",
-              "size": 17162189,
-              "downloads": 2401,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.100/Dolphin.MMJR2-VBI-v221.apk"
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Android-arm64.apk",
+              "size": 83110041,
+              "downloads": 1271,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Android-arm64.apk"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-iOS-arm64.ipa",
+              "size": 26425407,
+              "downloads": 130,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-iOS-arm64.ipa"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-16K-pages.AppImage",
+              "size": 59181576,
+              "downloads": 45,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-16K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-4K-pages.AppImage",
+              "size": 59185672,
+              "downloads": 44,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-4K-pages.AppImage"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-libretro-core.tar.zst",
+              "size": 4290084,
+              "downloads": 22,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-libretro-core.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-SDL-handheld.tar.zst",
+              "size": 67441330,
+              "downloads": 25,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Linux-arm64-SDL-handheld.tar.zst"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-macOS-arm64.tar.xz",
+              "size": 34696160,
+              "downloads": 58,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-macOS-arm64.tar.xz"
+            },
+            {
+              "name": "ARMSX2-nightly-20260808-75d78d8d5f-Windows-arm64.zip",
+              "size": 35322101,
+              "downloads": 74,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260808/ARMSX2-nightly-20260808-75d78d8d5f-Windows-arm64.zip"
             }
           ]
         },
         {
-          "name": "v.2.2.000",
-          "tag": "v2.2.000",
-          "date": "2023-12-03T13:19:58Z",
-          "downloads": 5780,
+          "name": "ARMSX2 iOS 2.5.2",
+          "tag": "iOSv2.5.2",
+          "date": "2026-08-06T15:49:46Z",
+          "downloads": 5289,
           "body": "",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.2.000",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/iOSv2.5.2",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI-v22.apk",
-              "size": 17164831,
-              "downloads": 5780,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.2.000/Dolphin.MMJR2-VBI-v22.apk"
+              "name": "ARMSX2-iOS-2.5.2.ipa",
+              "size": 26425138,
+              "downloads": 5289,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.2/ARMSX2-iOS-2.5.2.ipa"
             }
           ]
         },
         {
-          "name": "v2.1.010",
-          "tag": "v2.1.010",
-          "date": "2023-05-04T12:38:58Z",
-          "downloads": 3119,
+          "name": "ARMSX2 2.6.6.4",
+          "tag": "2.6.6.4",
+          "date": "2026-08-05T05:49:03Z",
+          "downloads": 39166,
           "body": "",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.1.010",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.4",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI.apk",
-              "size": 16908116,
-              "downloads": 3119,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.1.010/Dolphin.MMJR2-VBI.apk"
+              "name": "ARMSX2-2.6.6.4.apk",
+              "size": 84756798,
+              "downloads": 39166,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.4/ARMSX2-2.6.6.4.apk"
             }
           ]
         },
         {
-          "name": "v2.1.000",
-          "tag": "v2.1.000",
-          "date": "2023-04-24T15:21:35Z",
-          "downloads": 4650,
+          "name": "ARMSX2 2.6.6.3 ",
+          "tag": "2.6.6.3",
+          "date": "2026-08-03T13:47:08Z",
+          "downloads": 18743,
           "body": "",
           "prerelease": false,
-          "htmlUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/tag/v2.1.000",
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.3",
           "assets": [
             {
-              "name": "Dolphin.MMJR2-VBI.apk",
-              "size": 16904689,
-              "downloads": 4650,
-              "url": "https://github.com/Medard22/Dolphin-MMJR2-VBI/releases/download/v2.1.000/Dolphin.MMJR2-VBI.apk"
+              "name": "ARMSX2-2.6.6.3.apk",
+              "size": 84601094,
+              "downloads": 18743,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.3/ARMSX2-2.6.6.3.apk"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 iOS 2.5.1",
+          "tag": "iOSv2.5.1",
+          "date": "2026-07-31T15:56:12Z",
+          "downloads": 2599,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/iOSv2.5.1",
+          "assets": [
+            {
+              "name": "ARMSX2-iOS-2.5.1.ipa",
+              "size": 26327755,
+              "downloads": 2599,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.1/ARMSX2-iOS-2.5.1.ipa"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.6.2 ",
+          "tag": "2.6.6.2",
+          "date": "2026-07-30T22:23:41Z",
+          "downloads": 28249,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.2",
+          "assets": [
+            {
+              "name": "ARMSX2-2.6.6.2.apk",
+              "size": 82495750,
+              "downloads": 28249,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.2/ARMSX2-2.6.6.2.apk"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.6.1",
+          "tag": "2.6.6.1",
+          "date": "2026-07-30T07:52:04Z",
+          "downloads": 8381,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6.1",
+          "assets": [
+            {
+              "name": "ARMSX2-2.6.6.1.apk",
+              "size": 85936446,
+              "downloads": 8381,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6.1/ARMSX2-2.6.6.1.apk"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 iOS 2.5.0",
+          "tag": "iOSv2.5.0",
+          "date": "2026-07-30T11:37:25Z",
+          "downloads": 1025,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/iOSv2.5.0",
+          "assets": [
+            {
+              "name": "ARMSX2-iOS-2.5.0.ipa",
+              "size": 25630097,
+              "downloads": 1025,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.0/ARMSX2-iOS-2.5.0.ipa"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.6",
+          "tag": "2.6.6",
+          "date": "2026-07-29T05:44:35Z",
+          "downloads": 12506,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.6",
+          "assets": [
+            {
+              "name": "ARMSX2-2.6.6.apk",
+              "size": 84289798,
+              "downloads": 12506,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.6/ARMSX2-2.6.6.apk"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.5.9",
+          "tag": "2.6.5.9",
+          "date": "2026-07-28T16:55:40Z",
+          "downloads": 7809,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.5.9",
+          "assets": [
+            {
+              "name": "ARMSX2-2.6.5.9.apk",
+              "size": 84252934,
+              "downloads": 7809,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.5.9/ARMSX2-2.6.5.9.apk"
+            }
+          ]
+        },
+        {
+          "name": "ARMSX2 2.6.5.8",
+          "tag": "2.6.5.8",
+          "date": "2026-07-28T05:44:37Z",
+          "downloads": 5713,
+          "body": "",
+          "prerelease": false,
+          "htmlUrl": "https://github.com/ARMSX2/ARMSX2/releases/tag/2.6.5.8",
+          "assets": [
+            {
+              "name": "ARMSX2-2.6.5.8.apk",
+              "size": 84232454,
+              "downloads": 5713,
+              "url": "https://github.com/ARMSX2/ARMSX2/releases/download/2.6.5.8/ARMSX2-2.6.5.8.apk"
             }
           ]
         }
       ],
-      "repoUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI"
+      "repoUrl": "https://github.com/ARMSX2/ARMSX2"
     },
     {
-      "name": "Winlator Bionic duckyduckG",
-      "repo": "duckyduckG/winlator",
+      "name": "Winlator X",
+      "repo": "JURIS-X/winlator_x",
       "category": "Winlator",
-      "downloads": 1271,
+      "downloads": 77483,
       "releases": [
         {
-          "name": "winlator_bionic -(git-8de79b1)",
-          "tag": "8de79b1",
-          "date": "2026-04-05T07:31:59Z",
-          "downloads": 107,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/8de79b1",
+          "name": "winlator_x",
+          "tag": "v3.0.1-beta",
+          "date": "2025-04-22T14:19:23Z",
+          "downloads": 22569,
+          "body": "Added a new driver to the bionic container.\r\n8E-800.30\r\n8E-800.33\r\nVOLTEK\r\nv25.2.0_a710_a720_test (compiled by K11MCH1)\r\nFix some bugs",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/JURIS-X/winlator_x/releases/tag/v3.0.1-beta",
           "assets": [
             {
               "name": "app-debug.apk",
-              "size": 519704626,
-              "downloads": 107,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/8de79b1/app-debug.apk"
+              "size": 1196028187,
+              "downloads": 22569,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/v3.0.1-beta/app-debug.apk"
             }
           ]
         },
         {
-          "name": "winlator_bionic -(git-30815d7)",
-          "tag": "30815d7",
-          "date": "2026-02-01T18:38:43Z",
-          "downloads": 72,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/30815d7",
+          "name": "winlator_x",
+          "tag": "v3.0.0-beta",
+          "date": "2025-04-21T07:26:02Z",
+          "downloads": 5605,
+          "body": "Support : Adreno 6xx 7xx 8xx\r\nAll resources added dxvk wine box64 turnip\r\nAdd drivers for Adreno 6xx 7xx 8xx\r\nAdd patch to improve performance \r\nAdd and remove environment variables \r\nChange mangohud config\r\nFix all nba2k low fps bug (no need .bat files to bypass)",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/JURIS-X/winlator_x/releases/tag/v3.0.0-beta",
           "assets": [
             {
               "name": "app-debug.apk",
-              "size": 527398037,
-              "downloads": 72,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/30815d7/app-debug.apk"
+              "size": 1161219994,
+              "downloads": 5605,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/v3.0.0-beta/app-debug.apk"
             }
           ]
         },
         {
-          "name": "winlator_bionic -(git-ab315b0)",
-          "tag": "ab315b0",
-          "date": "2026-01-16T06:33:46Z",
-          "downloads": 31,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ab315b0",
+          "name": "winlator_x_v2.5_hotfix",
+          "tag": "v2.5_hotfix",
+          "date": "2025-05-11T13:33:06Z",
+          "downloads": 20441,
+          "body": "Optimized some games (example games)\r\n1. Resident evil (games)\r\n2. Nba2k (games)\r\n3. The witcher (games)\r\n4. GTA (games)\r\n5. Dragonball sparking zero\r\n7. Devil may cry (games)\r\n8. Sifu\r\nAnd more !!!\r\n\r\nAdded all resources of dxvk turnip box64\r\nAdded Ultrawide resolution (full screen)\r\nAdded GH resources \r\n\r\nFix low fps bug of nba2k14 nba2k13\r\nFix slowmo of Dragonball sparking zero",
+          "prerelease": true,
+          "htmlUrl": "https://github.com/JURIS-X/winlator_x/releases/tag/v2.5_hotfix",
           "assets": [
             {
               "name": "app-debug.apk",
-              "size": 523793808,
-              "downloads": 31,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/ab315b0/app-debug.apk"
+              "size": 535796887,
+              "downloads": 20441,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/v2.5_hotfix/app-debug.apk"
             }
           ]
         },
         {
-          "name": "winlator_bionic -(git-f3b4bea)",
-          "tag": "f3b4bea",
-          "date": "2026-01-10T08:59:16Z",
-          "downloads": 12,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f3b4bea",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 523648992,
-              "downloads": 12,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/f3b4bea/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-d9af737)",
-          "tag": "d9af737",
-          "date": "2025-12-23T04:16:00Z",
-          "downloads": 13,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d9af737",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 523644244,
-              "downloads": 13,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/d9af737/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-4d1403d)",
-          "tag": "4d1403d",
-          "date": "2025-11-25T20:40:11Z",
-          "downloads": 16,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/4d1403d",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 523643500,
-              "downloads": 16,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/4d1403d/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-d1f3df9)",
-          "tag": "d1f3df9",
-          "date": "2025-11-16T17:48:57Z",
-          "downloads": 12,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d1f3df9",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 523641852,
-              "downloads": 12,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/d1f3df9/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-fc359df)",
-          "tag": "fc359df",
-          "date": "2025-11-11T20:56:03Z",
-          "downloads": 29,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/fc359df",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 523529900,
-              "downloads": 29,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/fc359df/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-cfb674b)",
-          "tag": "cfb674b",
-          "date": "2025-10-22T10:11:06Z",
-          "downloads": 18,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/cfb674b",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 526384705,
-              "downloads": 18,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/cfb674b/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-ba32507)",
-          "tag": "ba32507",
-          "date": "2025-10-14T17:41:22Z",
-          "downloads": 11,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ba32507",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 526394093,
-              "downloads": 11,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/ba32507/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-83a4772)",
-          "tag": "83a4772",
-          "date": "2025-09-11T02:56:22Z",
-          "downloads": 36,
+          "name": "winlator_x_v3_performance_mode",
+          "tag": "v3_performance_mode",
+          "date": "2025-05-25T06:27:10Z",
+          "downloads": 15482,
           "body": "",
           "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/83a4772",
+          "htmlUrl": "https://github.com/JURIS-X/winlator_x/releases/tag/v3_performance_mode",
           "assets": [
             {
               "name": "app-debug.apk",
-              "size": 519167369,
-              "downloads": 36,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/83a4772/app-debug.apk"
+              "size": 446129159,
+              "downloads": 15482,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/v3_performance_mode/app-debug.apk"
             }
           ]
         },
         {
-          "name": "winlator_bionic -(git-e436142)",
-          "tag": "e436142",
-          "date": "2025-09-02T01:42:19Z",
-          "downloads": 57,
-          "body": "",
+          "name": "performance_mode",
+          "tag": "fixed",
+          "date": "2025-05-26T11:10:39Z",
+          "downloads": 13386,
+          "body": "Fixed minor bug.",
           "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/e436142",
+          "htmlUrl": "https://github.com/JURIS-X/winlator_x/releases/tag/fixed",
           "assets": [
             {
               "name": "app-debug.apk",
-              "size": 519167073,
-              "downloads": 57,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/e436142/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-f5f619e)",
-          "tag": "f5f619e",
-          "date": "2025-08-28T10:18:08Z",
-          "downloads": 21,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f5f619e",
-          "assets": [
+              "size": 446141447,
+              "downloads": 11724,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/fixed/app-debug.apk"
+            },
             {
-              "name": "app-debug.apk",
-              "size": 519178185,
-              "downloads": 21,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/f5f619e/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-f3a091a)",
-          "tag": "f3a091a",
-          "date": "2025-08-22T01:19:53Z",
-          "downloads": 51,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/f3a091a",
-          "assets": [
+              "name": "Wine10.4-tkg.wcp",
+              "size": 139467824,
+              "downloads": 722,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/fixed/Wine10.4-tkg.wcp"
+            },
             {
-              "name": "app-debug.apk",
-              "size": 519179888,
-              "downloads": 51,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/f3a091a/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-a5df9ad)",
-          "tag": "a5df9ad",
-          "date": "2025-08-20T19:08:29Z",
-          "downloads": 12,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/a5df9ad",
-          "assets": [
+              "name": "Wine10.7-tkg.wcp",
+              "size": 135646412,
+              "downloads": 525,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/fixed/Wine10.7-tkg.wcp"
+            },
             {
-              "name": "app-debug.apk",
-              "size": 517237006,
-              "downloads": 12,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/a5df9ad/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-15b2e0d)",
-          "tag": "15b2e0d",
-          "date": "2025-06-23T12:59:09Z",
-          "downloads": 234,
-          "body": "",
-          "prerelease": false,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/15b2e0d",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 806540152,
-              "downloads": 234,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/15b2e0d/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "wowbox64",
-          "tag": "wowbox64",
-          "date": "2025-06-23T13:49:44Z",
-          "downloads": 38,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/wowbox64",
-          "assets": [
-            {
-              "name": "WOWBox64-0.3.7-4eabf07.zst.zip",
-              "size": 1248019,
-              "downloads": 38,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/wowbox64/WOWBox64-0.3.7-4eabf07.zst.zip"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-ff49f94)",
-          "tag": "ff49f94",
-          "date": "2025-07-16T19:47:29Z",
-          "downloads": 443,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/ff49f94",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 620554053,
-              "downloads": 443,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/ff49f94/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-e81272b)",
-          "tag": "e81272b",
-          "date": "2025-07-19T02:38:41Z",
-          "downloads": 32,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/e81272b",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 616116937,
-              "downloads": 32,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/e81272b/app-debug.apk"
-            }
-          ]
-        },
-        {
-          "name": "winlator_bionic -(git-d372bc2)",
-          "tag": "d372bc2",
-          "date": "2025-08-15T20:18:29Z",
-          "downloads": 26,
-          "body": "",
-          "prerelease": true,
-          "htmlUrl": "https://github.com/duckyduckG/winlator/releases/tag/d372bc2",
-          "assets": [
-            {
-              "name": "app-debug.apk",
-              "size": 621595377,
-              "downloads": 26,
-              "url": "https://github.com/duckyduckG/winlator/releases/download/d372bc2/app-debug.apk"
+              "name": "Wine9.16.wcp",
+              "size": 110064068,
+              "downloads": 415,
+              "url": "https://github.com/JURIS-X/winlator_x/releases/download/fixed/Wine9.16.wcp"
             }
           ]
         }
       ],
-      "repoUrl": "https://github.com/duckyduckG/winlator"
+      "repoUrl": "https://github.com/JURIS-X/winlator_x"
     },
     {
       "name": "GameHub Lite (Producdevity)",
@@ -767,14 +978,6 @@
       "repoUrl": "https://github.com/coffincolors/winlator"
     },
     {
-      "name": "Winlator X",
-      "repo": "JURIS-X/winlator_x",
-      "category": "Winlator",
-      "downloads": 0,
-      "releases": [],
-      "repoUrl": "https://github.com/JURIS-X/winlator_x"
-    },
-    {
       "name": "Winlator Bionic jhinzuo",
       "repo": "jhinzuo/winlator",
       "category": "Winlator",
@@ -797,6 +1000,14 @@
       "downloads": 0,
       "releases": [],
       "repoUrl": "https://github.com/winlator/releases"
+    },
+    {
+      "name": "Winlator Bionic duckyduckG",
+      "repo": "duckyduckG/winlator",
+      "category": "Winlator",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/duckyduckG/winlator"
     },
     {
       "name": "Winlator Bionic Stredohiri",
@@ -7415,7 +7626,7 @@
             },
             {
               "name": "Eden-Linux-8b8034a2a0-aarch64-clang-pgo.AppImage",
-              "size": 965,
+              "size": 67456622,
               "downloads": 0,
               "url": "https://nightly.eden-emu.dev/v1784055937.8b8034a2a0/Eden-Linux-8b8034a2a0-aarch64-clang-pgo.AppImage"
             },
@@ -8037,14 +8248,6 @@
       "repoUrl": "https://github.com/RPCSX/rpcsx-ui-android"
     },
     {
-      "name": "ARMSX2",
-      "repo": "ARMSX2/ARMSX2",
-      "category": "Emulator PS2",
-      "downloads": 0,
-      "releases": [],
-      "repoUrl": "https://github.com/ARMSX2/ARMSX2"
-    },
-    {
       "name": "NetherSX2 Patch",
       "repo": "Trixarian/NetherSX2-patch",
       "category": "Emulator PS2",
@@ -8077,6 +8280,14 @@
       "repoUrl": "https://github.com/Vita3K/Vita3K-Android"
     },
     {
+      "name": "Dolphin MMJR2 VBI",
+      "repo": "Medard22/Dolphin-MMJR2-VBI",
+      "category": "Nintendo GameCube / Wii",
+      "downloads": 0,
+      "releases": [],
+      "repoUrl": "https://github.com/Medard22/Dolphin-MMJR2-VBI"
+    },
+    {
       "name": "Flycast",
       "repo": "flyinghead/flycast",
       "category": "Sega Dreamcast",
@@ -8099,7 +8310,7 @@
         "name": "Proton-9-x86_64",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/Proton.9.0-x86_64.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "Wine": [
@@ -8107,13 +8318,13 @@
         "name": "proton-10-arm64ec",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/proton-10-arm64ec.wcp.xz",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "wine-9.20-x86_64",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/wine-9.20.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "Box64": [
@@ -8121,49 +8332,49 @@
         "name": "0.3.5",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.5.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "036fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-036fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.3.7",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.7.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.3.8",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.8.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.3.9",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.3.9.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.1-fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.2-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.2-fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.4.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "WOWBox64": [
@@ -8171,31 +8382,31 @@
         "name": "0.3.7-5768989",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WowBox64-0.3.7-5768989.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.3.9-056999e",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.3.9-056999e.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/WOWBox64-0.4.1-fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/wowbox64-0.4.2.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "0.4.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/Wowbox64-0.4.4.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "DXVK": [
@@ -8203,91 +8414,91 @@
         "name": "1.5.5",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.5.5.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "1.7.2",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.7.2.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "1.9.4",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.9.4.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "1.10.3-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-1.10.3-async.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "11.1-sarek-async",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-11.1-sarek-async.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "1.12.0-sarek",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-sarek-1.12.0.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.3.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.3.1-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.4.1.1-gplasync-sp",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1.1-gplasync-sp.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.4.1-fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.4.1-arm64ec-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.4.1-arm64ec-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.5.3-1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.5.3-1-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.6-2-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6-2-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.6.2-arm64ec-gplasync",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.6.2-arm64ec-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.7.1-gplasync",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-gplasync.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.7.1-arm64ec-gplasync-fix-leegao",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-2.7.1-arm64ec-gplasync-fix-leegao.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "FEXCore": [
@@ -8295,91 +8506,91 @@
         "name": "241214",
         "version": "1",
         "url": "https://github.com/ziad9267/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_241214.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2505",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore-2505.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2507_fix",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/fexcore_2507_fix.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2508.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2508.1.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2509.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2509.1.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2510.1",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2510.1.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2511",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2511.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2512",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2512.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2601",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2601.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2601-aabdded-nightly",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/FEXCore-2601-aabdded.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2603",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2603.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2604",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2604.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2605",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2605.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2607",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2607.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2608",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/FEXCore/2608.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ],
     "VKD3D": [
@@ -8387,49 +8598,49 @@
         "name": "2.7-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.7.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.9-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.9.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.12-proton",
         "version": "1",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-2.12.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "2.14.1-arm64ec",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-2.14.1-arm64ec.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "proton-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0a.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "arm64ec-3.0a.wcp",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-arm64ec-3.0a.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "proton-3.0b-2763dd2",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0b-2763dd2.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       },
       {
         "name": "3.0.1-gamesir",
         "version": "0",
         "url": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-3.0.1-Gamesir.wcp",
-        "date": "2026-08-17T15:20:34.898Z"
+        "date": "2026-08-17T15:49:02.868Z"
       }
     ]
   }

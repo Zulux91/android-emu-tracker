@@ -11,8 +11,8 @@
 
 | Rank | Project | Downloads | Latest | Category |
 |------|---------|-----------|--------|----------|
-| 🥇 | Dolphin MMJR2 VBI | 736.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 🥈 | Winlator Bionic duckyduckG | 1.3K | `8de79b1` | Winlator |
+| 🥇 | ARMSX2 | 212.6K | `2.6.6.7` | Emulator PS2 |
+| 🥈 | Winlator X | 77.5K | `v3.0.1-beta` | Winlator |
 | 🥉 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
 | 4 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
 | 5 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
@@ -34,10 +34,10 @@
 | 21 | Winlator Ref4ik | 0 | `—` | Winlator |
 | 22 | Winlator Ajay | 0 | `—` | Winlator |
 | 23 | Winlator Coffincolors | 0 | `—` | Winlator |
-| 24 | Winlator X | 0 | `—` | Winlator |
-| 25 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
-| 26 | Winlator XR | 0 | `—` | Winlator |
-| 27 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
+| 24 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
+| 25 | Winlator XR | 0 | `—` | Winlator |
+| 26 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
+| 27 | Winlator Bionic duckyduckG | 0 | `—` | Winlator |
 | 28 | Winlator Bionic Stredohiri | 0 | `—` | Winlator |
 | 29 | Winlator Bionic Alexoqool | 0 | `—` | Winlator |
 | 30 | Winlator Honkon | 0 | `—` | Winlator |
@@ -64,11 +64,11 @@
 | 51 | Citra (weihuoya) | 0 | `—` | Nintendo 3DS |
 | 52 | APS3e | 0 | `—` | Emulator PS3 |
 | 53 | RPCSX Android | 0 | `—` | Emulator PS3 |
-| 54 | ARMSX2 | 0 | `—` | Emulator PS2 |
-| 55 | NetherSX2 Patch | 0 | `—` | Emulator PS2 |
-| 56 | NetherSX2 Classic | 0 | `—` | Emulator PS2 |
-| 57 | NetherSX2-Turnip | 0 | `—` | Emulator PS2 |
-| 58 | Vita3K Android | 0 | `—` | PSVITA |
+| 54 | NetherSX2 Patch | 0 | `—` | Emulator PS2 |
+| 55 | NetherSX2 Classic | 0 | `—` | Emulator PS2 |
+| 56 | NetherSX2-Turnip | 0 | `—` | Emulator PS2 |
+| 57 | Vita3K Android | 0 | `—` | PSVITA |
+| 58 | Dolphin MMJR2 VBI | 0 | `—` | Nintendo GameCube / Wii |
 | 59 | Flycast | 0 | `—` | Sega Dreamcast |
 | 60 | Lemuroid | 0 | `—` | All In One |
 
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-17T15:20:34.899Z_
+_Last auto-generated: 2026-08-17T15:49:02.869Z_
