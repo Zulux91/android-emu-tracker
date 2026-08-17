@@ -11,26 +11,26 @@
 
 | Rank | Project | Downloads | Latest | Category |
 |------|---------|-----------|--------|----------|
-| 🥇 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
-| 🥈 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
-| 🥉 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
-| 4 | BannerHub (The412Banner) | 0 | `—` | GameHub |
-| 5 | Adreno Tools Drivers | 0 | `—` | Drivers |
-| 6 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
-| 7 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
-| 8 | Freedreno Turnip CI (StevenMXZ) | 0 | `—` | Drivers |
-| 9 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
-| 10 | Upload Grave | 0 | `—` | Drivers |
-| 11 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
-| 12 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
-| 13 | GameNative | 0 | `—` | GameNative |
-| 14 | GameNative Performance | 0 | `—` | GameNative |
-| 15 | Winlator BrunoDev | 0 | `—` | Winlator |
-| 16 | Winlator Ludashi | 0 | `—` | Winlator |
-| 17 | Winlator Afei | 0 | `—` | Winlator |
-| 18 | Winlator Xmod | 0 | `—` | Winlator |
-| 19 | Winlator Ref4ik | 0 | `—` | Winlator |
-| 20 | Winlator Ajay | 0 | `—` | Winlator |
+| 🥇 | Winlator Ajay | 87.7K | `v11.1-hotfix2` | Winlator |
+| 🥈 | GameHub Lite (Producdevity) | 0 | `—` | GameHub |
+| 🥉 | GameHub Lite (ItzDFPlayer) | 0 | `—` | GameHub |
+| 4 | GameHub Lite (J4MCU-builds) | 0 | `—` | GameHub |
+| 5 | BannerHub (The412Banner) | 0 | `—` | GameHub |
+| 6 | Adreno Tools Drivers | 0 | `—` | Drivers |
+| 7 | Adrenotools Drivers (StevenMXZ) | 0 | `—` | Drivers |
+| 8 | Freedreno Turnip CI (Weab-chan) | 0 | `—` | Drivers |
+| 9 | Freedreno Turnip CI (StevenMXZ) | 0 | `—` | Drivers |
+| 10 | Freedreno Turnip CI (whitebelyash) | 0 | `—` | Drivers |
+| 11 | Upload Grave | 0 | `—` | Drivers |
+| 12 | Winlator Ref4ik (Drivers/Wine) | 0 | `—` | Drivers |
+| 13 | StevenMXZ Contents Cmod | 0 | `—` | Drivers |
+| 14 | GameNative | 0 | `—` | GameNative |
+| 15 | GameNative Performance | 0 | `—` | GameNative |
+| 16 | Winlator BrunoDev | 0 | `—` | Winlator |
+| 17 | Winlator Ludashi | 0 | `—` | Winlator |
+| 18 | Winlator Afei | 0 | `—` | Winlator |
+| 19 | Winlator Xmod | 0 | `—` | Winlator |
+| 20 | Winlator Ref4ik | 0 | `—` | Winlator |
 | 21 | Winlator Coffincolors | 0 | `—` | Winlator |
 | 22 | Winlator X | 0 | `—` | Winlator |
 | 23 | Winlator Bionic jhinzuo | 0 | `—` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-17T14:22:19.742Z_
+_Last auto-generated: 2026-08-17T14:53:12.815Z_
