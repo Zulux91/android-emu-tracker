@@ -25,21 +25,21 @@
 | 12 | Winlator Coffincolors | 804.7K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 804.6K | `v20250425` | Emulator PS3 |
 | 14 | GameNative | 779.6K | `v1.1.1` | GameNative |
-| 15 | Flycast | 769.8K | `v2.6` | Sega Dreamcast |
+| 15 | Flycast | 769.9K | `v2.6` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 737.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 712.7K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 710.4K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 682.7K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 589.3K | `2.41` | Emulator PS3 |
+| 20 | APS3e | 589.4K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 538.3K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 511.9K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 470.7K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 464.3K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 326.6K | `v0.6.3` | Xbox 360 |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 464.4K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 326.8K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 283.2K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 275.6K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 225.3K | `2.6.6.7` | Emulator PS2 |
-| 29 | NetherSX2-Turnip | 161.4K | `v0.7` | Emulator PS2 |
+| 28 | ARMSX2 | 225.5K | `2.6.6.7` | Emulator PS2 |
+| 29 | NetherSX2-Turnip | 161.5K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 158.8K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 121.7K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 106.6K | `star-winhub-progrwss` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-18T23:16:12.634Z_
+_Last auto-generated: 2026-08-18T23:44:40.264Z_
