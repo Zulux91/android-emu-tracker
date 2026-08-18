@@ -25,20 +25,20 @@
 | 12 | Winlator Coffincolors | 804.2K | `winlator_cmod_update_december_2025` | Winlator |
 | 13 | RPCSX Android | 803.9K | `v20250425` | Emulator PS3 |
 | 14 | GameNative | 777.7K | `v1.1.1` | GameNative |
-| 15 | Flycast | 769.0K | `v2.6` | Sega Dreamcast |
+| 15 | Flycast | 769.1K | `v2.6` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 737.0K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 712.2K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 710.1K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 682.0K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 588.0K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 537.1K | `bionic-mali-1.1` | Winlator |
+| 20 | APS3e | 588.1K | `2.41` | Emulator PS3 |
+| 21 | Winlator Mali | 537.2K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 509.6K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 470.5K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 460.4K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 322.5K | `v0.6.3` | Xbox 360 |
-| 26 | Wb64dev | 283.0K | `v10.2` | Winlator |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 460.6K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 322.7K | `v0.6.3` | Xbox 360 |
+| 26 | Wb64dev | 283.1K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 274.5K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 220.3K | `2.6.6.7` | Emulator PS2 |
+| 28 | ARMSX2 | 220.5K | `2.6.6.7` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 160.7K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 158.6K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 121.5K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-18T08:28:28.334Z_
+_Last auto-generated: 2026-08-18T09:03:02.803Z_
