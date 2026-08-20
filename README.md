@@ -17,14 +17,14 @@
 | 4 | Adreno Tools Drivers | 3.8M | `v840` | Drivers |
 | 5 | NetherSX2 Patch | 3.2M | `2.2n` | Emulator PS2 |
 | 6 | Cemu | 2.7M | `0.5` | Wii U Emulator |
-| 7 | Azahar | 2.6M | `2126.0` | Nintendo 3DS |
+| 7 | Azahar | 2.6M | `2126.1-alpha1` | Nintendo 3DS |
 | 8 | NetherSX2 Classic | 1.4M | `2.2n` | Emulator PS2 |
 | 9 | GameHub Lite (Producdevity) | 1.2M | `v5.1.8` | GameHub |
 | 10 | Winlator Ludashi | 1.2M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 806.4K | `v20250425` | Emulator PS3 |
 | 13 | Winlator Coffincolors | 806.2K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 788.9K | `v1.2.0-prerelease` | GameNative |
+| 14 | GameNative | 789.0K | `v1.2.0-prerelease` | GameNative |
 | 15 | Flycast | 781.0K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 738.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 714.3K | `1.0.3-link` | PC Emulator |
@@ -38,7 +38,7 @@
 | 25 | X360 Mobile | 336.3K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 283.6K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 278.6K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 236.3K | `nightly-20260820` | Emulator PS2 |
+| 28 | ARMSX2 | 236.4K | `nightly-20260820` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 163.7K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 159.3K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 122.2K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-20T20:55:28.591Z_
+_Last auto-generated: 2026-08-20T21:21:43.965Z_
