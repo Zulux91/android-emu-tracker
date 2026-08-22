@@ -24,21 +24,21 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 807.7K | `v20250425` | Emulator PS3 |
 | 13 | Winlator Coffincolors | 807.2K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 794.9K | `v1.2.0-prerelease` | GameNative |
-| 15 | Flycast | 786.2K | `v2.7` | Sega Dreamcast |
+| 14 | GameNative | 795.0K | `v1.2.0-prerelease` | GameNative |
+| 15 | Flycast | 786.3K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 739.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 715.4K | `1.0.3-link` | PC Emulator |
+| 17 | XoDos | 715.5K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 711.9K | `10.1hotfix-Amod3fix2` | Winlator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 685.7K | `25.3.0-devel_bbdd688` | Drivers |
+| 19 | Freedreno Turnip CI (Weab-chan) | 685.8K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 595.4K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 543.4K | `bionic-mali-1.1` | Winlator |
+| 21 | Winlator Mali | 543.5K | `bionic-mali-1.1` | Winlator |
 | 22 | Freedreno Turnip CI (whitebelyash) | 521.9K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 481.6K | `v863.1_a7xx` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 481.7K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 471.4K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 342.4K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 342.5K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 283.8K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 280.5K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 240.1K | `2.6.6.8` | Emulator PS2 |
+| 28 | ARMSX2 | 240.3K | `2.6.6.8` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 165.3K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 159.6K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 122.6K | `26f65e9` | Winlator |
@@ -47,7 +47,7 @@
 | 34 | Pluvia | 99.0K | `v1.3.2` | PC Emulator |
 | 35 | Winlator Ajay | 88.7K | `v11.1-hotfix2` | Winlator |
 | 36 | Lemuroid | 84.2K | `1.17.0` | All In One |
-| 37 | X1 BOX | 82.9K | `1.2.7` | Xbox |
+| 37 | X1 BOX | 83.1K | `1.2.7` | Xbox |
 | 38 | MiceWine | 80.2K | `ba4b91b` | PC Emulator |
 | 39 | Winlator X | 78.1K | `v3.0.1-beta` | Winlator |
 | 40 | Winlator Ref4ik (Drivers/Wine) | 72.1K | `V11` | Drivers |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-22T04:58:28.717Z_
+_Last auto-generated: 2026-08-22T05:29:25.885Z_
