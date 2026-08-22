@@ -32,13 +32,13 @@
 | 19 | Freedreno Turnip CI (Weab-chan) | 685.9K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 595.7K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 543.7K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 522.3K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 482.5K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 522.4K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 482.6K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 471.4K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 343.0K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 343.1K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 283.9K | `v10.2` | Winlator |
-| 27 | BannerHub (The412Banner) | 280.6K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 242.0K | `2.6.6.8` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 280.7K | `v3.8.0` | GameHub |
+| 28 | ARMSX2 | 239.4K | `2.6.6.8` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 165.5K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 159.7K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 122.7K | `26f65e9` | Winlator |
@@ -47,7 +47,7 @@
 | 34 | Pluvia | 99.0K | `v1.3.2` | PC Emulator |
 | 35 | Winlator Ajay | 88.7K | `v11.1-hotfix2` | Winlator |
 | 36 | Lemuroid | 84.2K | `1.17.0` | All In One |
-| 37 | X1 BOX | 84.1K | `1.2.7` | Xbox |
+| 37 | X1 BOX | 84.2K | `1.2.7` | Xbox |
 | 38 | MiceWine | 80.2K | `ba4b91b` | PC Emulator |
 | 39 | Winlator X | 78.2K | `v3.0.1-beta` | Winlator |
 | 40 | Winlator Ref4ik (Drivers/Wine) | 72.1K | `V11` | Drivers |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-22T08:55:17.669Z_
+_Last auto-generated: 2026-08-22T09:21:25.476Z_
