@@ -24,7 +24,7 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 807.9K | `v20250425` | Emulator PS3 |
 | 13 | Winlator Coffincolors | 807.4K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 795.6K | `v1.2.0-prerelease` | GameNative |
+| 14 | GameNative | 795.7K | `v1.2.0-prerelease` | GameNative |
 | 15 | Flycast | 786.8K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 739.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 715.6K | `1.0.3-link` | PC Emulator |
@@ -32,13 +32,13 @@
 | 19 | Freedreno Turnip CI (Weab-chan) | 685.9K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 595.7K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 543.8K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 522.4K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 482.7K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 522.5K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 482.8K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 471.4K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 343.1K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 343.2K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 283.9K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 280.7K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 239.7K | `2.6.6.8` | Emulator PS2 |
+| 28 | ARMSX2 | 239.9K | `2.6.6.8` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 165.5K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 159.7K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 122.7K | `26f65e9` | Winlator |
@@ -46,7 +46,7 @@
 | 33 | hakuX | 103.6K | `v0.3.1` | Xbox |
 | 34 | Pluvia | 99.0K | `v1.3.2` | PC Emulator |
 | 35 | Winlator Ajay | 88.7K | `v11.1-hotfix2` | Winlator |
-| 36 | X1 BOX | 84.2K | `1.2.7` | Xbox |
+| 36 | X1 BOX | 84.3K | `1.2.7` | Xbox |
 | 37 | Lemuroid | 84.2K | `1.17.0` | All In One |
 | 38 | MiceWine | 80.2K | `ba4b91b` | PC Emulator |
 | 39 | Winlator X | 78.2K | `v3.0.1-beta` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-22T09:49:40.782Z_
+_Last auto-generated: 2026-08-22T10:17:31.748Z_
