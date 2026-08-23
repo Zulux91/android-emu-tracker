@@ -23,22 +23,22 @@
 | 10 | Winlator Ludashi | 1.2M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 809.3K | `v20250425` | Emulator PS3 |
-| 13 | Winlator Coffincolors | 808.4K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 800.8K | `v1.2.0-prerelease` | GameNative |
-| 15 | Flycast | 790.5K | `v2.7` | Sega Dreamcast |
+| 13 | Winlator Coffincolors | 808.5K | `winlator_cmod_update_december_2025` | Winlator |
+| 14 | GameNative | 800.9K | `v1.2.0-prerelease` | GameNative |
+| 15 | Flycast | 790.6K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 740.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 716.9K | `1.0.3-link` | PC Emulator |
-| 18 | Winlator Afei | 712.4K | `10.1hotfix-Amod3fix2` | Winlator |
+| 18 | Winlator Afei | 712.5K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 687.1K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 598.0K | `2.41` | Emulator PS3 |
+| 20 | APS3e | 598.1K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 546.0K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 526.4K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 489.3K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 526.5K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 489.5K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 471.8K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 349.3K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 349.4K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 284.1K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 282.8K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 233.8K | `2.6.6.8.2` | Emulator PS2 |
+| 28 | ARMSX2 | 234.2K | `2.6.6.8.2` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 167.0K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 160.0K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 123.1K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-23T15:16:53.518Z_
+_Last auto-generated: 2026-08-23T15:46:04.141Z_
