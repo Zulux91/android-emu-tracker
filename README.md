@@ -24,21 +24,21 @@
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 809.0K | `v20250425` | Emulator PS3 |
 | 13 | Winlator Coffincolors | 808.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 800.0K | `v1.2.0-prerelease` | GameNative |
+| 14 | GameNative | 800.1K | `v1.2.0-prerelease` | GameNative |
 | 15 | Flycast | 790.0K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 740.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 716.7K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 712.4K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 686.9K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 597.6K | `2.41` | Emulator PS3 |
+| 20 | APS3e | 597.7K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 545.5K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 525.7K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 488.1K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 525.8K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 488.2K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 471.7K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 348.3K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 348.4K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 284.1K | `v10.2` | Winlator |
-| 27 | BannerHub (The412Banner) | 282.3K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 243.9K | `2.6.6.8.1` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 282.4K | `v3.8.0` | GameHub |
+| 28 | ARMSX2 | 244.0K | `2.6.6.8.1` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 166.8K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 159.9K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 123.0K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-23T10:18:07.342Z_
+_Last auto-generated: 2026-08-23T10:49:04.942Z_
