@@ -23,22 +23,22 @@
 | 10 | Winlator Ludashi | 1.2M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 810.1K | `v20250425` | Emulator PS3 |
-| 13 | Winlator Coffincolors | 809.0K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 804.1K | `v1.2.0-prerelease` | GameNative |
-| 15 | Flycast | 792.8K | `v2.7` | Sega Dreamcast |
+| 13 | Winlator Coffincolors | 809.1K | `winlator_cmod_update_december_2025` | Winlator |
+| 14 | GameNative | 804.2K | `v1.2.0-prerelease` | GameNative |
+| 15 | Flycast | 792.9K | `v2.7` | Sega Dreamcast |
 | 16 | Dolphin MMJR2 VBI | 741.1K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 717.6K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 712.8K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 687.9K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 599.5K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 547.3K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 528.8K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 493.6K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 528.9K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 493.8K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 472.0K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 353.8K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 353.9K | `v0.6.3` | Xbox 360 |
 | 26 | Wb64dev | 284.3K | `v10.2` | Winlator |
 | 27 | BannerHub (The412Banner) | 284.1K | `v3.8.0` | GameHub |
-| 28 | ARMSX2 | 243.2K | `2.6.6.8.2` | Emulator PS2 |
+| 28 | ARMSX2 | 243.5K | `2.6.6.8.2` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 168.0K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 160.2K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 123.4K | `26f65e9` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-24T11:52:58.473Z_
+_Last auto-generated: 2026-08-24T12:37:40.001Z_
