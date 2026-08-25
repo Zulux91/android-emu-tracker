@@ -31,21 +31,21 @@
 | 18 | Winlator Afei | 713.2K | `10.1hotfix-Amod3fix2` | Winlator |
 | 19 | Freedreno Turnip CI (Weab-chan) | 688.7K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | APS3e | 601.0K | `2.41` | Emulator PS3 |
-| 21 | Winlator Mali | 548.7K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 531.2K | `tu_v31` | Drivers |
+| 21 | Winlator Mali | 548.8K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 531.3K | `tu_v31` | Drivers |
 | 23 | Horizon Emu | 472.2K | `v4` | PC Emulator |
-| 24 | Freedreno Turnip CI (StevenMXZ) | 467.9K | `v863.1_a7xx` | Drivers |
-| 25 | X360 Mobile | 357.9K | `v0.6.3` | Xbox 360 |
-| 26 | BannerHub (The412Banner) | 285.3K | `v3.8.0` | GameHub |
+| 24 | Freedreno Turnip CI (StevenMXZ) | 468.1K | `v863.1_a7xx` | Drivers |
+| 25 | X360 Mobile | 358.0K | `v0.6.3` | Xbox 360 |
+| 26 | BannerHub (The412Banner) | 285.4K | `v3.8.0` | GameHub |
 | 27 | Wb64dev | 284.4K | `v10.2` | Winlator |
-| 28 | ARMSX2 | 244.3K | `2.6.6.8.4` | Emulator PS2 |
+| 28 | ARMSX2 | 244.8K | `2.6.6.8.4` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 169.1K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 160.4K | `v3.0.2.2-egw` | PC Emulator |
-| 31 | Winlator Bionic Stredohiri | 123.5K | `26f65e9` | Winlator |
+| 31 | Winlator Bionic Stredohiri | 123.6K | `26f65e9` | Winlator |
 | 32 | Star (fork) | 108.3K | `star-winhub-progrwss` | Winlator |
-| 33 | hakuX | 105.8K | `v0.3.1` | Xbox |
+| 33 | hakuX | 105.9K | `v0.3.1` | Xbox |
 | 34 | Pluvia | 99.1K | `v1.3.2` | PC Emulator |
-| 35 | X1 BOX | 92.8K | `1.2.7` | Xbox |
+| 35 | X1 BOX | 92.9K | `1.2.7` | Xbox |
 | 36 | Winlator Ajay | 89.4K | `v11.1-hotfix2` | Winlator |
 | 37 | Lemuroid | 84.9K | `1.17.0` | All In One |
 | 38 | MiceWine | 80.6K | `ba4b91b` | PC Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-25T07:39:51.839Z_
+_Last auto-generated: 2026-08-25T08:35:47.056Z_
