@@ -23,29 +23,29 @@
 | 10 | Winlator Ludashi | 1.2M | `v3.1.h` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
 | 12 | RPCSX Android | 811.7K | `v20250425` | Emulator PS3 |
-| 13 | Winlator Coffincolors | 810.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | Flycast | 796.7K | `v2.7` | Sega Dreamcast |
-| 15 | GameNative | 780.0K | `v1.2.0` | GameNative |
+| 13 | Winlator Coffincolors | 810.4K | `winlator_cmod_update_december_2025` | Winlator |
+| 14 | Flycast | 796.8K | `v2.7` | Sega Dreamcast |
+| 15 | GameNative | 780.6K | `v1.2.0` | GameNative |
 | 16 | Dolphin MMJR2 VBI | 742.1K | `U24.07.02-2407` | Nintendo GameCube / Wii |
 | 17 | XoDos | 718.9K | `1.0.3-link` | PC Emulator |
-| 18 | Winlator Afei | 713.5K | `10.1hotfix-Amod3fix2` | Winlator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 689.4K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 602.3K | `2.41` | Emulator PS3 |
+| 18 | Winlator Afei | 713.6K | `10.1hotfix-Amod3fix2` | Winlator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 689.5K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 602.4K | `2.41` | Emulator PS3 |
 | 21 | Winlator Mali | 550.0K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 533.5K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 472.5K | `v863.1_a7xx` | Drivers |
+| 22 | Freedreno Turnip CI (whitebelyash) | 533.6K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 472.8K | `v863.1_a7xx` | Drivers |
 | 24 | Horizon Emu | 472.4K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 361.4K | `v0.6.3` | Xbox 360 |
+| 25 | X360 Mobile | 361.6K | `v0.6.3` | Xbox 360 |
 | 26 | BannerHub (The412Banner) | 286.5K | `v3.8.0` | GameHub |
 | 27 | Wb64dev | 284.6K | `v10.2` | Winlator |
-| 28 | ARMSX2 | 251.0K | `2.6.6.8.4` | Emulator PS2 |
+| 28 | ARMSX2 | 251.4K | `2.6.6.8.4` | Emulator PS2 |
 | 29 | NetherSX2-Turnip | 170.1K | `v0.7` | Emulator PS2 |
-| 30 | ExaGear 302 | 160.5K | `v3.0.2.2-egw` | PC Emulator |
+| 30 | ExaGear 302 | 160.6K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 123.7K | `26f65e9` | Winlator |
-| 32 | Star (fork) | 108.4K | `star-winhub-progrwss` | Winlator |
-| 33 | hakuX | 106.4K | `v0.3.1` | Xbox |
+| 32 | Star (fork) | 108.5K | `star-winhub-progrwss` | Winlator |
+| 33 | hakuX | 106.5K | `v0.3.1` | Xbox |
 | 34 | Pluvia | 99.1K | `v1.3.2` | PC Emulator |
-| 35 | X1 BOX | 94.4K | `1.2.7` | Xbox |
+| 35 | X1 BOX | 94.5K | `1.2.7` | Xbox |
 | 36 | Winlator Ajay | 89.5K | `v11.1-hotfix2` | Winlator |
 | 37 | Lemuroid | 85.0K | `1.17.0` | All In One |
 | 38 | MiceWine | 80.7K | `ba4b91b` | PC Emulator |
@@ -54,19 +54,19 @@
 | 41 | Winlator Ref4ik | 73.6K | `V11` | Winlator |
 | 42 | Steamlator | 62.8K | `1.7` | Winlator |
 | 43 | Winlator Bionic jhinzuo | 62.7K | `dev8` | Winlator |
-| 44 | Adrenotools Drivers (StevenMXZ) | 48.5K | `v849` | Drivers |
+| 44 | Adrenotools Drivers (StevenMXZ) | 48.6K | `v849` | Drivers |
 | 45 | Winlator Honkon | 29.6K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 23.1K | `Winlator_Brasil_10.1` | Winlator |
 | 47 | Mobox Patched | 20.5K | `Mobox_Patched_3.0` | PC Emulator |
 | 48 | GameHub Lite (ItzDFPlayer) | 8.1K | `5.3.5-v2` | GameHub |
-| 49 | WinNative (fork) | 5.8K | `build-2026-06-20` | Winlator |
+| 49 | WinNative (fork) | 5.9K | `build-2026-06-20` | Winlator |
 | 50 | Winlator XR | 5.6K | `winlatorxr_cats27` | Winlator |
 | 51 | Upload Grave | 3.8K | `xclipse` | Drivers |
 | 52 | Winlator Bionic Alexoqool | 1.9K | `2026-05-03` | Winlator |
 | 53 | StevenMXZ Contents Cmod | 1.9K | `1.2.0` | Drivers |
 | 54 | Winlator Bionic duckyduckG | 1.3K | `8de79b1` | Winlator |
 | 55 | GameHub Lite (J4MCU-builds) | 686 | `V5.1.3` | GameHub |
-| 56 | Winlator Xmod | 523 | `Winlator_xmox_1.1.0` | Winlator |
+| 56 | Winlator Xmod | 524 | `Winlator_xmox_1.1.0` | Winlator |
 | 57 | GameNative Performance | 0 | `—` | GameNative |
 | 58 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
 | 59 | Eden Emulator | 0 | `v0.2.1` | Nintendo Switch Emulator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-08-26T02:24:34.674Z_
+_Last auto-generated: 2026-08-26T03:33:00.039Z_
