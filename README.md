@@ -22,38 +22,38 @@
 | 9 | GameHub Lite (Producdevity) | 1.3M | `v5.1.8` | GameHub |
 | 10 | Winlator Ludashi | 1.3M | `v4.0` | Winlator |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | RPCSX Android | 817.9K | `v20250425` | Emulator PS3 |
-| 13 | Winlator Coffincolors | 815.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 14 | GameNative | 815.1K | `v1.2.0` | GameNative |
-| 15 | Flycast | 809.8K | `v2.7` | Sega Dreamcast |
-| 16 | Dolphin MMJR2 VBI | 746.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 724.2K | `1.0.3-link` | PC Emulator |
-| 18 | Winlator Afei | 716.2K | `10.1hotfix-Amod3fix2` | Winlator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 695.9K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 599.0K | `2.42` | Emulator PS3 |
-| 21 | Winlator Mali | 560.4K | `bionic-mali-1.1` | Winlator |
-| 22 | Freedreno Turnip CI (whitebelyash) | 552.1K | `tu_v31` | Drivers |
-| 23 | Freedreno Turnip CI (StevenMXZ) | 511.4K | `v863.1_a7xx` | Drivers |
-| 24 | Horizon Emu | 474.1K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 386.5K | `v0.6.3` | Xbox 360 |
-| 26 | BannerHub (The412Banner) | 296.7K | `v3.8.0` | GameHub |
+| 12 | RPCSX Android | 818.1K | `v20250425` | Emulator PS3 |
+| 13 | GameNative | 815.7K | `v1.2.0` | GameNative |
+| 14 | Winlator Coffincolors | 815.4K | `winlator_cmod_update_december_2025` | Winlator |
+| 15 | Flycast | 810.1K | `v2.7` | Sega Dreamcast |
+| 16 | Dolphin MMJR2 VBI | 746.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 724.3K | `1.0.3-link` | PC Emulator |
+| 18 | Winlator Afei | 716.3K | `10.1hotfix-Amod3fix2` | Winlator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 696.1K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 599.7K | `2.42` | Emulator PS3 |
+| 21 | Winlator Mali | 560.7K | `bionic-mali-1.1` | Winlator |
+| 22 | Freedreno Turnip CI (whitebelyash) | 552.7K | `tu_v31` | Drivers |
+| 23 | Freedreno Turnip CI (StevenMXZ) | 512.7K | `v863.1_a7xx` | Drivers |
+| 24 | Horizon Emu | 474.2K | `v4` | PC Emulator |
+| 25 | X360 Mobile | 387.2K | `v0.6.3` | Xbox 360 |
+| 26 | BannerHub (The412Banner) | 297.0K | `v3.8.0` | GameHub |
 | 27 | Wb64dev | 285.9K | `v10.2` | Winlator |
-| 28 | ARMSX2 | 263.7K | `2.6.7` | Emulator PS2 |
-| 29 | NetherSX2-Turnip | 177.2K | `v0.7` | Emulator PS2 |
-| 30 | ExaGear 302 | 162.0K | `v3.0.2.2-egw` | PC Emulator |
-| 31 | Winlator Bionic Stredohiri | 125.4K | `26f65e9` | Winlator |
-| 32 | hakuX | 110.9K | `v0.3.1` | Xbox |
-| 33 | Star (fork) | 109.9K | `star-winhub-progrwss` | Winlator |
-| 34 | X1 BOX | 104.2K | `1.2.7` | Xbox |
+| 28 | ARMSX2 | 264.7K | `nightly-20260901` | Emulator PS2 |
+| 29 | NetherSX2-Turnip | 177.5K | `v0.7` | Emulator PS2 |
+| 30 | ExaGear 302 | 162.1K | `v3.0.2.2-egw` | PC Emulator |
+| 31 | Winlator Bionic Stredohiri | 125.5K | `26f65e9` | Winlator |
+| 32 | hakuX | 111.0K | `v0.3.1` | Xbox |
+| 33 | Star (fork) | 110.0K | `star-winhub-progrwss` | Winlator |
+| 34 | X1 BOX | 104.4K | `1.2.7` | Xbox |
 | 35 | Pluvia | 99.2K | `v1.3.2` | PC Emulator |
 | 36 | Winlator Ajay | 90.8K | `v11.1-hotfix2` | Winlator |
-| 37 | Lemuroid | 86.1K | `1.17.0` | All In One |
+| 37 | Lemuroid | 86.2K | `1.17.0` | All In One |
 | 38 | MiceWine | 81.4K | `ba4b91b` | PC Emulator |
 | 39 | Winlator X | 79.2K | `v3.0.1-beta` | Winlator |
-| 40 | Winlator Ref4ik (Drivers/Wine) | 76.0K | `V11` | Drivers |
-| 41 | Winlator Ref4ik | 76.0K | `V11` | Winlator |
-| 42 | Steamlator | 63.6K | `1.7` | Winlator |
-| 43 | Winlator Bionic jhinzuo | 62.8K | `dev8` | Winlator |
+| 40 | Winlator Ref4ik (Drivers/Wine) | 76.1K | `V11` | Drivers |
+| 41 | Winlator Ref4ik | 76.1K | `V11` | Winlator |
+| 42 | Steamlator | 63.7K | `1.7` | Winlator |
+| 43 | Winlator Bionic jhinzuo | 62.9K | `dev8` | Winlator |
 | 44 | Adrenotools Drivers (StevenMXZ) | 48.9K | `v849` | Drivers |
 | 45 | Winlator Honkon | 29.7K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 23.2K | `Winlator_Brasil_10.1` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-09-01T11:55:46.117Z_
+_Last auto-generated: 2026-09-01T15:56:44.837Z_
