@@ -2,7 +2,7 @@
 
 ![Auto-updated](https://img.shields.io/badge/auto--updated-hourly-26f7ff?style=flat-square)
 ![Projects](https://img.shields.io/badge/projects-60-9b5cff?style=flat-square)
-![Last update](https://img.shields.io/badge/updated-2026-09-21-9dff57?style=flat-square)
+![Last update](https://img.shields.io/badge/updated-2026-09-22-9dff57?style=flat-square)
 
 > Download statistics auto-fetched hourly from GitHub and Gitea release assets.
 > Deploy the static dashboard at `docs/` on GitHub Pages, Netlify, or Vercel.
@@ -22,38 +22,38 @@
 | 9 | Winlator Ludashi | 1.4M | `v4.1` | Winlator |
 | 10 | GameHub Lite (Producdevity) | 1.4M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | Flycast | 846.8K | `v2.7` | Sega Dreamcast |
-| 13 | RPCSX Android | 836.1K | `v20250425` | Emulator PS3 |
+| 12 | Flycast | 847.0K | `v2.7` | Sega Dreamcast |
+| 13 | RPCSX Android | 836.2K | `v20250425` | Emulator PS3 |
 | 14 | Winlator Coffincolors | 830.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 15 | GameNative | 815.1K | `v1.2.1` | GameNative |
-| 16 | Dolphin MMJR2 VBI | 760.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 741.0K | `1.0.3-link` | PC Emulator |
+| 15 | GameNative | 815.6K | `v1.2.1` | GameNative |
+| 16 | Dolphin MMJR2 VBI | 760.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 741.1K | `1.0.3-link` | PC Emulator |
 | 18 | Winlator Afei | 724.0K | `10.1hotfix-Amod3fix2` | Winlator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 718.7K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | APS3e | 650.1K | `2.42` | Emulator PS3 |
-| 21 | Freedreno Turnip CI (StevenMXZ) | 632.6K | `v863.1_a7xx` | Drivers |
-| 22 | Winlator Mali | 600.6K | `bionic-mali-1.1` | Winlator |
-| 23 | Freedreno Turnip CI (whitebelyash) | 592.8K | `tu_v32` | Drivers |
+| 19 | Freedreno Turnip CI (Weab-chan) | 718.9K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | APS3e | 650.4K | `2.42` | Emulator PS3 |
+| 21 | Freedreno Turnip CI (StevenMXZ) | 633.3K | `v863.1_a7xx` | Drivers |
+| 22 | Winlator Mali | 600.8K | `bionic-mali-1.1` | Winlator |
+| 23 | Freedreno Turnip CI (whitebelyash) | 593.2K | `tu_v32` | Drivers |
 | 24 | Horizon Emu | 481.1K | `v4` | PC Emulator |
-| 25 | X360 Mobile | 459.1K | `v0.6.3` | Xbox 360 |
-| 26 | ARMSX2 | 355.3K | `nightly-20260921` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 319.3K | `v3.8.1` | GameHub |
+| 25 | X360 Mobile | 459.5K | `v0.6.3` | Xbox 360 |
+| 26 | ARMSX2 | 356.7K | `nightly-20260921` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 319.5K | `v3.8.1` | GameHub |
 | 28 | Wb64dev | 290.9K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 200.5K | `v0.7` | Emulator PS2 |
+| 29 | NetherSX2-Turnip | 200.7K | `v0.7` | Emulator PS2 |
 | 30 | ExaGear 302 | 167.1K | `v3.0.2.2-egw` | PC Emulator |
 | 31 | Winlator Bionic Stredohiri | 130.8K | `26f65e9` | Winlator |
-| 32 | hakuX | 125.6K | `v0.3.1` | Xbox |
-| 33 | X1 BOX | 123.2K | `1.2.7` | Xbox |
-| 34 | Star (fork) | 114.2K | `star-winhub-progrwss` | Winlator |
+| 32 | hakuX | 125.7K | `v0.3.1` | Xbox |
+| 33 | X1 BOX | 123.3K | `1.2.7` | Xbox |
+| 34 | Star (fork) | 114.3K | `star-winhub-progrwss` | Winlator |
 | 35 | Pluvia | 99.5K | `v1.3.2` | PC Emulator |
 | 36 | Winlator Ajay | 94.4K | `v11.1-hotfix2` | Winlator |
 | 37 | Lemuroid | 89.7K | `1.17.0` | All In One |
 | 38 | Winlator Ref4ik (Drivers/Wine) | 83.9K | `V2` | Drivers |
 | 39 | Winlator Ref4ik | 83.9K | `V2` | Winlator |
-| 40 | MiceWine | 83.1K | `ba4b91b` | PC Emulator |
+| 40 | MiceWine | 83.2K | `ba4b91b` | PC Emulator |
 | 41 | Winlator X | 81.4K | `v3.0.1-beta` | Winlator |
-| 42 | Steamlator | 66.1K | `1.7` | Winlator |
-| 43 | Winlator Bionic jhinzuo | 63.3K | `dev8` | Winlator |
+| 42 | Steamlator | 66.2K | `1.7` | Winlator |
+| 43 | Winlator Bionic jhinzuo | 63.4K | `dev8` | Winlator |
 | 44 | Adrenotools Drivers (StevenMXZ) | 50.1K | `v849` | Drivers |
 | 45 | Winlator Honkon | 30.1K | `V11.1` | Winlator |
 | 46 | Winlator Brasil | 23.8K | `Winlator_Brasil_10.1` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-09-21T23:46:10.185Z_
+_Last auto-generated: 2026-09-22T02:51:24.922Z_
