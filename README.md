@@ -22,32 +22,32 @@
 | 9 | NetherSX2 Classic | 1.5M | `2.2n` | Emulator PS2 |
 | 10 | GameHub Lite (Producdevity) | 1.5M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | GameNative | 872.3K | `v1.3.0-prerelease` | GameNative |
-| 13 | Flycast | 871.0K | `v2.7` | Sega Dreamcast |
-| 14 | RPCSX Android | 847.3K | `v20250425` | Emulator PS3 |
-| 15 | Winlator Coffincolors | 840.6K | `winlator_cmod_update_december_2025` | Winlator |
-| 16 | Dolphin MMJR2 VBI | 770.2K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 751.6K | `1.0.3-link` | PC Emulator |
-| 18 | Freedreno Turnip CI (Weab-chan) | 733.0K | `25.3.0-devel_bbdd688` | Drivers |
-| 19 | Winlator Afei | 729.1K | `10.1hotfix-Amod3fix2` | Winlator |
-| 20 | Freedreno Turnip CI (StevenMXZ) | 693.5K | `v891.7` | Drivers |
-| 21 | Freedreno Turnip CI (whitebelyash) | 633.6K | `tu_v32` | Drivers |
-| 22 | Winlator Mali | 629.0K | `bionic-mali-1.1` | Winlator |
-| 23 | X360 Mobile | 503.0K | `v0.6.3` | Xbox 360 |
-| 24 | Horizon Emu | 485.3K | `v4` | PC Emulator |
-| 25 | APS3e | 424.4K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 354.8K | `2.8.1` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 339.3K | `v3.8.1` | GameHub |
+| 12 | GameNative | 873.7K | `v1.3.0-prerelease` | GameNative |
+| 13 | Flycast | 871.4K | `v2.7` | Sega Dreamcast |
+| 14 | RPCSX Android | 847.4K | `v20250425` | Emulator PS3 |
+| 15 | Winlator Coffincolors | 840.8K | `winlator_cmod_update_december_2025` | Winlator |
+| 16 | Dolphin MMJR2 VBI | 770.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 751.8K | `1.0.3-link` | PC Emulator |
+| 18 | Freedreno Turnip CI (Weab-chan) | 733.4K | `25.3.0-devel_bbdd688` | Drivers |
+| 19 | Winlator Afei | 729.2K | `10.1hotfix-Amod3fix2` | Winlator |
+| 20 | Freedreno Turnip CI (StevenMXZ) | 695.5K | `v891.7` | Drivers |
+| 21 | Freedreno Turnip CI (whitebelyash) | 634.3K | `tu_v32` | Drivers |
+| 22 | Winlator Mali | 629.5K | `bionic-mali-1.1` | Winlator |
+| 23 | X360 Mobile | 503.8K | `v0.6.3` | Xbox 360 |
+| 24 | Horizon Emu | 485.4K | `v4` | PC Emulator |
+| 25 | APS3e | 425.4K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 356.0K | `nightly-20261006` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 339.7K | `v3.8.1` | GameHub |
 | 28 | Wb64dev | 295.5K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 215.4K | `v0.7` | Emulator PS2 |
-| 30 | ExaGear 302 | 170.9K | `v3.0.2.2-egw` | PC Emulator |
-| 31 | X1 BOX | 156.5K | `1.2.9` | Xbox |
-| 32 | hakuX | 135.0K | `v0.3.1` | Xbox |
-| 33 | Winlator Bionic Stredohiri | 134.1K | `26f65e9` | Winlator |
+| 29 | NetherSX2-Turnip | 215.7K | `v0.7` | Emulator PS2 |
+| 30 | ExaGear 302 | 171.0K | `v3.0.2.2-egw` | PC Emulator |
+| 31 | X1 BOX | 157.0K | `1.2.9` | Xbox |
+| 32 | hakuX | 135.1K | `v0.3.1` | Xbox |
+| 33 | Winlator Bionic Stredohiri | 134.2K | `26f65e9` | Winlator |
 | 34 | Star (fork) | 119.1K | `ignore` | Winlator |
 | 35 | Pluvia | 99.9K | `v1.3.2` | PC Emulator |
 | 36 | Winlator Ajay | 96.7K | `v11.1-hotfix2` | Winlator |
-| 37 | Lemuroid | 92.5K | `1.17.0` | All In One |
+| 37 | Lemuroid | 92.6K | `1.17.0` | All In One |
 | 38 | Winlator Ref4ik (Drivers/Wine) | 87.6K | `V2` | Drivers |
 | 39 | Winlator Ref4ik | 87.6K | `V2` | Winlator |
 | 40 | Winlator X | 82.6K | `v3.0.1-beta` | Winlator |
@@ -63,7 +63,7 @@
 | 50 | Winlator Bionic Alexoqool | 2.0K | `2026-05-03` | Winlator |
 | 51 | StevenMXZ Contents Cmod | 1.9K | `1.2.0` | Drivers |
 | 52 | Winlator Bionic duckyduckG | 1.3K | `8de79b1` | Winlator |
-| 53 | GameHub Lite (J4MCU-builds) | 711 | `V5.1.3` | GameHub |
+| 53 | GameHub Lite (J4MCU-builds) | 712 | `V5.1.3` | GameHub |
 | 54 | Winlator Xmod | 536 | `Winlator_xmox_1.1.0` | Winlator |
 | 55 | GameNative Performance | 0 | `—` | GameNative |
 | 56 | Winlator Bionic cjxyz | 0 | `—` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-10-06T14:19:31.987Z_
+_Last auto-generated: 2026-10-06T19:38:29.441Z_
