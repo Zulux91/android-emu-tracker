@@ -17,34 +17,34 @@
 | 4 | Adreno Tools Drivers | 4.3M | `v840` | Drivers |
 | 5 | NetherSX2 Patch | 3.5M | `2.2n` | Emulator PS2 |
 | 6 | Cemu | 2.9M | `0.5` | Wii U Emulator |
-| 7 | Azahar | 2.3M | `2127.0-alpha2` | Nintendo 3DS |
+| 7 | Azahar | 2.2M | `2127.0-alpha3` | Nintendo 3DS |
 | 8 | Winlator Ludashi | 1.6M | `v4.1` | Winlator |
 | 9 | NetherSX2 Classic | 1.5M | `2.2n` | Emulator PS2 |
 | 10 | GameHub Lite (Producdevity) | 1.5M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | GameNative | 911.4K | `v1.3.0` | GameNative |
-| 13 | Flycast | 887.8K | `v2.7` | Sega Dreamcast |
-| 14 | RPCSX Android | 854.1K | `v20250425` | Emulator PS3 |
-| 15 | Winlator Coffincolors | 847.5K | `winlator_cmod_update_december_2025` | Winlator |
-| 16 | Dolphin MMJR2 VBI | 776.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 758.7K | `1.0.3-link` | PC Emulator |
-| 18 | Freedreno Turnip CI (Weab-chan) | 743.4K | `25.3.0-devel_bbdd688` | Drivers |
-| 19 | Freedreno Turnip CI (StevenMXZ) | 741.1K | `v891.7` | Drivers |
-| 20 | Winlator Afei | 732.5K | `10.1hotfix-Amod3fix2` | Winlator |
-| 21 | Freedreno Turnip CI (whitebelyash) | 660.8K | `tu_v32` | Drivers |
-| 22 | Winlator Mali | 650.2K | `bionic-mali-1.1` | Winlator |
-| 23 | X360 Mobile | 539.6K | `v0.6.3` | Xbox 360 |
-| 24 | Horizon Emu | 487.9K | `v4` | PC Emulator |
-| 25 | APS3e | 456.2K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 419.6K | `2.8.3` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 354.2K | `v3.8.1` | GameHub |
-| 28 | Wb64dev | 297.7K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 224.7K | `v0.7` | Emulator PS2 |
-| 30 | X1 BOX | 174.2K | `1.2.9` | Xbox |
+| 12 | GameNative | 912.6K | `v1.3.0` | GameNative |
+| 13 | Flycast | 888.1K | `v2.7` | Sega Dreamcast |
+| 14 | RPCSX Android | 854.2K | `v20250425` | Emulator PS3 |
+| 15 | Winlator Coffincolors | 847.6K | `winlator_cmod_update_december_2025` | Winlator |
+| 16 | Dolphin MMJR2 VBI | 776.6K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 758.8K | `1.0.3-link` | PC Emulator |
+| 18 | Freedreno Turnip CI (Weab-chan) | 743.6K | `25.3.0-devel_bbdd688` | Drivers |
+| 19 | Freedreno Turnip CI (StevenMXZ) | 742.3K | `v891.7` | Drivers |
+| 20 | Winlator Afei | 732.6K | `10.1hotfix-Amod3fix2` | Winlator |
+| 21 | Freedreno Turnip CI (whitebelyash) | 661.2K | `tu_v32` | Drivers |
+| 22 | Winlator Mali | 650.5K | `bionic-mali-1.1` | Winlator |
+| 23 | X360 Mobile | 540.1K | `v0.6.3` | Xbox 360 |
+| 24 | Horizon Emu | 488.0K | `v4` | PC Emulator |
+| 25 | APS3e | 456.5K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 419.0K | `nightly-20261016` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 354.3K | `v3.8.1` | GameHub |
+| 28 | Wb64dev | 297.8K | `v10.2` | Winlator |
+| 29 | NetherSX2-Turnip | 224.8K | `v0.7` | Emulator PS2 |
+| 30 | X1 BOX | 174.3K | `1.2.9` | Xbox |
 | 31 | ExaGear 302 | 173.9K | `v3.0.2.2-egw` | PC Emulator |
 | 32 | hakuX | 139.9K | `v0.3.1` | Xbox |
-| 33 | Winlator Bionic Stredohiri | 136.2K | `26f65e9` | Winlator |
-| 34 | Star (fork) | 122.6K | `yesysyeysys` | Winlator |
+| 33 | Winlator Bionic Stredohiri | 136.3K | `26f65e9` | Winlator |
+| 34 | Star (fork) | 122.7K | `yesysyeysys` | Winlator |
 | 35 | Pluvia | 100.0K | `v1.3.2` | PC Emulator |
 | 36 | Winlator Ajay | 98.1K | `v11.1-hotfix2` | Winlator |
 | 37 | Lemuroid | 94.8K | `1.17.0` | All In One |
@@ -54,7 +54,7 @@
 | 41 | Steamlator | 69.5K | `1.7` | Winlator |
 | 42 | Winlator Bionic jhinzuo | 64.1K | `dev8` | Winlator |
 | 43 | Adrenotools Drivers (StevenMXZ) | 51.2K | `v849` | Drivers |
-| 44 | Winlator Honkon | 30.5K | `V11.1` | Winlator |
+| 44 | Winlator Honkon | 30.6K | `V11.1` | Winlator |
 | 45 | Mobox Patched | 21.3K | `Mobox_Patched_3.0` | PC Emulator |
 | 46 | GameHub Lite (ItzDFPlayer) | 8.3K | `5.3.5-v2` | GameHub |
 | 47 | Winlator XR | 7.8K | `winlatorxr_dawn42` | Winlator |
@@ -70,7 +70,7 @@
 | 57 | Winlator Brasil | 0 | `—` | Winlator |
 | 58 | MiceWine | 0 | `—` | PC Emulator |
 | 59 | Eden Emulator | 0 | `v0.2.1` | Nintendo Switch Emulator |
-| 60 | Eden Emulator Nightly | 0 | `v1791929232.a594c8d60e` | Nintendo Switch Emulator |
+| 60 | Eden Emulator Nightly | 0 | `v1792181975.e0d47f2790` | Nintendo Switch Emulator |
 
 ## Setup
 
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-10-16T18:20:54.624Z_
+_Last auto-generated: 2026-10-16T21:28:05.310Z_
