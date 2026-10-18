@@ -22,31 +22,31 @@
 | 9 | NetherSX2 Classic | 1.5M | `2.2n` | Emulator PS2 |
 | 10 | GameHub Lite (Producdevity) | 1.5M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | GameNative | 921.0K | `v1.3.0` | GameNative |
-| 13 | Flycast | 890.5K | `v2.7` | Sega Dreamcast |
-| 14 | RPCSX Android | 855.3K | `v20250425` | Emulator PS3 |
-| 15 | Winlator Coffincolors | 848.4K | `winlator_cmod_update_december_2025` | Winlator |
-| 16 | Dolphin MMJR2 VBI | 777.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 759.8K | `1.0.3-link` | PC Emulator |
-| 18 | Freedreno Turnip CI (StevenMXZ) | 752.8K | `v891.7` | Drivers |
-| 19 | Freedreno Turnip CI (Weab-chan) | 744.8K | `25.3.0-devel_bbdd688` | Drivers |
+| 12 | GameNative | 922.1K | `v1.3.0` | GameNative |
+| 13 | Flycast | 890.9K | `v2.7` | Sega Dreamcast |
+| 14 | RPCSX Android | 855.4K | `v20250425` | Emulator PS3 |
+| 15 | Winlator Coffincolors | 848.6K | `winlator_cmod_update_december_2025` | Winlator |
+| 16 | Dolphin MMJR2 VBI | 777.5K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 759.9K | `1.0.3-link` | PC Emulator |
+| 18 | Freedreno Turnip CI (StevenMXZ) | 754.7K | `v891.7` | Drivers |
+| 19 | Freedreno Turnip CI (Weab-chan) | 745.0K | `25.3.0-devel_bbdd688` | Drivers |
 | 20 | Winlator Afei | 733.1K | `10.1hotfix-Amod3fix2` | Winlator |
-| 21 | Freedreno Turnip CI (whitebelyash) | 664.8K | `tu_v32` | Drivers |
-| 22 | Winlator Mali | 653.6K | `bionic-mali-1.1` | Winlator |
-| 23 | X360 Mobile | 544.7K | `v0.6.3` | Xbox 360 |
-| 24 | Horizon Emu | 488.3K | `v4` | PC Emulator |
-| 25 | APS3e | 459.2K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 430.2K | `2.8.4` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 356.3K | `v3.8.1` | GameHub |
-| 28 | Wb64dev | 298.0K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 226.0K | `v0.7` | Emulator PS2 |
-| 30 | X1 BOX | 180.2K | `1.3.0` | Xbox |
-| 31 | ExaGear 302 | 174.3K | `v3.0.2.2-egw` | PC Emulator |
-| 32 | hakuX | 140.8K | `v0.3.1` | Xbox |
+| 21 | Freedreno Turnip CI (whitebelyash) | 665.4K | `tu_v32` | Drivers |
+| 22 | Winlator Mali | 654.2K | `bionic-mali-1.1` | Winlator |
+| 23 | X360 Mobile | 545.6K | `v0.6.3` | Xbox 360 |
+| 24 | Horizon Emu | 488.4K | `v4` | PC Emulator |
+| 25 | APS3e | 459.7K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 432.7K | `2.8.4` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 356.6K | `v3.8.1` | GameHub |
+| 28 | Wb64dev | 298.1K | `v10.2` | Winlator |
+| 29 | NetherSX2-Turnip | 226.2K | `v0.7` | Emulator PS2 |
+| 30 | X1 BOX | 181.1K | `1.3.0` | Xbox |
+| 31 | ExaGear 302 | 174.4K | `v3.0.2.2-egw` | PC Emulator |
+| 32 | hakuX | 140.9K | `v0.3.1` | Xbox |
 | 33 | Winlator Bionic Stredohiri | 136.6K | `26f65e9` | Winlator |
-| 34 | Star (fork) | 122.9K | `yesysyeysys` | Winlator |
+| 34 | Star (fork) | 123.0K | `yesysyeysys` | Winlator |
 | 35 | Pluvia | 100.1K | `v1.3.2` | PC Emulator |
-| 36 | Winlator Ajay | 98.3K | `v11.1-hotfix2` | Winlator |
+| 36 | Winlator Ajay | 98.4K | `v11.1-hotfix2` | Winlator |
 | 37 | Lemuroid | 95.2K | `1.17.0` | All In One |
 | 38 | Winlator Ref4ik (Drivers/Wine) | 90.2K | `V2` | Drivers |
 | 39 | Winlator Ref4ik | 90.2K | `V2` | Winlator |
@@ -60,7 +60,7 @@
 | 47 | Winlator XR | 8.0K | `winlatorxr_dawn42` | Winlator |
 | 48 | WinNative (fork) | 6.2K | `build-2026-06-20` | Winlator |
 | 49 | Upload Grave | 4.0K | `xclipse` | Drivers |
-| 50 | Winlator Bionic Alexoqool | 2.0K | `2026-05-03` | Winlator |
+| 50 | Winlator Bionic Alexoqool | 2.1K | `2026-05-03` | Winlator |
 | 51 | StevenMXZ Contents Cmod | 2.0K | `1.2.0` | Drivers |
 | 52 | Winlator Bionic duckyduckG | 1.3K | `8de79b1` | Winlator |
 | 53 | GameHub Lite (J4MCU-builds) | 717 | `V5.1.3` | GameHub |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-10-18T02:35:36.229Z_
+_Last auto-generated: 2026-10-18T07:40:47.214Z_
