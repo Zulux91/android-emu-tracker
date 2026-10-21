@@ -22,27 +22,27 @@
 | 9 | NetherSX2 Classic | 1.5M | `2.2n` | Emulator PS2 |
 | 10 | GameHub Lite (Producdevity) | 1.5M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | GameNative | 937.4K | `v1.3.0` | GameNative |
-| 13 | Flycast | 896.3K | `v2.7` | Sega Dreamcast |
-| 14 | RPCSX Android | 857.7K | `v20250425` | Emulator PS3 |
-| 15 | Winlator Coffincolors | 850.7K | `winlator_cmod_update_december_2025` | Winlator |
-| 16 | Dolphin MMJR2 VBI | 779.2K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | XoDos | 761.8K | `1.0.3-link` | PC Emulator |
-| 18 | Freedreno Turnip CI (Weab-chan) | 748.7K | `25.3.0-devel_bbdd688` | Drivers |
-| 19 | Freedreno Turnip CI (StevenMXZ) | 745.1K | `v891.7` | Drivers |
+| 12 | GameNative | 938.2K | `v1.3.0` | GameNative |
+| 13 | Flycast | 896.7K | `v2.7` | Sega Dreamcast |
+| 14 | RPCSX Android | 857.8K | `v20250425` | Emulator PS3 |
+| 15 | Winlator Coffincolors | 850.9K | `winlator_cmod_update_december_2025` | Winlator |
+| 16 | Dolphin MMJR2 VBI | 779.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | XoDos | 762.0K | `1.0.3-link` | PC Emulator |
+| 18 | Freedreno Turnip CI (Weab-chan) | 749.0K | `25.3.0-devel_bbdd688` | Drivers |
+| 19 | Freedreno Turnip CI (StevenMXZ) | 747.8K | `v891.7` | Drivers |
 | 20 | Winlator Afei | 734.3K | `10.1hotfix-Amod3fix2` | Winlator |
-| 21 | Freedreno Turnip CI (whitebelyash) | 676.7K | `tu_v32` | Drivers |
-| 22 | Winlator Mali | 660.9K | `bionic-mali-1.1` | Winlator |
-| 23 | X360 Mobile | 556.4K | `v0.6.3` | Xbox 360 |
-| 24 | Horizon Emu | 489.1K | `v4` | PC Emulator |
-| 25 | APS3e | 465.4K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 455.6K | `nightly-20261020` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 360.8K | `v3.8.1` | GameHub |
-| 28 | Wb64dev | 298.7K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 228.9K | `v0.7` | Emulator PS2 |
-| 30 | X1 BOX | 188.1K | `1.3.0` | Xbox |
-| 31 | ExaGear 302 | 175.3K | `v3.0.2.2-egw` | PC Emulator |
-| 32 | hakuX | 142.9K | `v0.3.1` | Xbox |
+| 21 | Freedreno Turnip CI (whitebelyash) | 677.6K | `tu_v32` | Drivers |
+| 22 | Winlator Mali | 661.5K | `bionic-mali-1.1` | Winlator |
+| 23 | X360 Mobile | 556.9K | `v0.6.3` | Xbox 360 |
+| 24 | Horizon Emu | 489.2K | `v4` | PC Emulator |
+| 25 | APS3e | 465.8K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 414.0K | `nightly-20261021` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 361.1K | `v3.8.1` | GameHub |
+| 28 | Wb64dev | 298.8K | `v10.2` | Winlator |
+| 29 | NetherSX2-Turnip | 229.1K | `v0.7` | Emulator PS2 |
+| 30 | X1 BOX | 188.4K | `1.3.0` | Xbox |
+| 31 | ExaGear 302 | 175.4K | `v3.0.2.2-egw` | PC Emulator |
+| 32 | hakuX | 143.0K | `v0.3.1` | Xbox |
 | 33 | Winlator Bionic Stredohiri | 137.3K | `26f65e9` | Winlator |
 | 34 | Star (fork) | 124.0K | `yesysyeysys` | Winlator |
 | 35 | Pluvia | 100.1K | `v1.3.2` | PC Emulator |
@@ -51,13 +51,13 @@
 | 38 | Winlator Ref4ik (Drivers/Wine) | 90.8K | `V2` | Drivers |
 | 39 | Winlator Ref4ik | 90.8K | `V2` | Winlator |
 | 40 | Winlator X | 84.0K | `v3.0.1-beta` | Winlator |
-| 41 | Steamlator | 69.9K | `1.7` | Winlator |
+| 41 | Steamlator | 70.0K | `1.7` | Winlator |
 | 42 | Winlator Bionic jhinzuo | 64.3K | `dev8` | Winlator |
 | 43 | Adrenotools Drivers (StevenMXZ) | 51.4K | `v849` | Drivers |
 | 44 | Winlator Honkon | 30.6K | `V11.1` | Winlator |
 | 45 | Mobox Patched | 21.4K | `Mobox_Patched_3.0` | PC Emulator |
-| 46 | GameHub Lite (ItzDFPlayer) | 8.3K | `5.3.5-v2` | GameHub |
-| 47 | Winlator XR | 8.3K | `winlatorxr_dawn42` | Winlator |
+| 46 | Winlator XR | 8.3K | `winlatorxr_dawn42` | Winlator |
+| 47 | GameHub Lite (ItzDFPlayer) | 8.3K | `5.3.5-v2` | GameHub |
 | 48 | WinNative (fork) | 6.2K | `build-2026-06-20` | Winlator |
 | 49 | Upload Grave | 4.0K | `xclipse` | Drivers |
 | 50 | Winlator Bionic Alexoqool | 2.1K | `2026-05-03` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-10-21T10:24:12.607Z_
+_Last auto-generated: 2026-10-21T15:27:38.731Z_
