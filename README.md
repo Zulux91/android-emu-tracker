@@ -13,8 +13,8 @@
 |------|---------|-----------|--------|----------|
 | 🥇 | Winlator BrunoDev | 16.4M | `v11.2.0` | Winlator |
 | 🥈 | Citra (weihuoya) | 5.0M | `20251112` | Nintendo 3DS |
-| 🥉 | Vita3K Android | 4.3M | `v12` | PSVITA |
-| 4 | Adreno Tools Drivers | 4.3M | `v840` | Drivers |
+| 🥉 | Adreno Tools Drivers | 4.3M | `v840` | Drivers |
+| 4 | Vita3K Android | 4.3M | `v12` | PSVITA |
 | 5 | NetherSX2 Patch | 3.6M | `2.2n` | Emulator PS2 |
 | 6 | Cemu | 2.9M | `0.5` | Wii U Emulator |
 | 7 | Azahar | 2.3M | `2127.0-alpha3` | Nintendo 3DS |
@@ -22,32 +22,32 @@
 | 9 | NetherSX2 Classic | 1.5M | `2.2n` | Emulator PS2 |
 | 10 | GameHub Lite (Producdevity) | 1.5M | `v5.1.8` | GameHub |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | GameNative | 942.8K | `v1.4.0-prerelease` | GameNative |
-| 13 | Flycast | 899.5K | `v2.7` | Sega Dreamcast |
-| 14 | RPCSX Android | 858.8K | `v20250425` | Emulator PS3 |
-| 15 | Winlator Coffincolors | 851.9K | `winlator_cmod_update_december_2025` | Winlator |
-| 16 | Dolphin MMJR2 VBI | 780.3K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 17 | Freedreno Turnip CI (StevenMXZ) | 765.5K | `v891.7` | Drivers |
-| 18 | XoDos | 763.0K | `1.0.3-link` | PC Emulator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 750.7K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | Winlator Afei | 734.9K | `10.1hotfix-Amod3fix2` | Winlator |
-| 21 | Freedreno Turnip CI (whitebelyash) | 683.7K | `tu_v32` | Drivers |
-| 22 | Winlator Mali | 666.0K | `bionic-mali-1.2` | Winlator |
-| 23 | X360 Mobile | 561.6K | `v0.6.3` | Xbox 360 |
-| 24 | Horizon Emu | 489.5K | `v4` | PC Emulator |
-| 25 | APS3e | 468.6K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 462.6K | `nightly-20261022` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 363.2K | `v3.8.1` | GameHub |
-| 28 | Wb64dev | 299.1K | `v10.2` | Winlator |
-| 29 | NetherSX2-Turnip | 230.5K | `v0.7` | Emulator PS2 |
-| 30 | X1 BOX | 190.7K | `1.3.0` | Xbox |
-| 31 | ExaGear 302 | 175.8K | `v3.0.2.2-egw` | PC Emulator |
-| 32 | hakuX | 144.0K | `v0.3.1` | Xbox |
+| 12 | GameNative | 943.7K | `v1.4.0-prerelease` | GameNative |
+| 13 | Flycast | 899.8K | `v2.7` | Sega Dreamcast |
+| 14 | RPCSX Android | 858.9K | `v20250425` | Emulator PS3 |
+| 15 | Winlator Coffincolors | 852.0K | `winlator_cmod_update_december_2025` | Winlator |
+| 16 | Dolphin MMJR2 VBI | 780.4K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 17 | Freedreno Turnip CI (StevenMXZ) | 767.7K | `v891.7` | Drivers |
+| 18 | XoDos | 763.2K | `1.0.3-link` | PC Emulator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 751.1K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | Winlator Afei | 735.0K | `10.1hotfix-Amod3fix2` | Winlator |
+| 21 | Freedreno Turnip CI (whitebelyash) | 684.5K | `tu_v32` | Drivers |
+| 22 | Winlator Mali | 666.9K | `bionic-mali-1.2` | Winlator |
+| 23 | X360 Mobile | 562.2K | `v0.6.3` | Xbox 360 |
+| 24 | Horizon Emu | 489.6K | `v4` | PC Emulator |
+| 25 | APS3e | 469.0K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 463.8K | `nightly-20261022` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 363.6K | `v3.8.1` | GameHub |
+| 28 | Wb64dev | 299.2K | `v10.2` | Winlator |
+| 29 | NetherSX2-Turnip | 230.7K | `v0.7` | Emulator PS2 |
+| 30 | X1 BOX | 190.9K | `1.3.0` | Xbox |
+| 31 | ExaGear 302 | 175.9K | `v3.0.2.2-egw` | PC Emulator |
+| 32 | hakuX | 144.1K | `v0.3.1` | Xbox |
 | 33 | Winlator Bionic Stredohiri | 137.7K | `26f65e9` | Winlator |
 | 34 | Star (fork) | 124.7K | `yesysyeysys` | Winlator |
 | 35 | Pluvia | 100.1K | `v1.3.2` | PC Emulator |
 | 36 | Winlator Ajay | 99.0K | `v11.1-hotfix2` | Winlator |
-| 37 | Lemuroid | 96.6K | `1.17.0` | All In One |
+| 37 | Lemuroid | 96.7K | `1.17.0` | All In One |
 | 38 | Winlator Ref4ik (Drivers/Wine) | 91.2K | `V2` | Drivers |
 | 39 | Winlator Ref4ik | 91.2K | `V2` | Winlator |
 | 40 | Winlator X | 84.2K | `v3.0.1-beta` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-10-23T08:13:54.992Z_
+_Last auto-generated: 2026-10-23T13:40:24.910Z_
