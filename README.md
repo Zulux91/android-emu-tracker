@@ -22,30 +22,30 @@
 | 9 | GameHub Lite (Producdevity) | 1.6M | `v5.1.8` | GameHub |
 | 10 | NetherSX2 Classic | 1.6M | `2.2n` | Emulator PS2 |
 | 11 | Winlator Glibc | 1.0M | `v7.1.5` | Winlator |
-| 12 | Freedreno Turnip CI (StevenMXZ) | 985.5K | `v891.14` | Drivers |
-| 13 | GameNative | 957.8K | `v1.4.0` | GameNative |
-| 14 | Flycast | 931.9K | `v2.7` | Sega Dreamcast |
-| 15 | RPCSX Android | 869.0K | `v20250425` | Emulator PS3 |
-| 16 | Winlator Coffincolors | 863.3K | `winlator_cmod_update_december_2025` | Winlator |
-| 17 | Dolphin MMJR2 VBI | 794.7K | `U24.07.02-2407` | Nintendo GameCube / Wii |
-| 18 | XoDos | 775.7K | `1.0.3-link` | PC Emulator |
-| 19 | Freedreno Turnip CI (Weab-chan) | 773.3K | `25.3.0-devel_bbdd688` | Drivers |
-| 20 | Freedreno Turnip CI (whitebelyash) | 753.2K | `tu_v32` | Drivers |
-| 21 | Winlator Afei | 741.4K | `10.1hotfix-Amod3fix2` | Winlator |
-| 22 | Winlator Mali | 736.6K | `DXML_SUPPORT` | Winlator |
-| 23 | X360 Mobile | 636.5K | `v0.6.5+72b2e24ba.11356` | Xbox 360 |
-| 24 | Horizon Emu | 494.9K | `v4` | PC Emulator |
-| 25 | APS3e | 489.5K | `2.43` | Emulator PS3 |
-| 26 | ARMSX2 | 435.0K | `nightly-20261112` | Emulator PS2 |
-| 27 | BannerHub (The412Banner) | 390.4K | `v3.8.1` | GameHub |
+| 12 | Freedreno Turnip CI (StevenMXZ) | 989.8K | `v891.14` | Drivers |
+| 13 | GameNative | 959.1K | `v1.4.0` | GameNative |
+| 14 | Flycast | 932.4K | `v2.7` | Sega Dreamcast |
+| 15 | RPCSX Android | 869.2K | `v20250425` | Emulator PS3 |
+| 16 | Winlator Coffincolors | 863.4K | `winlator_cmod_update_december_2025` | Winlator |
+| 17 | Dolphin MMJR2 VBI | 794.9K | `U24.07.02-2407` | Nintendo GameCube / Wii |
+| 18 | XoDos | 775.9K | `1.0.3-link` | PC Emulator |
+| 19 | Freedreno Turnip CI (Weab-chan) | 773.6K | `25.3.0-devel_bbdd688` | Drivers |
+| 20 | Freedreno Turnip CI (whitebelyash) | 754.1K | `tu_v32` | Drivers |
+| 21 | Winlator Afei | 741.5K | `10.1hotfix-Amod3fix2` | Winlator |
+| 22 | Winlator Mali | 737.5K | `DXML_SUPPORT` | Winlator |
+| 23 | X360 Mobile | 637.7K | `v0.6.5+72b2e24ba.11356` | Xbox 360 |
+| 24 | Horizon Emu | 495.0K | `v4` | PC Emulator |
+| 25 | APS3e | 489.8K | `2.43` | Emulator PS3 |
+| 26 | ARMSX2 | 434.1K | `nightly-20261113` | Emulator PS2 |
+| 27 | BannerHub (The412Banner) | 390.8K | `v3.8.1` | GameHub |
 | 28 | Wb64dev | 303.9K | `v10.2` | Winlator |
-| 29 | hakuX | 260.9K | `v1.3.0` | Xbox |
-| 30 | NetherSX2-Turnip | 243.0K | `v0.7` | Emulator PS2 |
-| 31 | X1 BOX | 223.7K | `1.3.3` | Xbox |
-| 32 | Star (fork) | 211.2K | `1.2` | Winlator |
-| 33 | ExaGear 302 | 184.5K | `v3.0.2.2-egw` | PC Emulator |
-| 34 | Winlator Bionic Stredohiri | 142.2K | `26f65e9` | Winlator |
-| 35 | Lemuroid | 103.8K | `1.17.0` | All In One |
+| 29 | hakuX | 261.8K | `v1.3.0` | Xbox |
+| 30 | NetherSX2-Turnip | 243.1K | `v0.7` | Emulator PS2 |
+| 31 | X1 BOX | 224.2K | `1.3.3` | Xbox |
+| 32 | Star (fork) | 214.4K | `1.2` | Winlator |
+| 33 | ExaGear 302 | 184.6K | `v3.0.2.2-egw` | PC Emulator |
+| 34 | Winlator Bionic Stredohiri | 142.3K | `26f65e9` | Winlator |
+| 35 | Lemuroid | 103.9K | `1.17.0` | All In One |
 | 36 | Winlator Ajay | 101.4K | `v11.1-hotfix2` | Winlator |
 | 37 | Pluvia | 100.4K | `v1.3.2` | PC Emulator |
 | 38 | Winlator Ref4ik (Drivers/Wine) | 95.0K | `V3` | Drivers |
@@ -53,7 +53,7 @@
 | 40 | Winlator X | 85.7K | `v3.0.1-beta` | Winlator |
 | 41 | Steamlator | 72.1K | `1.7` | Winlator |
 | 42 | Winlator Bionic jhinzuo | 64.8K | `dev8` | Winlator |
-| 43 | Adrenotools Drivers (StevenMXZ) | 52.1K | `v849` | Drivers |
+| 43 | Adrenotools Drivers (StevenMXZ) | 52.2K | `v849` | Drivers |
 | 44 | Winlator Honkon | 31.0K | `V11.1` | Winlator |
 | 45 | Mobox Patched | 21.9K | `Mobox_Patched_3.0` | PC Emulator |
 | 46 | Winlator XR | 10.8K | `winlatorxr_dawn42` | Winlator |
@@ -140,4 +140,4 @@ Inventing a new category string is fine — it automatically appears as a filter
 - Data updates automatically every hour via GitHub Actions.
 - Projects showing 0 downloads have no public releases or the API was unavailable at last fetch.
 
-_Last auto-generated: 2026-11-13T02:19:20.049Z_
+_Last auto-generated: 2026-11-13T09:49:13.397Z_
